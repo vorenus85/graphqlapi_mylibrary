@@ -11,6 +11,7 @@ type Book {
 
 type Query {
   books: [Book]
+  bookById(id: Int): Book
 }
 `;
     

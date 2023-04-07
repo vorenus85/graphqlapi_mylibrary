@@ -1,11 +1,14 @@
 const { ApolloServer, gql, ApolloError} = require('apollo-server');
-const books = require('./data/books.json');
+const BooksAPI = require('./dataSource/books');
 const typeDefs = require('./schema');
 const resolvers = require('./resolvers');
 
-  // The ApolloServer constructor requires two parameters: your schema
-// definition and your set of resolvers.
-const server = new ApolloServer({ typeDefs, resolvers });
+
+const dataSources = () =>({
+  booksAPI: new BooksAPI(),
+});
+
+const server = new ApolloServer({ typeDefs, resolvers, dataSources });
 
 // The `listen` method launches a web server.
 server

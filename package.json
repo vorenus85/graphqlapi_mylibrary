@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/vorenus85/graphqlapi_mylibrary#readme",
   "dependencies": {
-    "apollo-server": "^2.26.1"
+    "apollo-datasource": "^3.3.2",
+    "apollo-server": "^2.26.1",
+    "lodash": "4.17"
   }
 }
