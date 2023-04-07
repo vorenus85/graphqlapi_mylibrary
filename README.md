@@ -49,6 +49,8 @@ query {
     title
     tags
     isRead
+    id
+    genre
   }
 } 
 ```
@@ -68,11 +70,35 @@ query {
     title
     tags
     isRead
+    id
+    genre
   }
 } 
 ```
 
 bookById response
+```js
+{
+    "data": {...}
+}
+```
+
+query bookByGenre
+```js
+query {
+  bookByGenre(id: $id){
+    author
+    title
+    tags
+    isRead
+    id
+    genre
+    id
+  }
+} 
+```
+
+bookByGenre response
 ```js
 {
     "data": {...}
@@ -87,11 +113,31 @@ query {
     title
     tags
     isRead
+    id
+    genre
   }
 } 
 ```
 
 bookByAuthor response
+```js
+{
+    "data": {...}
+}
+```
+
+query largestSeries // get five largest series by filtering tags
+
+largestSeries response
+```js
+{
+    "data": {...}
+}
+```
+
+query bookWithoutGenre
+
+bookWithoutGenre response
 ```js
 {
     "data": {...}
@@ -124,6 +170,8 @@ query {
     title
     tags
     isRead
+    id
+    genre
   }
 } 
 ```
@@ -143,6 +191,8 @@ query {
     title
     tags
     isRead
+    id
+    genre
   }
 } 
 ```
