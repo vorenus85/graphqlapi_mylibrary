@@ -9,6 +9,7 @@ const typeDefs = gql`
 
   # This "Book" type defines the queryable fields: 'title' and 'author'.
   type Book {
+    id: Int!
     title: String!
     author: String!
     tags: [String],

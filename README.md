@@ -135,6 +135,25 @@ bookByTags response
 }
 ```
 
+query bookByIsRead
+```js
+query {
+  bookByIsRead(isRead: $isRead){
+    author
+    title
+    tags
+    isRead
+  }
+} 
+```
+
+bookByIsRead response
+```js
+{
+    "data": {...}
+}
+```
+
 Now you can run these queries
 
 ## Executing mutations
