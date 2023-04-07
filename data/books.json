@@ -1,0 +1,1535 @@
+[
+    {
+        "author": "A. G. Riddle",
+        "title": "Az Atlantisz gén",
+        "tags": ["sci-fi","összeesküvés","amerikai"],
+        "isRead": false
+    },
+    {
+        "author": "Aaron Allston",
+        "title": "Vasököl",
+        "tags": ["sci-fi","star-wars","kaland", "amerikai"],
+        "isRead": true
+    },
+    {
+        "author": "Adrian Tchaikovsky",
+        "title": "Az idő gyermekei",
+        "tags": ["sci-fi","pók","idegenek","britt"],
+        "isRead": false
+    },
+    {
+        "author": "Adrienne Major",
+        "title": "Az ókor régészei",
+        "tags": ["történelem","ókor","régész"],
+        "isRead": false
+    },
+    {
+        "author": "Andrzej Sapkowski",
+        "title": "A tó úrnője",
+        "tags": ["fantasy","lengyel","vaják","geralt","középkor"],
+        "isRead": true
+    },
+    {
+        "author": "Andrzej Sapkowski",
+        "title": "Az utolsó kívánság",
+        "tags": ["fantasy","lengyel","vaják","geralt","középkor"],
+        "isRead": true
+    },
+    {
+        "author": "Andrzej Sapkowski",
+        "title": "A végzet kardja",
+        "tags": ["fantasy","lengyel","vaják","geralt","középkor"],
+        "isRead": true
+    },
+    {
+        "author": "Andrzej Sapkowski",
+        "title": "Viharidő",
+        "tags": ["fantasy","lengyel","vaják","geralt","középkor"],
+        "isRead": true
+    },
+    {
+        "author": "Andrzej Sapkowski",
+        "title": "Tündevér",
+        "tags": ["fantasy","lengyel","vaják","geralt","középkor"],
+        "isRead": true
+    },
+    {
+        "author": "Andrzej Sapkowski",
+        "title": "A megvetés ideje",
+        "tags": ["fantasy","lengyel","vaják","geralt","középkor"],
+        "isRead": true
+    },
+    {
+        "author": "Andrzej Sapkowski",
+        "title": "Tűzkeresztség",
+        "tags": ["fantasy","lengyel","vaják","geralt","középkor"],
+        "isRead": true
+    },
+    {
+        "author": "Andrzej Sapkowski",
+        "title": "Fecske-torony",
+        "tags": ["fantasy","lengyel","vaják","geralt","középkor"],
+        "isRead": true
+    },
+    {
+        "author": "Andy Weir",
+        "title": "A marsi",
+        "tags": ["sci-fi","kaland","mars","amerikai"],
+        "isRead": true
+    },
+    {
+        "author": "Andy Weir",
+        "title": "Artemis",
+        "tags": ["sci-fi","kaland","mars","amerikai"],
+        "isRead": false
+    },
+    {
+        "author": "Andy Weir",
+        "title": "A Hail-Mary küldetés",
+        "tags": ["sci-fi","kaland","mars","amerikai","idegenek"],
+        "isRead": true
+    },
+    {
+        "author": "Anthony McCarten",
+        "title": "A legsötétebb óra",
+        "tags": ["történelem","2. világháború","életrajz","churchill"],
+        "isRead": false
+    },
+    {
+        "author": "Arthur C. Clarke",
+        "title": "A mars titka",
+        "tags": ["sci-fi","kaland","mars","amerikai"],
+        "isRead": false
+    },
+    {
+        "author": "Ashlee Vance",
+        "title": "Elon Musk",
+        "tags": ["életrajz","musk","mars"],
+        "isRead": false
+    },
+    {
+        "author": "Avi Loeb",
+        "title": "Földönkívüli",
+        "tags": ["csillagászat","idegenek"],
+        "isRead": false
+    },
+    {
+        "author": "Bán Mór",
+        "title": "A hajnajcsillag fénye",
+        "tags": ["törnénelmi regény","magyar","hunyadi"],
+        "isRead": false
+    },
+    {
+        "author": "Ben Macintyre",
+        "title": "A vagdalthús hadművelet",
+        "tags": ["történelem","2. világháború","kém","kaland"],
+        "isRead": false
+    },
+    {
+        "author": "Bernard Cornwell",
+        "title": "Azincourt",
+        "tags": ["törnénelmi regény","100 éves háború","angol","középkor"],
+        "isRead": true
+    },
+    {
+        "author": "Bernard Cornwell",
+        "title": "Az erőd",
+        "tags": ["törnénelmi regény","100 éves háború","angol"],
+        "isRead": true
+    },
+    {
+        "author": "Bernard Cornwell",
+        "title": "A tél királya",
+        "tags": ["törnénelmi regény","népvándolrás","angol","britt","arthur"],
+        "isRead": false
+    },
+    {
+        "author": "Bernard Cornwell",
+        "title": "Isten ellensége",
+        "tags": ["törnénelmi regény","népvándolrás","angol","britt","arthur"],
+        "isRead": false
+    },
+    {
+        "author": "Bernard Cornwell",
+        "title": "Sharpe kardja",
+        "tags": ["törnénelmi regény","kaland","vöröskabátos","napóleon","sharpe","britt"],
+        "isRead": true
+    },
+    {
+        "author": "Bernard Cornwell",
+        "title": "Sharpe ördöge",
+        "tags": ["törnénelmi regény","kaland","vöröskabátos","napóleon","sharpe","britt"],
+        "isRead": true
+    },
+    {
+        "author": "Bernard Cornwell",
+        "title": "Sharpe Becsülete",
+        "tags": ["törnénelmi regény","kaland","vöröskabátos","napóleon","sharpe","britt"],
+        "isRead": false
+    },
+    {
+        "author": "Bernard Cornwell",
+        "title": "Sharpe Waterlooja",
+        "tags": ["törnénelmi regény","kaland","vöröskabátos","napóleon","sharpe","britt"],
+        "isRead": true
+    },
+    {
+        "author": "Bernard Cornwell",
+        "title": "Sharpe Bosszúja",
+        "tags": ["törnénelmi regény","kaland","vöröskabátos","napóleon","sharpe","britt"],
+        "isRead": false
+    },
+    {
+        "author": "Bernard Cornwell",
+        "title": "Sharpe Ellensége",
+        "tags": ["törnénelmi regény","kaland","vöröskabátos","napóleon","sharpe","britt"],
+        "isRead": true
+    },
+    {
+        "author": "Bernard Cornwell",
+        "title": "Sharpe Trafalgarja",
+        "tags": ["törnénelmi regény","kaland","vöröskabátos","napóleon","sharpe","britt"],
+        "isRead": true
+    },
+    {
+        "author": "Bernard Cornwell",
+        "title": "Sharpe Csatája",
+        "tags": ["törnénelmi regény","kaland","vöröskabátos","napóleon","sharpe","britt"],
+        "isRead": true
+    },
+    {
+        "author": "Bernard Cornwell",
+        "title": "Sharpe Diadala",
+        "tags": ["törnénelmi regény","kaland","vöröskabátos","napóleon","sharpe","britt"],
+        "isRead": false
+    },
+    {
+        "author": "Bernard Cornwell",
+        "title": "Sharpe százada",
+        "tags": ["törnénelmi regény","kaland","vöröskabátos","napóleon","sharpe","britt"],
+        "isRead": true
+    },
+    {
+        "author": "Bernard Cornwell",
+        "title": "Sharpe zsákmánya",
+        "tags": ["törnénelmi regény","kaland","vöröskabátos","napóleon","sharpe","britt"],
+        "isRead": false
+    },
+    {
+        "author": "Bernard Cornwell",
+        "title": "Sharpe erődje",
+        "tags": ["törnénelmi regény","kaland","vöröskabátos","napóleon","sharpe","britt"],
+        "isRead": true
+    },
+    {
+        "author": "Bernard Cornwell",
+        "title": "Sharpe tigrise",
+        "tags": ["törnénelmi regény","kaland","vöröskabátos","napóleon","sharpe","britt"],
+        "isRead": true
+    },
+    {
+        "author": "Bernard Cornwell",
+        "title": "Sharpe menekülése",
+        "tags": ["törnénelmi regény","kaland","vöröskabátos","napóleon","sharpe","britt"],
+        "isRead": true
+    },
+    {
+        "author": "Bernard Cornwell",
+        "title": "Sharpe ezrede",
+        "tags": ["törnénelmi regény","kaland","vöröskabátos","napóleon","sharpe","britt"],
+        "isRead": false
+    },
+    {
+        "author": "Bernard Cornwell",
+        "title": "Sharpe ostroma",
+        "tags": ["törnénelmi regény","kaland","vöröskabátos","napóleon","sharpe","britt"],
+        "isRead": true
+    },
+    {
+        "author": "Bernard Cornwell",
+        "title": "Sharpe haragja",
+        "tags": ["törnénelmi regény","kaland","vöröskabátos","napóleon","sharpe","britt"],
+        "isRead": true
+    },
+    {
+        "author": "Bernard Cornwell",
+        "title": "A vérmező",
+        "tags": ["törnénelmi regény","kaland","britt","amerikai"],
+        "isRead": true
+    },
+    {
+        "author": "Bernard Cronwell",
+        "title": "Sharpe pusztítása",
+        "tags": ["törnénelmi regény","kaland","vöröskabátos","napóleon","sharpe","britt"],
+        "isRead": true
+    },
+    {
+        "author": "Brandon Hackett",
+        "title": "Xeno",
+        "tags": ["sci-fi","idegenek","magyar"],
+        "isRead": false
+    },
+    {
+        "author": "Christopher Paolini",
+        "title": "Álmok a csillagok közt 1.",
+        "tags": ["sci-fi; idegenek; kaland","űropera","amerikai"],
+        "isRead": true
+    },
+    {
+        "author": "Christopher Paolini",
+        "title": "Álmok a csillagok közt 2.",
+        "tags": ["sci-fi; idegenek;kaland","űropera","amerikai"],
+        "isRead": false
+    },
+    {
+        "author": "Cixin Liu",
+        "title": "A háromtest-probléma",
+        "tags": ["sci-fi","idegenek","kaland","űropera","kínai"],
+        "isRead": true
+    },
+    {
+        "author": "Cixin Liu",
+        "title": "A sötét erdő",
+        "tags": ["sci-fi","idegenek","kaland","űropera","kínai"],
+        "isRead": false
+    },
+    {
+        "author": "Cixin Liu",
+        "title": "A halál vége",
+        "tags": ["sci-fi","idegenek","kaland","űropera","kínai"],
+        "isRead": false
+    },
+    {
+        "author": "Colin Renfrew",
+        "title": "A civilizáció előtt",
+        "tags": ["történelem","ókor","őskor","régész"],
+        "isRead": true
+    },
+    {
+        "author": "Colin Renfrew, Paul Bahn",
+        "title": "Régészet",
+        "tags": ["történelem","ókor","őskor","régész"],
+        "isRead": true
+    },
+    {
+        "author": "Dan Simmons",
+        "title": "Endymion",
+        "tags": ["sci-fi","idegenek","kaland","űropera","amerikai"],
+        "isRead": false
+    },
+    {
+        "author": "Dan Simmons",
+        "title": "Endymion felemelkedése",
+        "tags": ["sci-fi","idegenek","kaland","űropera","amerikai"],
+        "isRead": false
+    },
+    {
+        "author": "Dan Simmons",
+        "title": "Hyperion bukása",
+        "tags": ["sci-fi","idegenek","kaland","űropera","amerikai"],
+        "isRead": false
+    },
+    {
+        "author": "Dean Wesley Smith",
+        "title": "A mag",
+        "tags": ["sci-fi","amerikai"],
+        "isRead": true
+    },
+    {
+        "author": "E. K. Johnston",
+        "title": "Ashoka",
+        "tags": ["sci-fi","star-wars","kaland", "amerikai"],
+        "isRead": false
+    },
+    {
+        "author": "Frank Herbert",
+        "title": "A dűne",
+        "tags": ["sci-fi","kaland","űropera","amerikai","dűne"],
+        "isRead": true
+    },
+    {
+        "author": "George R. R. Martin",
+        "title": "Trónok harca",
+        "tags": ["fantasy","trónok harca","középkor"],
+        "isRead": true
+    },
+    {
+        "author": "George R. R. Martin",
+        "title": "Királyok csatája",
+        "tags": ["fantasy","trónok harca","középkor"],
+        "isRead": true
+    },
+    {
+        "author": "George R. R. Martin",
+        "title": "Kardok vihara",
+        "tags": ["fantasy","trónok harca","középkor"],
+        "isRead": true
+    },
+    {
+        "author": "George R. R. Martin",
+        "title": "Varjak lakomája",
+        "tags": ["fantasy","trónok harca","középkor"],
+        "isRead": true
+    },
+    {
+        "author": "George R. R. Martin",
+        "title": "Sárkányok tánca",
+        "tags": ["fantasy","trónok harca","középkor"],
+        "isRead": true
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Maigret albérletben",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": true
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Maigret csapdát állít",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": false
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Maigret első nyomozása",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": false
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Maigret Vichyben",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": false
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Maigret revolvere",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": true
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Maigret és a borkereskedő",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": true
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "A londoni férfi",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": true
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Maigret és a szombati kliens",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": false
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Maigret és a becsületes emberek",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": false
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Maigret pipája",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": true
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Maigret az esküdtszéken",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": false
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Magiret megharagszik",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": false
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Maigret szórakozik",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": false
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Maigret-t meglopják",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": false
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Maigret habozik",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": true
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Bűntény hollandiában",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": true
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Maigret és a padon üldögélő ember",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": false
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Maigret védekezik",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": false
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Maigret türelmes",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": false
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Maigret",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": false
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Maigret és a pikárdiai gyilkosságok",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": true
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Maigret és a titkos szerető",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": true
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Maigret és az egyes számú zsilip",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": true
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Maigret és az éjszaka örömei",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": true
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Maigret és az idegek harca",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": false
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Maigret nyaralni megy",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": false
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Maigret és a beharangozott gyilkosság",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": false
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Maigret és a víg kompánia",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": false
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Maigret csalódik",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": true
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Lyberty bár",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": true
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Maigret és a furcsa idegen",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": false
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Maigret emlékiratai",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": false
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Maigret és a gengszterek",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": true
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Az elátkozott hajó",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": true
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "Aki a vonatokat nézte",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": false
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "A vonat",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": false
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "A műhiba",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": false
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "A kísértetek",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": false
+    },
+    {
+        "author": "Georges Simenon",
+        "title": "A gyilkos",
+        "tags": ["krimi","francia","noir","maigret"],
+        "isRead": false
+    },
+    {
+        "author": "Graham Hurley",
+        "title": "Szükségállapot",
+        "tags": ["krimi","britt","kém"],
+        "isRead": true
+    },
+    {
+        "author": "Gregory Bassham, Eric Bronson",
+        "title": "A gyűrűk ura filozófiája",
+        "tags": ["gyűrűk ura"],
+        "isRead": false
+    },
+    {
+        "author": "Gwendolyn Leick",
+        "title": "Mezopotámia",
+        "tags": ["történelem","régészet","ókor","mezopotámia"],
+        "isRead": true
+    },
+    {
+        "author": "Harold Lamb",
+        "title": "A világhódító Nagy Sándor",
+        "tags": ["történelem","ókor","nagy sándor"],
+        "isRead": true
+    },
+    {
+        "author": "Hilary Wilson",
+        "title": "A hieroglifák rejtélye",
+        "tags": ["történelem","ókor","résgészet","egyiptom"],
+        "isRead": true
+    },
+    {
+        "author": "J. E. Kaufmann, H. W. Kaufmann",
+        "title": "Középköri várak",
+        "tags": ["történelem","középkor","várak"],
+        "isRead": true
+    },
+    {
+        "author": "Jack Campbell",
+        "title": "Rendíthetetlen",
+        "tags": ["sci-fi","kaland","űropera","amerikai","katonai"],
+        "isRead": true
+    },
+    {
+        "author": "Jack Campbell",
+        "title": "Vakmerő",
+        "tags": ["sci-fi","kaland","űropera","amerikai","katonai"],
+        "isRead": true
+    },
+    {
+        "author": "Jack Campbell",
+        "title": "Merész",
+        "tags": ["sci-fi","kaland","űropera","amerikai","katonai"],
+        "isRead": true
+    },
+    {
+        "author": "Jack McDevitt",
+        "title": "Emlékmű a csillagokban",
+        "tags": ["sci-fi","kaland","űropera","amerikai","idegenek","régészet"],
+        "isRead": false
+    },
+    {
+        "author": "Jack McDevitt",
+        "title": "Űrhajótöröttek",
+        "tags": ["sci-fi","kaland","űropera","amerikai","idegenek","régészet"],
+        "isRead": false
+    },
+    {
+        "author": "Jack McDevitt",
+        "title": "Született stratéga",
+        "tags": ["sci-fi","kaland","űropera","amerikai","idegenek","régészet","alex benedict"],
+        "isRead": true
+    },
+    {
+        "author": "Jack McDevitt",
+        "title": "Polaris",
+        "tags": ["sci-fi","kaland","űropera","amerikai","idegenek","régészet","alex benedict"],
+        "isRead": true
+    },
+    {
+        "author": "Jack McDevitt",
+        "title": "Elveszett kolónia",
+        "tags": ["sci-fi","kaland","űropera","amerikai","idegenek","régészet","alex benedict"],
+        "isRead": true
+    },
+    {
+        "author": "Jack McDevitt",
+        "title": "Az Ördög Szeme",
+        "tags": ["sci-fi","kaland","űropera","amerikai","idegenek","régészet","alex benedict"],
+        "isRead": true
+    },
+    {
+        "author": "Jack McDevitt",
+        "title": "Echo",
+        "tags": ["sci-fi","kaland","űropera","amerikai","idegenek","régészet","alex benedict"],
+        "isRead": true
+    },
+    {
+        "author": "Jack McDevitt",
+        "title": "Tűzmadár",
+        "tags": ["sci-fi","kaland","űropera","amerikai","idegenek","régészet","alex benedict"],
+        "isRead": true
+    },
+    {
+        "author": "Jack McDevitt",
+        "title": "Feltámad a múlt",
+        "tags": ["sci-fi","kaland","űropera","amerikai","idegenek","régészet","alex benedict"],
+        "isRead": true
+    },
+    {
+        "author": "James Luceno",
+        "title": "A megtévesztés leple",
+        "tags": ["sci-fi","star-wars","kaland", "amerikai"],
+        "isRead": false
+    },
+    {
+        "author": "James Luceno",
+        "title": "Sötét nagyúr",
+        "tags": ["sci-fi","star-wars","kaland", "amerikai"],
+        "isRead": true
+    },
+    {
+        "author": "James Luceno",
+        "title": "Katalizátor",
+        "tags": ["sci-fi","star-wars","kaland", "amerikai"],
+        "isRead": false
+    },
+    {
+        "author": "James Luceno",
+        "title": "Darth Plagueis",
+        "tags": ["sci-fi","star-wars","kaland", "amerikai"],
+        "isRead": false
+    },
+    {
+        "author": "James Luceno",
+        "title": "A gonosz útvesztője",
+        "tags": ["sci-fi","star-wars","kaland", "amerikai"],
+        "isRead": false
+    },
+    {
+        "author": "James S. A. Corey",
+        "title": "Leviatán ébredése",
+        "tags": ["sci-fi","kaland","űropera","amerikai","idegenek"],
+        "isRead": true
+    },
+    {
+        "author": "James S. A. Corey",
+        "title": "Kalibán háborúja",
+        "tags": ["sci-fi","kaland","űropera","amerikai","idegenek"],
+        "isRead": true
+    },
+    {
+        "author": "James S. A. Corey",
+        "title": "Abaddon kapuja",
+        "tags": ["sci-fi","kaland","űropera","amerikai","idegenek"],
+        "isRead": true
+    },
+    {
+        "author": "James S. A. Corey",
+        "title": "Cibola meghódítása",
+        "tags": ["sci-fi","kaland","űropera","amerikai","idegenek"],
+        "isRead": true
+    },
+    {
+        "author": "James S. A. Corey",
+        "title": "Nemezis játékai",
+        "tags": ["sci-fi","kaland","űropera","amerikai","idegenek"],
+        "isRead": true
+    },
+    {
+        "author": "James S. A. Corey",
+        "title": "Babilon hamvai",
+        "tags": ["sci-fi","kaland","űropera","amerikai","idegenek"],
+        "isRead": false
+    },
+    {
+        "author": "James S. A. Corey",
+        "title": "Perszepolisz felemelkedése",
+        "tags": ["sci-fi","kaland","űropera","amerikai","idegenek"],
+        "isRead": false
+    },
+    {
+        "author": "James S. A. Corey",
+        "title": "Tiamat dühe",
+        "tags": ["sci-fi","kaland","űropera","amerikai","idegenek"],
+        "isRead": false
+    },
+    {
+        "author": "Jared Diamond",
+        "title": "Háborúk, járványok, technikák",
+        "tags": ["történelem","középkor","ókor"],
+        "isRead": false
+    },
+    {
+        "author": "Jeff Carlson",
+        "title": "Fagyott égbolt",
+        "tags": ["sci-fi","jupiter","idegenek"],
+        "isRead": false
+    },
+    {
+        "author": "Joan D. Vinge",
+        "title": "47 Ronin",
+        "tags": ["fantasy","japán"],
+        "isRead": false
+    },
+    {
+        "author": "John Buchan",
+        "title": "39 lépcsőfok",
+        "tags": ["krimi"],
+        "isRead": false
+    },
+    {
+        "author": "John Jackson Miller",
+        "title": "Új hajnal",
+        "tags": ["sci-fi","star-wars"],
+        "isRead": false
+    },
+    {
+        "author": "John Keegan",
+        "title": "A csata arca",
+        "tags": ["történelem","katonai","ókor","középkor"],
+        "isRead": false
+    },
+    {
+        "author": "John Keegan",
+        "title": "A hadviselés története",
+        "tags": ["történelem","katonai","ókor","középkor"],
+        "isRead": false
+    },
+    {
+        "author": "John Le Carré",
+        "title": "Éjszakai szolgálat",
+        "tags": ["krimi","kém"],
+        "isRead": false
+    },
+    {
+        "author": "John Le Carré",
+        "title": "Tükrök háborúja",
+        "tags": ["krimi","kém"],
+        "isRead": false
+    },
+    {
+        "author": "John Scalzi",
+        "title": "Vének háborúja",
+        "tags": ["sci-fi","kaland","űropera","amerikai","idegenek","katonai"],
+        "isRead": true
+    },
+    {
+        "author": "John Scalzi",
+        "title": "Szellemhadtest",
+        "tags": ["sci-fi","kaland","űropera","amerikai","idegenek","katonai"],
+        "isRead": true
+    },
+    {
+        "author": "John Scalzi",
+        "title": "Az utolsó gyarmat",
+        "tags": ["sci-fi","kaland","űropera","amerikai","idegenek"],
+        "isRead": true
+    },
+    {
+        "author": "John Scalzi",
+        "title": "Zoë története",
+        "tags": ["sci-fi","kaland","űropera","amerikai","idegenek"],
+        "isRead": true
+    },
+    {
+        "author": "John Scalzi",
+        "title": "A lázadás hangjai",
+        "tags": ["sci-fi","kaland","űropera","amerikai","idegenek"],
+        "isRead": true
+    },
+    {
+        "author": "John Scalzi",
+        "title": "Árnyékszövetség",
+        "tags": ["sci-fi","kaland","űropera","amerikai","idegenek"],
+        "isRead": true
+    },
+    {
+        "author": "John Scalzi",
+        "title": "Vének történetei és más írások",
+        "tags": ["sci-fi","kaland","űropera","amerikai","idegenek"],
+        "isRead": false
+    },
+    {
+        "author": "Jussi Adler-Olsen",
+        "title": "Más bőrében",
+        "tags": ["krimi","skandináv"],
+        "isRead": false
+    },
+    {
+        "author": "Jussi Adler-Olsen",
+        "title": "Nyomtalanul",
+        "tags": ["krimi","skandináv","q-ügyosztály"],
+        "isRead": true
+    },
+    {
+        "author": "Jussi Adler-Olsen",
+        "title": "Palackposta",
+        "tags": ["krimi","skandináv","q-ügyosztály"],
+        "isRead": true
+    },
+    {
+        "author": "Jussi Adler-Olsen",
+        "title": "A 64-es betegnapló",
+        "tags": ["krimi","skandináv","q-ügyosztály"],
+        "isRead": true
+    },
+    {
+        "author": "Jussi Adler-Olsen",
+        "title": "A 2117. áldozat",
+        "tags": ["krimi","skandináv","q-ügyosztály"],
+        "isRead": false
+    },
+    {
+        "author": "Karl May",
+        "title": "Az ezüst-tó kincse",
+        "tags": ["kaland"],
+        "isRead": true
+    },
+    {
+        "author": "Kathy Reichs",
+        "title": "Végzetes utazás",
+        "tags": ["krimi","dr-csont"],
+        "isRead": false
+    },
+    {
+        "author": "Kathy Reichs",
+        "title": "Csupasz csontok",
+        "tags": ["krimi","dr-csont"],
+        "isRead": false
+    },
+    {
+        "author": "Kathy Reichs",
+        "title": "Hétfő csont nélkül",
+        "tags": ["krimi","dr-csont"],
+        "isRead": false
+    },
+    {
+        "author": "Kathy Reichs",
+        "title": "Szent csontok",
+        "tags": ["krimi","dr-csont"],
+        "isRead": false
+    },
+    {
+        "author": "Ken Follett",
+        "title": "A megfagyott világ",
+        "tags": ["történelmi regény"],
+        "isRead": false
+    },
+    {
+        "author": "Kenneth Munson",
+        "title": "A hadviselő felek valamennyi repülőgépe",
+        "tags": ["törénelem","2. világháború"],
+        "isRead": false
+    },
+    {
+        "author": "Kertész István",
+        "title": "Híres és Hírhedt római császárok",
+        "tags": ["történelem","ókor"],
+        "isRead": true
+    },
+    {
+        "author": "Kevin J. Anderson",
+        "title": "Sötét oldal",
+        "tags": ["sci-fi","star-wars"],
+        "isRead": true
+    },    {
+        "author": "Kevin J. Anderson",
+        "title": "Új rend",
+        "tags": ["sci-fi","star-wars"],
+        "isRead": true
+    },
+    {
+        "author": "Kim Stanley Robinson",
+        "title": "Vörös Mars 1.",
+        "tags": ["sci-fi","mars"],
+        "isRead": true
+    },    {
+        "author": "Kim Stanley Robinson",
+        "title": "Vörös Mars 2.",
+        "tags": ["sci-fi","mars"],
+        "isRead": false
+    },
+    {
+        "author": "Kim Stanley Robinson",
+        "title": "Aurora",
+        "tags": ["sci-fi"],
+        "isRead": false
+    },
+    {
+        "author": "Kir Bulicsov",
+        "title": "Az utolsó háború",
+        "tags": ["sci-fi"],
+        "isRead": false
+    },
+    {
+        "author": "Kristó Gyula",
+        "title": "Háború és hadviselés az Árpádok korában",
+        "tags": ["történelem"],
+        "isRead": true
+    },
+    {
+        "author": "Kurt Rieder",
+        "title": "A II. világháború repülőgépei",
+        "tags": ["történelem","2. világháború"],
+        "isRead": false
+    },
+    {
+        "author": "Marko Kloos",
+        "title": "Frontvonalak",
+        "tags": ["sci-fi","kaland","amerikai","idegenek","katonai"],
+        "isRead": true
+    },
+    {
+        "author": "Marko Kloos",
+        "title": "Felderítők",
+        "tags": ["sci-fi","kaland","amerikai","idegenek","katonai"],
+        "isRead": false
+    },
+    {
+        "author": "Matthew Stover",
+        "title": "A sith-ek bosszúja",
+        "tags": ["sci-fi","star-wars"],
+        "isRead": true
+    },
+    {
+        "author": "Michael J. Sullivan",
+        "title": "A rózsa és tövise (Riyria - A kezdetek 2.)",
+        "tags": ["fantasy","riyria"],
+        "isRead": true
+    },
+    {
+        "author": "Michael J. Sullivan",
+        "title": "A birodalom felemelkedése (Birodalom születik, A Smaragdvihar)",
+        "tags": ["fantasy","riyria"],
+        "isRead": true
+    },
+    {
+        "author": "Michael J. Sullivan",
+        "title": "Dulgath halála (Riyria - A kezdetek 3.)",
+        "tags": ["fantasy","riyria"],
+        "isRead": false
+    },
+    {
+        "author": "Michael J. Sullivan",
+        "title": "Novron örököse (Télvíz idején, Percepliquis - Az elveszett város)",
+        "tags": ["fantasy","riyria"],
+        "isRead": false
+    },
+    {
+        "author": "Michael J. Sullivan",
+        "title": "A koronatorony (Riyria – A kezdetek 1. kötet)",
+        "tags": ["fantasy","riyria"],
+        "isRead": true
+    },
+    {
+        "author": "Michael J. Sullivan",
+        "title": "Riyria-krónikák gyűjtemény 1: Kardtolvajok (Trónbitorlók és Avempartha - Az elfek tornya)",
+        "tags": ["fantasy","riyria"],
+        "isRead": true
+    },
+    {
+        "author": "Michael Walden",
+        "title": "Egy maroknyi sötétség (Cosmos Redshift Seven 2.)",
+        "tags": ["sci-fi"],
+        "isRead": false
+    },
+    {
+        "author": "Michio Kaku",
+        "title": "Az emberiség jövője",
+        "tags": ["fizika"],
+        "isRead": true
+    },
+    {
+        "author": "Michio Kaku",
+        "title": "A jövő fizikája",
+        "tags": ["fizika"],
+        "isRead": true
+    },
+    {
+        "author": "Myke Cole",
+        "title": "Legio a phanalanx ellen",
+        "tags": ["történelem","ókor"],
+        "isRead": false
+    },
+    {
+        "author": "Neal Stephenson",
+        "title": "A hét éva",
+        "tags": ["sci-fi","hold"],
+        "isRead": false
+    },
+    {
+        "author": "Nemere István",
+        "title": "Piramisok titkai",
+        "tags": ["történelem"],
+        "isRead": true
+    },
+    {
+        "author": "Octavia E. Butler",
+        "title": "Hajnal",
+        "tags": ["sci-fi","idegenek"],
+        "isRead": false
+    },
+    {
+        "author": "Oliver Bowden",
+        "title": "Árulás",
+        "tags": ["történelmi regény","vöröskabátos"],
+        "isRead": false
+    },
+    {
+        "author": "Örsi Ferenc",
+        "title": "A tenkes kapitánya",
+        "tags": ["történelmi regény"],
+        "isRead": false
+    },
+    {
+        "author": "Peter F. Hamilton",
+        "title": "Júdás elszabadul - I. kötet",
+        "tags": ["sci-fi","kaland","űropera","amerikai","idegenek"],
+        "isRead": false
+    },
+    {
+        "author": "Peter F. Hamilton",
+        "title": "Júdás elszabadul - II. kötet",
+        "tags": ["sci-fi","kaland","űropera","amerikai","idegenek"],
+        "isRead": false
+    },
+    {
+        "author": "Peter F. Hamilton",
+        "title": "Pandóra csillaga I",
+        "tags": ["sci-fi","kaland","űropera","amerikai","idegenek"],
+        "isRead": true
+    },    {
+        "author": "Peter F. Hamilton",
+        "title": "Pandóra csillaga II",
+        "tags": ["sci-fi","kaland","űropera","amerikai","idegenek"],
+        "isRead": false
+    },
+    {
+        "author": "Piers Paul Read",
+        "title": "A templomosok",
+        "tags": ["történelem"],
+        "isRead": false
+    },
+    {
+        "author": "R. A. Salvatore",
+        "title": "A klónok támadása",
+        "tags": ["sci-fi","star-wars"],
+        "isRead": true
+    },
+    {
+        "author": "Rejtő Jenő",
+        "title": "A megkerült cirkáló",
+        "tags": ["krimi"],
+        "isRead": true
+    },
+    {
+        "author": "Richard Rugdley",
+        "title": "A kőkor elveszett civilizációi",
+        "tags": ["történelem","ókor"],
+        "isRead": true
+    },
+    {
+        "author": "Richard Rugdley",
+        "title": "A barbárok",
+        "tags": ["történelem","ókor","középkor"],
+        "isRead": true
+    },
+    {
+        "author": "Robert Harris",
+        "title": "Enigma",
+        "tags": ["történelem","kém","2. világháború"],
+        "isRead": true
+    },
+    {
+        "author": "Robert J. Sawyer",
+        "title": "Kifürkészhetetlen",
+        "tags": ["sci-fi","kaland","amerikai","idegenek"],
+        "isRead": true
+    },
+    {
+        "author": "Robert J. Sawyer",
+        "title": "Lélekhullám",
+        "tags": ["krimi"],
+        "isRead": false
+    },
+    {
+        "author": "Robyn Young",
+        "title": "Felkelés",
+        "tags": ["történelmi regény"],
+        "isRead": false
+    },
+    {
+        "author": "Simon Scarro, T. J. Andrews",
+        "title": "A hódító",
+        "tags": ["történelmi regény","római"],
+        "isRead": true
+    },
+    {
+        "author": "Simon Scarrow",
+        "title": "Wellinton és Napóleon 1. - Ifjonti vér",
+        "tags": ["történelmi regény","napóleon"],
+        "isRead": true
+    },
+    {
+        "author": "Simon Scarrow",
+        "title": "Wellinton és Napóleon 2. - A tábornokok",
+        "tags": ["történelmi regény","napóleon"],
+        "isRead": false
+    },
+    {
+        "author": "Simon Scarrow",
+        "title": "Wellinton és Napóleon 3. - Tűz és kard",
+        "tags": ["történelmi regény","napóleon"],
+        "isRead": false
+    },
+    {
+        "author": "Simon Scarrow",
+        "title": "Wellinton és Napóleon 4. - A halál mezői",
+        "tags": ["történelmi regény","napóleon"],
+        "isRead": false
+    },
+    {
+        "author": "Simon Scarrow",
+        "title": "Kard és handzsár",
+        "tags": ["történelmi regény"],
+        "isRead": false
+    },
+    {
+        "author": "Simon Scarrow",
+        "title": "Aréna",
+        "tags": ["történelmi regény","római"],
+        "isRead": false
+    },
+    {
+        "author": "Simon Scarrow",
+        "title": "Róma árulói",
+        "tags": ["történelmi regény","római"],
+        "isRead": false
+    },
+    {
+        "author": "Simon Scarrow",
+        "title": "Császári száműzetés",
+        "tags": ["történelmi regény","római"],
+        "isRead": true
+    },
+    {
+        "author": "Simon Scarrow",
+        "title": "A sas árnyékában",
+        "tags": ["történelmi regény","római"],
+        "isRead": true
+    },
+    {
+        "author": "Simon Scarrow",
+        "title": "A sas hódítása",
+        "tags": ["történelmi regény","római"],
+        "isRead": true
+    },
+    {
+        "author": "Simon Scarrow",
+        "title": "A sas vadászata",
+        "tags": ["történelmi regény","római"],
+        "isRead": true
+    },
+    {
+        "author": "Simon Scarrow",
+        "title": "A sas és a farkasok",
+        "tags": ["történelmi regény","római"],
+        "isRead": true
+    },
+    {
+        "author": "Simon Scarrow",
+        "title": "A sas prédája",
+        "tags": ["történelmi regény","római"],
+        "isRead": true
+    },
+    {
+        "author": "Simon Scarrow",
+        "title": "A sas próféciája",
+        "tags": ["történelmi regény","római"],
+        "isRead": true
+    },
+    {
+        "author": "Simon Scarrow",
+        "title": "Sas a sivatagban",
+        "tags": ["történelmi regény","római"],
+        "isRead": true
+    },
+    {
+        "author": "Simon Scarrow",
+        "title": "A Centurio",
+        "tags": ["történelmi regény","római"],
+        "isRead": true
+    },
+    {
+        "author": "Simon Scarrow",
+        "title": "A gladiátor",
+        "tags": ["történelmi regény","római"],
+        "isRead": false
+    },
+    {
+        "author": "Simon Scarrow",
+        "title": "A Légió",
+        "tags": ["történelmi regény","római"],
+        "isRead": true
+    },
+    {
+        "author": "Simon Scarrow",
+        "title": "A praetorianusok",
+        "tags": ["történelmi regény","római"],
+        "isRead": true
+    },
+    {
+        "author": "Simon Scarrow",
+        "title": "Vérhollók",
+        "tags": ["történelmi regény","római"],
+        "isRead": true
+    },
+    {
+        "author": "Simon Scarrow",
+        "title": "Vértestvérek",
+        "tags": ["történelmi regény","római"],
+        "isRead": true
+    },
+    {
+        "author": "Simon Scarrow",
+        "title": "Britannia",
+        "tags": ["történelmi regény","római"],
+        "isRead": true
+    },
+    {
+        "author": "Simon Scarrow",
+        "title": "Invictus",
+        "tags": ["történelmi regény","római"],
+        "isRead": true
+    },
+    {
+        "author": "Simon Scarrow",
+        "title": "A Caesarok napja",
+        "tags": ["történelmi regény","római"],
+        "isRead": true
+    },
+    {
+        "author": "Simon Scarrow",
+        "title": "Róma vére",
+        "tags": ["történelmi regény","római"],
+        "isRead": true
+    },
+    {
+        "author": "Sir Arthur Conan Doyle",
+        "title": "Sherlock Holmes emlékiratai",
+        "tags": ["krimi","sherlock holmes"],
+        "isRead": false
+    },
+    {
+        "author": "Sir Arthur Conan Doyle",
+        "title": "Sherlock Holmes kalandjai",
+        "tags": ["krimi","sherlock holmes"],
+        "isRead": false
+    },
+    {
+        "author": "Stanislaw Lem",
+        "title": "Az úr hangja",
+        "tags": ["sci-fi","idegenek"],
+        "isRead": false
+    },
+    {
+        "author": "Stephen E. Ambrose",
+        "title": "Vad égbolt",
+        "tags": ["történelem","2. világháború"],
+        "isRead": false
+    },
+    {
+        "author": "Stephen E. Ambrose",
+        "title": "Az elit alakulat",
+        "tags": ["történelem","2. világháború"],
+        "isRead": true
+    },
+    {
+        "author": "Stephen Hawking",
+        "title": "Az idő rövid története",
+        "tags": ["fizika"],
+        "isRead": true
+    },
+    {
+        "author": "Stephen Hawking",
+        "title": "Rövid válaszok a nagy kérdésekre",
+        "tags": ["fizika"],
+        "isRead": true
+    },
+    {
+        "author": "Steven Saylor",
+        "title": "Római vér",
+        "tags": ["történelmi regény","római"],
+        "isRead": false
+    },
+    {
+        "author": "Terry Brooks",
+        "title": "Baljós Árnyak",
+        "tags": ["sci-fi","star-wars"],
+        "isRead": true
+    },
+    {
+        "author": "Tim Severin",
+        "title": "Fogságban",
+        "tags": ["történelmi regény","középkor","kalóz"],
+        "isRead": false
+    },
+    {
+        "author": "Tim Severin",
+        "title": "Tengeri rabló",
+        "tags": ["történelmi regény","középkor","kalóz"],
+        "isRead": false
+    },
+    {
+        "author": "Tim Severin",
+        "title": "Kalózok között",
+        "tags": ["történelmi regény","középkor","kalóz"],
+        "isRead": false
+    },
+    {
+        "author": "Timothy Zahn",
+        "title": "A tűlélők keresése",
+        "tags": ["sci-fi","star-wars"],
+        "isRead": true
+    },
+    {
+        "author": "Timothy Zahn",
+        "title": "Kirajzás",
+        "tags": ["sci-fi","star-wars"],
+        "isRead": true
+    },
+    {
+        "author": "Timothy Zahn",
+        "title": "A birodalom örökösei",
+        "tags": ["sci-fi","star-wars"],
+        "isRead": true
+    },
+    {
+        "author": "Timothy Zahn",
+        "title": "Sötét erők ébredése",
+        "tags": ["sci-fi","star-wars"],
+        "isRead": true
+    },
+    {
+        "author": "Timothy Zahn",
+        "title": "Az utolsó parancs",
+        "tags": ["sci-fi","star-wars"],
+        "isRead": true
+    },
+    {
+        "author": "Timothy Zahn",
+        "title": "Thrawn",
+        "tags": ["sci-fi","star-wars"],
+        "isRead": true
+    },
+    {
+        "author": "Timothy Zahn",
+        "title": "Thrawn - Szövetségések",
+        "tags": ["sci-fi","star-wars"],
+        "isRead": true
+    },
+    {
+        "author": "Timothy Zahn",
+        "title": "Thrawn - Árulás",
+        "tags": ["sci-fi","star-wars"],
+        "isRead": true
+    },
+    {
+        "author": "Timothy Zahn",
+        "title": "Chiss Birodalom: A káosz ébredése",
+        "tags": ["sci-fi","star-wars"],
+        "isRead": false
+    },
+    {
+        "author": "Timothy Zahn",
+        "title": "Chiss Birodalom: Államérdek",
+        "tags": ["sci-fi","star-wars"],
+        "isRead": false
+    },
+    {
+        "author": "Walter G. Scott",
+        "title": "Különleges repülőgépek",
+        "tags": ["történelem","2. világháború"],
+        "isRead": false
+    },
+    {
+        "author": "William R. Forstchen",
+        "title": "Egy másodperccel később",
+        "tags": ["kaland","sci-fi"],
+        "isRead": true
+    },
+    {
+        "author": "William R. Forstchen",
+        "title": "Egy évvel később",
+        "tags": ["kaland","sci-fi"],
+        "isRead": false
+    },
+    {
+        "author": "William R. Forstchen, Newt Gingrich",
+        "title": "A gyalázat napjai",
+        "tags": ["kaland","sci-fi"],
+        "isRead": false
+    },
+    {
+        "author": "William R. Forstchen, Newt Gingrich",
+        "title": "Peral Harbour",
+        "tags": ["kaland","sci-fi"],
+        "isRead": false
+    },
+    {
+        "author": "Wolfram Kawlath",
+        "title": "Makettépítés",
+        "tags": [],
+        "isRead": false
+    },
+    {
+        "author": "Yrsa Sigurðardóttir",
+        "title": "Gének",
+        "tags": ["krimi","skandináv"],
+        "isRead": false
+    }
+]
