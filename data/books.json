@@ -3,212 +3,212 @@
         "author": "A. G. Riddle",
         "title": "Az Atlantisz gén",
         "tags": [
-            "sci-fi",
             "összeesküvés",
             "amerikai"
         ],
         "isRead": false,
-        "id": 1
+        "id": 1,
+        "genre": "sci-fi"
     },
     {
         "author": "Aaron Allston",
         "title": "Vasököl",
         "tags": [
-            "sci-fi",
             "star-wars",
             "kaland",
             "amerikai"
         ],
         "isRead": true,
-        "id": 2
+        "id": 2,
+        "genre": "sci-fi"
     },
     {
         "author": "Adrian Tchaikovsky",
         "title": "Az idő gyermekei",
         "tags": [
-            "sci-fi",
             "pók",
             "idegenek",
             "britt"
         ],
         "isRead": false,
-        "id": 3
+        "id": 3,
+        "genre": "sci-fi"
     },
     {
         "author": "Adrienne Major",
         "title": "Az ókor régészei",
         "tags": [
-            "történelem",
             "ókor",
             "régész"
         ],
         "isRead": false,
-        "id": 4
+        "id": 4,
+        "genre": "történelem"
     },
     {
         "author": "Andrzej Sapkowski",
         "title": "A tó úrnője",
         "tags": [
-            "fantasy",
             "lengyel",
             "vaják",
             "geralt",
             "középkor"
         ],
         "isRead": true,
-        "id": 5
+        "id": 5,
+        "genre": "fantasy"
     },
     {
         "author": "Andrzej Sapkowski",
         "title": "Az utolsó kívánság",
         "tags": [
-            "fantasy",
             "lengyel",
             "vaják",
             "geralt",
             "középkor"
         ],
         "isRead": true,
-        "id": 6
+        "id": 6,
+        "genre": "fantasy"
     },
     {
         "author": "Andrzej Sapkowski",
         "title": "A végzet kardja",
         "tags": [
-            "fantasy",
             "lengyel",
             "vaják",
             "geralt",
             "középkor"
         ],
         "isRead": true,
-        "id": 7
+        "id": 7,
+        "genre": "fantasy"
     },
     {
         "author": "Andrzej Sapkowski",
         "title": "Viharidő",
         "tags": [
-            "fantasy",
             "lengyel",
             "vaják",
             "geralt",
             "középkor"
         ],
         "isRead": true,
-        "id": 8
+        "id": 8,
+        "genre": "fantasy"
     },
     {
         "author": "Andrzej Sapkowski",
         "title": "Tündevér",
         "tags": [
-            "fantasy",
             "lengyel",
             "vaják",
             "geralt",
             "középkor"
         ],
         "isRead": true,
-        "id": 9
+        "id": 9,
+        "genre": "fantasy"
     },
     {
         "author": "Andrzej Sapkowski",
         "title": "A megvetés ideje",
         "tags": [
-            "fantasy",
             "lengyel",
             "vaják",
             "geralt",
             "középkor"
         ],
         "isRead": true,
-        "id": 10
+        "id": 10,
+        "genre": "fantasy"
     },
     {
         "author": "Andrzej Sapkowski",
         "title": "Tűzkeresztség",
         "tags": [
-            "fantasy",
             "lengyel",
             "vaják",
             "geralt",
             "középkor"
         ],
         "isRead": true,
-        "id": 11
+        "id": 11,
+        "genre": "fantasy"
     },
     {
         "author": "Andrzej Sapkowski",
         "title": "Fecske-torony",
         "tags": [
-            "fantasy",
             "lengyel",
             "vaják",
             "geralt",
             "középkor"
         ],
         "isRead": true,
-        "id": 12
+        "id": 12,
+        "genre": "fantasy"
     },
     {
         "author": "Andy Weir",
         "title": "A marsi",
         "tags": [
-            "sci-fi",
             "kaland",
             "mars",
             "amerikai"
         ],
         "isRead": true,
-        "id": 13
+        "id": 13,
+        "genre": "sci-fi"
     },
     {
         "author": "Andy Weir",
         "title": "Artemis",
         "tags": [
-            "sci-fi",
             "kaland",
             "mars",
             "amerikai"
         ],
         "isRead": false,
-        "id": 14
+        "id": 14,
+        "genre": "sci-fi"
     },
     {
         "author": "Andy Weir",
         "title": "A Hail-Mary küldetés",
         "tags": [
-            "sci-fi",
             "kaland",
             "mars",
             "amerikai",
             "idegenek"
         ],
         "isRead": true,
-        "id": 15
+        "id": 15,
+        "genre": "sci-fi"
     },
     {
         "author": "Anthony McCarten",
         "title": "A legsötétebb óra",
         "tags": [
-            "történelem",
             "2. világháború",
             "életrajz",
             "churchill"
         ],
         "isRead": false,
-        "id": 16
+        "id": 16,
+        "genre": "történelem"
     },
     {
         "author": "Arthur C. Clarke",
         "title": "A mars titka",
         "tags": [
-            "sci-fi",
             "kaland",
             "mars",
             "amerikai"
         ],
         "isRead": false,
-        "id": 17
+        "id": 17,
+        "genre": "sci-fi"
     },
     {
         "author": "Ashlee Vance",
@@ -246,13 +246,13 @@
         "author": "Ben Macintyre",
         "title": "A vagdalthús hadművelet",
         "tags": [
-            "történelem",
             "2. világháború",
             "kém",
             "kaland"
         ],
         "isRead": false,
-        "id": 21
+        "id": 21,
+        "genre": "történelem"
     },
     {
         "author": "Bernard Cornwell",
@@ -571,12 +571,12 @@
         "author": "Brandon Hackett",
         "title": "Xeno",
         "tags": [
-            "sci-fi",
             "idegenek",
             "magyar"
         ],
         "isRead": false,
-        "id": 45
+        "id": 45,
+        "genre": "sci-fi"
     },
     {
         "author": "Christopher Paolini",
@@ -604,672 +604,672 @@
         "author": "Cixin Liu",
         "title": "A háromtest-probléma",
         "tags": [
-            "sci-fi",
             "idegenek",
             "kaland",
             "űropera",
             "kínai"
         ],
         "isRead": true,
-        "id": 48
+        "id": 48,
+        "genre": "sci-fi"
     },
     {
         "author": "Cixin Liu",
         "title": "A sötét erdő",
         "tags": [
-            "sci-fi",
             "idegenek",
             "kaland",
             "űropera",
             "kínai"
         ],
         "isRead": false,
-        "id": 49
+        "id": 49,
+        "genre": "sci-fi"
     },
     {
         "author": "Cixin Liu",
         "title": "A halál vége",
         "tags": [
-            "sci-fi",
             "idegenek",
             "kaland",
             "űropera",
             "kínai"
         ],
         "isRead": false,
-        "id": 50
+        "id": 50,
+        "genre": "sci-fi"
     },
     {
         "author": "Colin Renfrew",
         "title": "A civilizáció előtt",
         "tags": [
-            "történelem",
             "ókor",
             "őskor",
             "régész"
         ],
         "isRead": true,
-        "id": 51
+        "id": 51,
+        "genre": "történelem"
     },
     {
         "author": "Colin Renfrew, Paul Bahn",
         "title": "Régészet",
         "tags": [
-            "történelem",
             "ókor",
             "őskor",
             "régész"
         ],
         "isRead": true,
-        "id": 52
+        "id": 52,
+        "genre": "történelem"
     },
     {
         "author": "Dan Simmons",
         "title": "Endymion",
         "tags": [
-            "sci-fi",
             "idegenek",
             "kaland",
             "űropera",
             "amerikai"
         ],
         "isRead": false,
-        "id": 53
+        "id": 53,
+        "genre": "sci-fi"
     },
     {
         "author": "Dan Simmons",
         "title": "Endymion felemelkedése",
         "tags": [
-            "sci-fi",
             "idegenek",
             "kaland",
             "űropera",
             "amerikai"
         ],
         "isRead": false,
-        "id": 54
+        "id": 54,
+        "genre": "sci-fi"
     },
     {
         "author": "Dan Simmons",
         "title": "Hyperion bukása",
         "tags": [
-            "sci-fi",
             "idegenek",
             "kaland",
             "űropera",
             "amerikai"
         ],
         "isRead": false,
-        "id": 55
+        "id": 55,
+        "genre": "sci-fi"
     },
     {
         "author": "Dean Wesley Smith",
         "title": "A mag",
         "tags": [
-            "sci-fi",
             "amerikai"
         ],
         "isRead": true,
-        "id": 56
+        "id": 56,
+        "genre": "sci-fi"
     },
     {
         "author": "E. K. Johnston",
         "title": "Ashoka",
         "tags": [
-            "sci-fi",
             "star-wars",
             "kaland",
             "amerikai"
         ],
         "isRead": false,
-        "id": 57
+        "id": 57,
+        "genre": "sci-fi"
     },
     {
         "author": "Frank Herbert",
         "title": "A dűne",
         "tags": [
-            "sci-fi",
             "kaland",
             "űropera",
             "amerikai",
             "dűne"
         ],
         "isRead": true,
-        "id": 58
+        "id": 58,
+        "genre": "sci-fi"
     },
     {
         "author": "George R. R. Martin",
         "title": "Trónok harca",
         "tags": [
-            "fantasy",
             "trónok harca",
             "középkor"
         ],
         "isRead": true,
-        "id": 59
+        "id": 59,
+        "genre": "fantasy"
     },
     {
         "author": "George R. R. Martin",
         "title": "Királyok csatája",
         "tags": [
-            "fantasy",
             "trónok harca",
             "középkor"
         ],
         "isRead": true,
-        "id": 60
+        "id": 60,
+        "genre": "fantasy"
     },
     {
         "author": "George R. R. Martin",
         "title": "Kardok vihara",
         "tags": [
-            "fantasy",
             "trónok harca",
             "középkor"
         ],
         "isRead": true,
-        "id": 61
+        "id": 61,
+        "genre": "fantasy"
     },
     {
         "author": "George R. R. Martin",
         "title": "Varjak lakomája",
         "tags": [
-            "fantasy",
             "trónok harca",
             "középkor"
         ],
         "isRead": true,
-        "id": 62
+        "id": 62,
+        "genre": "fantasy"
     },
     {
         "author": "George R. R. Martin",
         "title": "Sárkányok tánca",
         "tags": [
-            "fantasy",
             "trónok harca",
             "középkor"
         ],
         "isRead": true,
-        "id": 63
+        "id": 63,
+        "genre": "fantasy"
     },
     {
         "author": "Georges Simenon",
         "title": "Maigret albérletben",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": true,
-        "id": 64
+        "id": 64,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Maigret csapdát állít",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": false,
-        "id": 65
+        "id": 65,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Maigret első nyomozása",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": false,
-        "id": 66
+        "id": 66,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Maigret Vichyben",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": false,
-        "id": 67
+        "id": 67,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Maigret revolvere",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": true,
-        "id": 68
+        "id": 68,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Maigret és a borkereskedő",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": true,
-        "id": 69
+        "id": 69,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "A londoni férfi",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": true,
-        "id": 70
+        "id": 70,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Maigret és a szombati kliens",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": false,
-        "id": 71
+        "id": 71,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Maigret és a becsületes emberek",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": false,
-        "id": 72
+        "id": 72,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Maigret pipája",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": true,
-        "id": 73
+        "id": 73,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Maigret az esküdtszéken",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": false,
-        "id": 74
+        "id": 74,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Magiret megharagszik",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": false,
-        "id": 75
+        "id": 75,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Maigret szórakozik",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": false,
-        "id": 76
+        "id": 76,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Maigret-t meglopják",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": false,
-        "id": 77
+        "id": 77,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Maigret habozik",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": true,
-        "id": 78
+        "id": 78,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Bűntény hollandiában",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": true,
-        "id": 79
+        "id": 79,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Maigret és a padon üldögélő ember",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": false,
-        "id": 80
+        "id": 80,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Maigret védekezik",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": false,
-        "id": 81
+        "id": 81,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Maigret türelmes",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": false,
-        "id": 82
+        "id": 82,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Maigret",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": false,
-        "id": 83
+        "id": 83,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Maigret és a pikárdiai gyilkosságok",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": true,
-        "id": 84
+        "id": 84,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Maigret és a titkos szerető",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": true,
-        "id": 85
+        "id": 85,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Maigret és az egyes számú zsilip",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": true,
-        "id": 86
+        "id": 86,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Maigret és az éjszaka örömei",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": true,
-        "id": 87
+        "id": 87,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Maigret és az idegek harca",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": false,
-        "id": 88
+        "id": 88,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Maigret nyaralni megy",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": false,
-        "id": 89
+        "id": 89,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Maigret és a beharangozott gyilkosság",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": false,
-        "id": 90
+        "id": 90,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Maigret és a víg kompánia",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": false,
-        "id": 91
+        "id": 91,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Maigret csalódik",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": true,
-        "id": 92
+        "id": 92,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Lyberty bár",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": true,
-        "id": 93
+        "id": 93,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Maigret és a furcsa idegen",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": false,
-        "id": 94
+        "id": 94,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Maigret emlékiratai",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": false,
-        "id": 95
+        "id": 95,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Maigret és a gengszterek",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": true,
-        "id": 96
+        "id": 96,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Az elátkozott hajó",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": true,
-        "id": 97
+        "id": 97,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "Aki a vonatokat nézte",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": false,
-        "id": 98
+        "id": 98,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "A vonat",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": false,
-        "id": 99
+        "id": 99,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "A műhiba",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": false,
-        "id": 100
+        "id": 100,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "A kísértetek",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": false,
-        "id": 101
+        "id": 101,
+        "genre": "krimi"
     },
     {
         "author": "Georges Simenon",
         "title": "A gyilkos",
         "tags": [
-            "krimi",
             "francia",
             "noir",
             "maigret"
         ],
         "isRead": false,
-        "id": 102
+        "id": 102,
+        "genre": "krimi"
     },
     {
         "author": "Graham Hurley",
         "title": "Szükségállapot",
         "tags": [
-            "krimi",
             "britt",
             "kém"
         ],
         "isRead": true,
-        "id": 103
+        "id": 103,
+        "genre": "krimi"
     },
     {
         "author": "Gregory Bassham, Eric Bronson",
@@ -1284,92 +1284,91 @@
         "author": "Gwendolyn Leick",
         "title": "Mezopotámia",
         "tags": [
-            "történelem",
             "régészet",
             "ókor",
             "mezopotámia"
         ],
         "isRead": true,
-        "id": 105
+        "id": 105,
+        "genre": "történelem"
     },
     {
         "author": "Harold Lamb",
         "title": "A világhódító Nagy Sándor",
         "tags": [
-            "történelem",
             "ókor",
             "nagy sándor"
         ],
         "isRead": true,
-        "id": 106
+        "id": 106,
+        "genre": "történelem"
     },
     {
         "author": "Hilary Wilson",
         "title": "A hieroglifák rejtélye",
         "tags": [
-            "történelem",
             "ókor",
             "résgészet",
             "egyiptom"
         ],
         "isRead": true,
-        "id": 107
+        "id": 107,
+        "genre": "történelem"
     },
     {
         "author": "J. E. Kaufmann, H. W. Kaufmann",
         "title": "Középköri várak",
         "tags": [
-            "történelem",
             "középkor",
             "várak"
         ],
         "isRead": true,
-        "id": 108
+        "id": 108,
+        "genre": "történelem"
     },
     {
         "author": "Jack Campbell",
         "title": "Rendíthetetlen",
         "tags": [
-            "sci-fi",
             "kaland",
             "űropera",
             "amerikai",
             "katonai"
         ],
         "isRead": true,
-        "id": 109
+        "id": 109,
+        "genre": "sci-fi"
     },
     {
         "author": "Jack Campbell",
         "title": "Vakmerő",
         "tags": [
-            "sci-fi",
             "kaland",
             "űropera",
             "amerikai",
             "katonai"
         ],
         "isRead": true,
-        "id": 110
+        "id": 110,
+        "genre": "sci-fi"
     },
     {
         "author": "Jack Campbell",
         "title": "Merész",
         "tags": [
-            "sci-fi",
             "kaland",
             "űropera",
             "amerikai",
             "katonai"
         ],
         "isRead": true,
-        "id": 111
+        "id": 111,
+        "genre": "sci-fi"
     },
     {
         "author": "Jack McDevitt",
         "title": "Emlékmű a csillagokban",
         "tags": [
-            "sci-fi",
             "kaland",
             "űropera",
             "amerikai",
@@ -1377,13 +1376,13 @@
             "régészet"
         ],
         "isRead": false,
-        "id": 112
+        "id": 112,
+        "genre": "sci-fi"
     },
     {
         "author": "Jack McDevitt",
         "title": "Űrhajótöröttek",
         "tags": [
-            "sci-fi",
             "kaland",
             "űropera",
             "amerikai",
@@ -1391,13 +1390,13 @@
             "régészet"
         ],
         "isRead": false,
-        "id": 113
+        "id": 113,
+        "genre": "sci-fi"
     },
     {
         "author": "Jack McDevitt",
         "title": "Született stratéga",
         "tags": [
-            "sci-fi",
             "kaland",
             "űropera",
             "amerikai",
@@ -1406,13 +1405,13 @@
             "alex benedict"
         ],
         "isRead": true,
-        "id": 114
+        "id": 114,
+        "genre": "sci-fi"
     },
     {
         "author": "Jack McDevitt",
         "title": "Polaris",
         "tags": [
-            "sci-fi",
             "kaland",
             "űropera",
             "amerikai",
@@ -1421,13 +1420,13 @@
             "alex benedict"
         ],
         "isRead": true,
-        "id": 115
+        "id": 115,
+        "genre": "sci-fi"
     },
     {
         "author": "Jack McDevitt",
         "title": "Elveszett kolónia",
         "tags": [
-            "sci-fi",
             "kaland",
             "űropera",
             "amerikai",
@@ -1436,13 +1435,13 @@
             "alex benedict"
         ],
         "isRead": true,
-        "id": 116
+        "id": 116,
+        "genre": "sci-fi"
     },
     {
         "author": "Jack McDevitt",
         "title": "Az Ördög Szeme",
         "tags": [
-            "sci-fi",
             "kaland",
             "űropera",
             "amerikai",
@@ -1451,13 +1450,13 @@
             "alex benedict"
         ],
         "isRead": true,
-        "id": 117
+        "id": 117,
+        "genre": "sci-fi"
     },
     {
         "author": "Jack McDevitt",
         "title": "Echo",
         "tags": [
-            "sci-fi",
             "kaland",
             "űropera",
             "amerikai",
@@ -1466,13 +1465,13 @@
             "alex benedict"
         ],
         "isRead": true,
-        "id": 118
+        "id": 118,
+        "genre": "sci-fi"
     },
     {
         "author": "Jack McDevitt",
         "title": "Tűzmadár",
         "tags": [
-            "sci-fi",
             "kaland",
             "űropera",
             "amerikai",
@@ -1481,13 +1480,13 @@
             "alex benedict"
         ],
         "isRead": true,
-        "id": 119
+        "id": 119,
+        "genre": "sci-fi"
     },
     {
         "author": "Jack McDevitt",
         "title": "Feltámad a múlt",
         "tags": [
-            "sci-fi",
             "kaland",
             "űropera",
             "amerikai",
@@ -1496,272 +1495,271 @@
             "alex benedict"
         ],
         "isRead": true,
-        "id": 120
+        "id": 120,
+        "genre": "sci-fi"
     },
     {
         "author": "James Luceno",
         "title": "A megtévesztés leple",
         "tags": [
-            "sci-fi",
             "star-wars",
             "kaland",
             "amerikai"
         ],
         "isRead": false,
-        "id": 121
+        "id": 121,
+        "genre": "sci-fi"
     },
     {
         "author": "James Luceno",
         "title": "Sötét nagyúr",
         "tags": [
-            "sci-fi",
             "star-wars",
             "kaland",
             "amerikai"
         ],
         "isRead": true,
-        "id": 122
+        "id": 122,
+        "genre": "sci-fi"
     },
     {
         "author": "James Luceno",
         "title": "Katalizátor",
         "tags": [
-            "sci-fi",
             "star-wars",
             "kaland",
             "amerikai"
         ],
         "isRead": false,
-        "id": 123
+        "id": 123,
+        "genre": "sci-fi"
     },
     {
         "author": "James Luceno",
         "title": "Darth Plagueis",
         "tags": [
-            "sci-fi",
             "star-wars",
             "kaland",
             "amerikai"
         ],
         "isRead": false,
-        "id": 124
+        "id": 124,
+        "genre": "sci-fi"
     },
     {
         "author": "James Luceno",
         "title": "A gonosz útvesztője",
         "tags": [
-            "sci-fi",
             "star-wars",
             "kaland",
             "amerikai"
         ],
         "isRead": false,
-        "id": 125
+        "id": 125,
+        "genre": "sci-fi"
     },
     {
         "author": "James S. A. Corey",
         "title": "Leviatán ébredése",
         "tags": [
-            "sci-fi",
             "kaland",
             "űropera",
             "amerikai",
             "idegenek"
         ],
         "isRead": true,
-        "id": 126
+        "id": 126,
+        "genre": "sci-fi"
     },
     {
         "author": "James S. A. Corey",
         "title": "Kalibán háborúja",
         "tags": [
-            "sci-fi",
             "kaland",
             "űropera",
             "amerikai",
             "idegenek"
         ],
         "isRead": true,
-        "id": 127
+        "id": 127,
+        "genre": "sci-fi"
     },
     {
         "author": "James S. A. Corey",
         "title": "Abaddon kapuja",
         "tags": [
-            "sci-fi",
             "kaland",
             "űropera",
             "amerikai",
             "idegenek"
         ],
         "isRead": true,
-        "id": 128
+        "id": 128,
+        "genre": "sci-fi"
     },
     {
         "author": "James S. A. Corey",
         "title": "Cibola meghódítása",
         "tags": [
-            "sci-fi",
             "kaland",
             "űropera",
             "amerikai",
             "idegenek"
         ],
         "isRead": true,
-        "id": 129
+        "id": 129,
+        "genre": "sci-fi"
     },
     {
         "author": "James S. A. Corey",
         "title": "Nemezis játékai",
         "tags": [
-            "sci-fi",
             "kaland",
             "űropera",
             "amerikai",
             "idegenek"
         ],
         "isRead": true,
-        "id": 130
+        "id": 130,
+        "genre": "sci-fi"
     },
     {
         "author": "James S. A. Corey",
         "title": "Babilon hamvai",
         "tags": [
-            "sci-fi",
             "kaland",
             "űropera",
             "amerikai",
             "idegenek"
         ],
         "isRead": false,
-        "id": 131
+        "id": 131,
+        "genre": "sci-fi"
     },
     {
         "author": "James S. A. Corey",
         "title": "Perszepolisz felemelkedése",
         "tags": [
-            "sci-fi",
             "kaland",
             "űropera",
             "amerikai",
             "idegenek"
         ],
         "isRead": false,
-        "id": 132
+        "id": 132,
+        "genre": "sci-fi"
     },
     {
         "author": "James S. A. Corey",
         "title": "Tiamat dühe",
         "tags": [
-            "sci-fi",
             "kaland",
             "űropera",
             "amerikai",
             "idegenek"
         ],
         "isRead": false,
-        "id": 133
+        "id": 133,
+        "genre": "sci-fi"
     },
     {
         "author": "Jared Diamond",
         "title": "Háborúk, járványok, technikák",
         "tags": [
-            "történelem",
             "középkor",
             "ókor"
         ],
         "isRead": false,
-        "id": 134
+        "id": 134,
+        "genre": "történelem"
     },
     {
         "author": "Jeff Carlson",
         "title": "Fagyott égbolt",
         "tags": [
-            "sci-fi",
             "jupiter",
             "idegenek"
         ],
         "isRead": false,
-        "id": 135
+        "id": 135,
+        "genre": "sci-fi"
     },
     {
         "author": "Joan D. Vinge",
         "title": "47 Ronin",
         "tags": [
-            "fantasy",
             "japán"
         ],
         "isRead": false,
-        "id": 136
+        "id": 136,
+        "genre": "fantasy"
     },
     {
         "author": "John Buchan",
         "title": "39 lépcsőfok",
-        "tags": [
-            "krimi"
-        ],
+        "tags": [],
         "isRead": false,
-        "id": 137
+        "id": 137,
+        "genre": "krimi"
     },
     {
         "author": "John Jackson Miller",
         "title": "Új hajnal",
         "tags": [
-            "sci-fi",
             "star-wars"
         ],
         "isRead": false,
-        "id": 138
+        "id": 138,
+        "genre": "sci-fi"
     },
     {
         "author": "John Keegan",
         "title": "A csata arca",
         "tags": [
-            "történelem",
             "katonai",
             "ókor",
             "középkor"
         ],
         "isRead": false,
-        "id": 139
+        "id": 139,
+        "genre": "történelem"
     },
     {
         "author": "John Keegan",
         "title": "A hadviselés története",
         "tags": [
-            "történelem",
             "katonai",
             "ókor",
             "középkor"
         ],
         "isRead": false,
-        "id": 140
+        "id": 140,
+        "genre": "történelem"
     },
     {
         "author": "John Le Carré",
         "title": "Éjszakai szolgálat",
         "tags": [
-            "krimi",
             "kém"
         ],
         "isRead": false,
-        "id": 141
+        "id": 141,
+        "genre": "krimi"
     },
     {
         "author": "John Le Carré",
         "title": "Tükrök háborúja",
         "tags": [
-            "krimi",
             "kém"
         ],
         "isRead": false,
-        "id": 142
+        "id": 142,
+        "genre": "krimi"
     },
     {
         "author": "John Scalzi",
         "title": "Vének háborúja",
         "tags": [
-            "sci-fi",
             "kaland",
             "űropera",
             "amerikai",
@@ -1769,13 +1767,13 @@
             "katonai"
         ],
         "isRead": true,
-        "id": 143
+        "id": 143,
+        "genre": "sci-fi"
     },
     {
         "author": "John Scalzi",
         "title": "Szellemhadtest",
         "tags": [
-            "sci-fi",
             "kaland",
             "űropera",
             "amerikai",
@@ -1783,126 +1781,127 @@
             "katonai"
         ],
         "isRead": true,
-        "id": 144
+        "id": 144,
+        "genre": "sci-fi"
     },
     {
         "author": "John Scalzi",
         "title": "Az utolsó gyarmat",
         "tags": [
-            "sci-fi",
             "kaland",
             "űropera",
             "amerikai",
             "idegenek"
         ],
         "isRead": true,
-        "id": 145
+        "id": 145,
+        "genre": "sci-fi"
     },
     {
         "author": "John Scalzi",
         "title": "Zoë története",
         "tags": [
-            "sci-fi",
             "kaland",
             "űropera",
             "amerikai",
             "idegenek"
         ],
         "isRead": true,
-        "id": 146
+        "id": 146,
+        "genre": "sci-fi"
     },
     {
         "author": "John Scalzi",
         "title": "A lázadás hangjai",
         "tags": [
-            "sci-fi",
             "kaland",
             "űropera",
             "amerikai",
             "idegenek"
         ],
         "isRead": true,
-        "id": 147
+        "id": 147,
+        "genre": "sci-fi"
     },
     {
         "author": "John Scalzi",
         "title": "Árnyékszövetség",
         "tags": [
-            "sci-fi",
             "kaland",
             "űropera",
             "amerikai",
             "idegenek"
         ],
         "isRead": true,
-        "id": 148
+        "id": 148,
+        "genre": "sci-fi"
     },
     {
         "author": "John Scalzi",
         "title": "Vének történetei és más írások",
         "tags": [
-            "sci-fi",
             "kaland",
             "űropera",
             "amerikai",
             "idegenek"
         ],
         "isRead": false,
-        "id": 149
+        "id": 149,
+        "genre": "sci-fi"
     },
     {
         "author": "Jussi Adler-Olsen",
         "title": "Más bőrében",
         "tags": [
-            "krimi",
             "skandináv"
         ],
         "isRead": false,
-        "id": 150
+        "id": 150,
+        "genre": "krimi"
     },
     {
         "author": "Jussi Adler-Olsen",
         "title": "Nyomtalanul",
         "tags": [
-            "krimi",
             "skandináv",
             "q-ügyosztály"
         ],
         "isRead": true,
-        "id": 151
+        "id": 151,
+        "genre": "krimi"
     },
     {
         "author": "Jussi Adler-Olsen",
         "title": "Palackposta",
         "tags": [
-            "krimi",
             "skandináv",
             "q-ügyosztály"
         ],
         "isRead": true,
-        "id": 152
+        "id": 152,
+        "genre": "krimi"
     },
     {
         "author": "Jussi Adler-Olsen",
         "title": "A 64-es betegnapló",
         "tags": [
-            "krimi",
             "skandináv",
             "q-ügyosztály"
         ],
         "isRead": true,
-        "id": 153
+        "id": 153,
+        "genre": "krimi"
     },
     {
         "author": "Jussi Adler-Olsen",
         "title": "A 2117. áldozat",
         "tags": [
-            "krimi",
             "skandináv",
             "q-ügyosztály"
         ],
         "isRead": false,
-        "id": 154
+        "id": 154,
+        "genre": "krimi"
     },
     {
         "author": "Karl May",
@@ -1917,50 +1916,49 @@
         "author": "Kathy Reichs",
         "title": "Végzetes utazás",
         "tags": [
-            "krimi",
             "dr-csont"
         ],
         "isRead": false,
-        "id": 156
+        "id": 156,
+        "genre": "krimi"
     },
     {
         "author": "Kathy Reichs",
         "title": "Csupasz csontok",
         "tags": [
-            "krimi",
             "dr-csont"
         ],
         "isRead": false,
-        "id": 157
+        "id": 157,
+        "genre": "krimi"
     },
     {
         "author": "Kathy Reichs",
         "title": "Hétfő csont nélkül",
         "tags": [
-            "krimi",
             "dr-csont"
         ],
         "isRead": false,
-        "id": 158
+        "id": 158,
+        "genre": "krimi"
     },
     {
         "author": "Kathy Reichs",
         "title": "Szent csontok",
         "tags": [
-            "krimi",
             "dr-csont"
         ],
         "isRead": false,
-        "id": 159
+        "id": 159,
+        "genre": "krimi"
     },
     {
         "author": "Ken Follett",
         "title": "A megfagyott világ",
-        "tags": [
-            "történelmi regény"
-        ],
+        "tags": [],
         "isRead": false,
-        "id": 160
+        "id": 160,
+        "genre": "történelmi regény"
     },
     {
         "author": "Kenneth Munson",
@@ -1976,193 +1974,189 @@
         "author": "Kertész István",
         "title": "Híres és Hírhedt római császárok",
         "tags": [
-            "történelem",
             "ókor"
         ],
         "isRead": true,
-        "id": 162
+        "id": 162,
+        "genre": "történelem"
     },
     {
         "author": "Kevin J. Anderson",
         "title": "Sötét oldal",
         "tags": [
-            "sci-fi",
             "star-wars"
         ],
         "isRead": true,
-        "id": 163
+        "id": 163,
+        "genre": "sci-fi"
     },
     {
         "author": "Kevin J. Anderson",
         "title": "Új rend",
         "tags": [
-            "sci-fi",
             "star-wars"
         ],
         "isRead": true,
-        "id": 164
+        "id": 164,
+        "genre": "sci-fi"
     },
     {
         "author": "Kim Stanley Robinson",
         "title": "Vörös Mars 1.",
         "tags": [
-            "sci-fi",
             "mars"
         ],
         "isRead": true,
-        "id": 165
+        "id": 165,
+        "genre": "sci-fi"
     },
     {
         "author": "Kim Stanley Robinson",
         "title": "Vörös Mars 2.",
         "tags": [
-            "sci-fi",
             "mars"
         ],
         "isRead": false,
-        "id": 166
+        "id": 166,
+        "genre": "sci-fi"
     },
     {
         "author": "Kim Stanley Robinson",
         "title": "Aurora",
-        "tags": [
-            "sci-fi"
-        ],
+        "tags": [],
         "isRead": false,
-        "id": 167
+        "id": 167,
+        "genre": "sci-fi"
     },
     {
         "author": "Kir Bulicsov",
         "title": "Az utolsó háború",
-        "tags": [
-            "sci-fi"
-        ],
+        "tags": [],
         "isRead": false,
-        "id": 168
+        "id": 168,
+        "genre": "sci-fi"
     },
     {
         "author": "Kristó Gyula",
         "title": "Háború és hadviselés az Árpádok korában",
-        "tags": [
-            "történelem"
-        ],
+        "tags": [],
         "isRead": true,
-        "id": 169
+        "id": 169,
+        "genre": "történelem"
     },
     {
         "author": "Kurt Rieder",
         "title": "A II. világháború repülőgépei",
         "tags": [
-            "történelem",
             "2. világháború"
         ],
         "isRead": false,
-        "id": 170
+        "id": 170,
+        "genre": "történelem"
     },
     {
         "author": "Marko Kloos",
         "title": "Frontvonalak",
         "tags": [
-            "sci-fi",
             "kaland",
             "amerikai",
             "idegenek",
             "katonai"
         ],
         "isRead": true,
-        "id": 171
+        "id": 171,
+        "genre": "sci-fi"
     },
     {
         "author": "Marko Kloos",
         "title": "Felderítők",
         "tags": [
-            "sci-fi",
             "kaland",
             "amerikai",
             "idegenek",
             "katonai"
         ],
         "isRead": false,
-        "id": 172
+        "id": 172,
+        "genre": "sci-fi"
     },
     {
         "author": "Matthew Stover",
         "title": "A sith-ek bosszúja",
         "tags": [
-            "sci-fi",
             "star-wars"
         ],
         "isRead": true,
-        "id": 173
+        "id": 173,
+        "genre": "sci-fi"
     },
     {
         "author": "Michael J. Sullivan",
         "title": "A rózsa és tövise (Riyria - A kezdetek 2.)",
         "tags": [
-            "fantasy",
             "riyria"
         ],
         "isRead": true,
-        "id": 174
+        "id": 174,
+        "genre": "fantasy"
     },
     {
         "author": "Michael J. Sullivan",
         "title": "A birodalom felemelkedése (Birodalom születik, A Smaragdvihar)",
         "tags": [
-            "fantasy",
             "riyria"
         ],
         "isRead": true,
-        "id": 175
+        "id": 175,
+        "genre": "fantasy"
     },
     {
         "author": "Michael J. Sullivan",
         "title": "Dulgath halála (Riyria - A kezdetek 3.)",
         "tags": [
-            "fantasy",
             "riyria"
         ],
         "isRead": false,
-        "id": 176
+        "id": 176,
+        "genre": "fantasy"
     },
     {
         "author": "Michael J. Sullivan",
         "title": "Novron örököse (Télvíz idején, Percepliquis - Az elveszett város)",
         "tags": [
-            "fantasy",
             "riyria"
         ],
         "isRead": false,
-        "id": 177
+        "id": 177,
+        "genre": "fantasy"
     },
     {
         "author": "Michael J. Sullivan",
         "title": "A koronatorony (Riyria – A kezdetek 1. kötet)",
         "tags": [
-            "fantasy",
             "riyria"
         ],
         "isRead": true,
-        "id": 178
+        "id": 178,
+        "genre": "fantasy"
     },
     {
         "author": "Michael J. Sullivan",
         "title": "Riyria-krónikák gyűjtemény 1: Kardtolvajok (Trónbitorlók és Avempartha - Az elfek tornya)",
         "tags": [
-            "fantasy",
             "riyria"
         ],
         "isRead": true,
-        "id": 179
+        "id": 179,
+        "genre": "fantasy"
     },
     {
         "author": "Michael Walden",
         "title": "Egy maroknyi sötétség (Cosmos Redshift Seven 2.)",
-        "tags": [
-            "sci-fi"
-        ],
+        "tags": [],
         "isRead": false,
-        "id": 180
+        "id": 180,
+        "genre": "sci-fi"
     },
     {
         "author": "Michio Kaku",
@@ -2186,510 +2180,541 @@
         "author": "Myke Cole",
         "title": "Legio a phanalanx ellen",
         "tags": [
-            "történelem",
             "ókor"
         ],
         "isRead": false,
-        "id": 183
+        "id": 183,
+        "genre": "történelem"
     },
     {
         "author": "Neal Stephenson",
         "title": "A hét éva",
         "tags": [
-            "sci-fi",
             "hold"
         ],
         "isRead": false,
-        "id": 184
+        "id": 184,
+        "genre": "sci-fi"
     },
     {
         "author": "Nemere István",
         "title": "Piramisok titkai",
-        "tags": [
-            "történelem"
-        ],
+        "tags": [],
         "isRead": true,
-        "id": 185
+        "id": 185,
+        "genre": "történelem"
     },
     {
         "author": "Octavia E. Butler",
         "title": "Hajnal",
         "tags": [
-            "sci-fi",
             "idegenek"
         ],
         "isRead": false,
-        "id": 186
+        "id": 186,
+        "genre": "sci-fi"
     },
     {
         "author": "Oliver Bowden",
         "title": "Árulás",
         "tags": [
-            "történelmi regény",
             "vöröskabátos"
         ],
         "isRead": false,
-        "id": 187
+        "id": 187,
+        "genre": "történelmi regény"
     },
     {
         "author": "Örsi Ferenc",
         "title": "A tenkes kapitánya",
-        "tags": [
-            "történelmi regény"
-        ],
+        "tags": [],
         "isRead": false,
-        "id": 188
+        "id": 188,
+        "genre": "történelmi regény"
     },
     {
         "author": "Peter F. Hamilton",
         "title": "Júdás elszabadul - I. kötet",
         "tags": [
-            "sci-fi",
             "kaland",
             "űropera",
             "amerikai",
             "idegenek"
         ],
         "isRead": false,
-        "id": 189
+        "id": 189,
+        "genre": "sci-fi"
     },
     {
         "author": "Peter F. Hamilton",
         "title": "Júdás elszabadul - II. kötet",
         "tags": [
-            "sci-fi",
             "kaland",
             "űropera",
             "amerikai",
             "idegenek"
         ],
         "isRead": false,
-        "id": 190
+        "id": 190,
+        "genre": "sci-fi"
     },
     {
         "author": "Peter F. Hamilton",
         "title": "Pandóra csillaga I",
         "tags": [
-            "sci-fi",
             "kaland",
             "űropera",
             "amerikai",
             "idegenek"
         ],
         "isRead": true,
-        "id": 191
+        "id": 191,
+        "genre": "sci-fi"
     },
     {
         "author": "Peter F. Hamilton",
         "title": "Pandóra csillaga II",
         "tags": [
-            "sci-fi",
             "kaland",
             "űropera",
             "amerikai",
             "idegenek"
         ],
         "isRead": false,
-        "id": 192
+        "id": 192,
+        "genre": "sci-fi"
     },
     {
         "author": "Piers Paul Read",
         "title": "A templomosok",
-        "tags": [
-            "történelem"
-        ],
+        "tags": [],
         "isRead": false,
-        "id": 193
+        "id": 193,
+        "genre": "történelem"
     },
     {
         "author": "R. A. Salvatore",
         "title": "A klónok támadása",
         "tags": [
-            "sci-fi",
             "star-wars"
         ],
         "isRead": true,
-        "id": 194
+        "id": 194,
+        "genre": "sci-fi"
     },
     {
         "author": "Rejtő Jenő",
         "title": "A megkerült cirkáló",
-        "tags": [
-            "krimi"
-        ],
+        "tags": [],
         "isRead": true,
-        "id": 195
+        "id": 195,
+        "genre": "krimi"
     },
     {
         "author": "Richard Rugdley",
         "title": "A kőkor elveszett civilizációi",
         "tags": [
-            "történelem",
             "ókor"
         ],
         "isRead": true,
-        "id": 196
+        "id": 196,
+        "genre": "történelem"
     },
     {
         "author": "Richard Rugdley",
         "title": "A barbárok",
         "tags": [
-            "történelem",
             "ókor",
             "középkor"
         ],
         "isRead": true,
-        "id": 197
+        "id": 197,
+        "genre": "történelem"
     },
     {
         "author": "Robert Harris",
         "title": "Enigma",
         "tags": [
-            "történelem",
             "kém",
             "2. világháború"
         ],
         "isRead": true,
-        "id": 198
+        "id": 198,
+        "genre": "történelem"
     },
     {
         "author": "Robert J. Sawyer",
         "title": "Kifürkészhetetlen",
         "tags": [
-            "sci-fi",
             "kaland",
             "amerikai",
             "idegenek"
         ],
         "isRead": true,
-        "id": 199
+        "id": 199,
+        "genre": "sci-fi"
     },
     {
         "author": "Robert J. Sawyer",
         "title": "Lélekhullám",
-        "tags": [
-            "krimi"
-        ],
+        "tags": [],
         "isRead": false,
-        "id": 200
+        "id": 200,
+        "genre": "krimi"
     },
     {
         "author": "Robyn Young",
         "title": "Felkelés",
-        "tags": [
-            "történelmi regény"
-        ],
+        "tags": [],
         "isRead": false,
-        "id": 201
+        "id": 201,
+        "genre": "történelmi regény"
     },
     {
         "author": "Simon Scarro, T. J. Andrews",
         "title": "A hódító",
         "tags": [
-            "történelmi regény",
             "római"
         ],
         "isRead": true,
-        "id": 202
+        "id": 202,
+        "genre": "történelmi regény"
     },
     {
         "author": "Simon Scarrow",
         "title": "Wellinton és Napóleon 1. - Ifjonti vér",
         "tags": [
-            "történelmi regény",
             "napóleon"
         ],
         "isRead": true,
-        "id": 203
+        "id": 203,
+        "genre": "történelmi regény"
     },
     {
         "author": "Simon Scarrow",
         "title": "Wellinton és Napóleon 2. - A tábornokok",
         "tags": [
-            "történelmi regény",
             "napóleon"
         ],
         "isRead": false,
-        "id": 204
+        "id": 204,
+        "genre": "történelmi regény"
     },
     {
         "author": "Simon Scarrow",
         "title": "Wellinton és Napóleon 3. - Tűz és kard",
         "tags": [
-            "történelmi regény",
             "napóleon"
         ],
         "isRead": false,
-        "id": 205
+        "id": 205,
+        "genre": "történelmi regény"
     },
     {
         "author": "Simon Scarrow",
         "title": "Wellinton és Napóleon 4. - A halál mezői",
         "tags": [
-            "történelmi regény",
             "napóleon"
         ],
         "isRead": false,
-        "id": 206
+        "id": 206,
+        "genre": "történelmi regény"
     },
     {
         "author": "Simon Scarrow",
         "title": "Kard és handzsár",
-        "tags": [
-            "történelmi regény"
-        ],
+        "tags": [],
         "isRead": false,
-        "id": 207
+        "id": 207,
+        "genre": "történelmi regény"
     },
     {
         "author": "Simon Scarrow",
         "title": "Aréna",
         "tags": [
-            "történelmi regény",
             "római"
         ],
         "isRead": false,
-        "id": 208
+        "id": 208,
+        "genre": "történelmi regény"
     },
     {
         "author": "Simon Scarrow",
         "title": "Róma árulói",
         "tags": [
-            "történelmi regény",
-            "római"
+            "római",
+            "cato",
+            "macro"
         ],
         "isRead": false,
-        "id": 209
+        "id": 209,
+        "genre": "történelmi regény"
     },
     {
         "author": "Simon Scarrow",
         "title": "Császári száműzetés",
         "tags": [
-            "történelmi regény",
-            "római"
+            "római",
+            "cato",
+            "macro"
         ],
         "isRead": true,
-        "id": 210
+        "id": 210,
+        "genre": "történelmi regény"
     },
     {
         "author": "Simon Scarrow",
         "title": "A sas árnyékában",
         "tags": [
-            "történelmi regény",
-            "római"
+            "római",
+            "cato",
+            "macro"
         ],
         "isRead": true,
-        "id": 211
+        "id": 211,
+        "genre": "történelmi regény"
     },
     {
         "author": "Simon Scarrow",
         "title": "A sas hódítása",
         "tags": [
-            "történelmi regény",
-            "római"
+            "római",
+            "cato",
+            "macro"
         ],
         "isRead": true,
-        "id": 212
+        "id": 212,
+        "genre": "történelmi regény"
     },
     {
         "author": "Simon Scarrow",
         "title": "A sas vadászata",
         "tags": [
-            "történelmi regény",
-            "római"
+            "római",
+            "cato",
+            "macro"
         ],
         "isRead": true,
-        "id": 213
+        "id": 213,
+        "genre": "történelmi regény"
     },
     {
         "author": "Simon Scarrow",
         "title": "A sas és a farkasok",
         "tags": [
-            "történelmi regény",
-            "római"
+            "római",
+            "cato",
+            "macro"
         ],
         "isRead": true,
-        "id": 214
+        "id": 214,
+        "genre": "történelmi regény"
     },
     {
         "author": "Simon Scarrow",
         "title": "A sas prédája",
         "tags": [
-            "történelmi regény",
-            "római"
+            "római",
+            "cato",
+            "macro"
         ],
         "isRead": true,
-        "id": 215
+        "id": 215,
+        "genre": "történelmi regény"
     },
     {
         "author": "Simon Scarrow",
         "title": "A sas próféciája",
         "tags": [
-            "történelmi regény",
-            "római"
+            "római",
+            "cato",
+            "macro"
         ],
         "isRead": true,
-        "id": 216
+        "id": 216,
+        "genre": "történelmi regény"
     },
     {
         "author": "Simon Scarrow",
         "title": "Sas a sivatagban",
         "tags": [
-            "történelmi regény",
-            "római"
+            "római",
+            "cato",
+            "macro"
         ],
         "isRead": true,
-        "id": 217
+        "id": 217,
+        "genre": "történelmi regény"
     },
     {
         "author": "Simon Scarrow",
         "title": "A Centurio",
         "tags": [
-            "történelmi regény",
-            "római"
+            "római",
+            "cato",
+            "macro"
         ],
         "isRead": true,
-        "id": 218
+        "id": 218,
+        "genre": "történelmi regény"
     },
     {
         "author": "Simon Scarrow",
         "title": "A gladiátor",
         "tags": [
-            "történelmi regény",
-            "római"
+            "római",
+            "cato",
+            "macro"
         ],
         "isRead": false,
-        "id": 219
+        "id": 219,
+        "genre": "történelmi regény"
     },
     {
         "author": "Simon Scarrow",
         "title": "A Légió",
         "tags": [
-            "történelmi regény",
-            "római"
+            "római",
+            "cato",
+            "macro"
         ],
         "isRead": true,
-        "id": 220
+        "id": 220,
+        "genre": "történelmi regény"
     },
     {
         "author": "Simon Scarrow",
         "title": "A praetorianusok",
         "tags": [
-            "történelmi regény",
-            "római"
+            "római",
+            "cato",
+            "macro"
         ],
         "isRead": true,
-        "id": 221
+        "id": 221,
+        "genre": "történelmi regény"
     },
     {
         "author": "Simon Scarrow",
         "title": "Vérhollók",
         "tags": [
-            "történelmi regény",
-            "római"
+            "római",
+            "cato",
+            "macro"
         ],
         "isRead": true,
-        "id": 222
+        "id": 222,
+        "genre": "történelmi regény"
     },
     {
         "author": "Simon Scarrow",
         "title": "Vértestvérek",
         "tags": [
-            "történelmi regény",
-            "római"
+            "római",
+            "cato",
+            "macro"
         ],
         "isRead": true,
-        "id": 223
+        "id": 223,
+        "genre": "történelmi regény"
     },
     {
         "author": "Simon Scarrow",
         "title": "Britannia",
         "tags": [
-            "történelmi regény",
-            "római"
+            "római",
+            "cato",
+            "macro"
         ],
         "isRead": true,
-        "id": 224
+        "id": 224,
+        "genre": "történelmi regény"
     },
     {
         "author": "Simon Scarrow",
         "title": "Invictus",
         "tags": [
-            "történelmi regény",
-            "római"
+            "római",
+            "cato",
+            "macro"
         ],
         "isRead": true,
-        "id": 225
+        "id": 225,
+        "genre": "történelmi regény"
     },
     {
         "author": "Simon Scarrow",
         "title": "A Caesarok napja",
         "tags": [
-            "történelmi regény",
-            "római"
+            "római",
+            "cato",
+            "macro"
         ],
         "isRead": true,
-        "id": 226
+        "id": 226,
+        "genre": "történelmi regény"
     },
     {
         "author": "Simon Scarrow",
         "title": "Róma vére",
         "tags": [
-            "történelmi regény",
-            "római"
+            "római",
+            "cato",
+            "macro"
         ],
         "isRead": true,
-        "id": 227
+        "id": 227,
+        "genre": "történelmi regény"
     },
     {
         "author": "Sir Arthur Conan Doyle",
         "title": "Sherlock Holmes emlékiratai",
         "tags": [
-            "krimi",
             "sherlock holmes"
         ],
         "isRead": false,
-        "id": 228
+        "id": 228,
+        "genre": "krimi"
     },
     {
         "author": "Sir Arthur Conan Doyle",
         "title": "Sherlock Holmes kalandjai",
         "tags": [
-            "krimi",
             "sherlock holmes"
         ],
         "isRead": false,
-        "id": 229
+        "id": 229,
+        "genre": "krimi"
     },
     {
         "author": "Stanislaw Lem",
         "title": "Az úr hangja",
         "tags": [
-            "sci-fi",
             "idegenek"
         ],
         "isRead": false,
-        "id": 230
+        "id": 230,
+        "genre": "sci-fi"
     },
     {
         "author": "Stephen E. Ambrose",
         "title": "Vad égbolt",
         "tags": [
-            "történelem",
             "2. világháború"
         ],
         "isRead": false,
-        "id": 231
+        "id": 231,
+        "genre": "történelem"
     },
     {
         "author": "Stephen E. Ambrose",
         "title": "Az elit alakulat",
         "tags": [
-            "történelem",
             "2. világháború"
         ],
         "isRead": true,
-        "id": 232
+        "id": 232,
+        "genre": "történelem"
     },
     {
         "author": "Stephen Hawking",
@@ -2713,209 +2738,223 @@
         "author": "Steven Saylor",
         "title": "Római vér",
         "tags": [
-            "történelmi regény",
             "római"
         ],
         "isRead": false,
-        "id": 235
+        "id": 235,
+        "genre": "történelmi regény"
     },
     {
         "author": "Terry Brooks",
         "title": "Baljós Árnyak",
         "tags": [
-            "sci-fi",
             "star-wars"
         ],
         "isRead": true,
-        "id": 236
+        "id": 236,
+        "genre": "sci-fi"
     },
     {
         "author": "Tim Severin",
         "title": "Fogságban",
         "tags": [
-            "történelmi regény",
             "középkor",
             "kalóz"
         ],
         "isRead": false,
-        "id": 237
+        "id": 237,
+        "genre": "történelmi regény"
     },
     {
         "author": "Tim Severin",
         "title": "Tengeri rabló",
         "tags": [
-            "történelmi regény",
             "középkor",
             "kalóz"
         ],
         "isRead": false,
-        "id": 238
+        "id": 238,
+        "genre": "történelmi regény"
     },
     {
         "author": "Tim Severin",
         "title": "Kalózok között",
         "tags": [
-            "történelmi regény",
             "középkor",
             "kalóz"
         ],
         "isRead": false,
-        "id": 239
+        "id": 239,
+        "genre": "történelmi regény"
     },
     {
         "author": "Timothy Zahn",
         "title": "A tűlélők keresése",
         "tags": [
-            "sci-fi",
             "star-wars"
         ],
         "isRead": true,
-        "id": 240
+        "id": 240,
+        "genre": "sci-fi"
     },
     {
         "author": "Timothy Zahn",
         "title": "Kirajzás",
         "tags": [
-            "sci-fi",
             "star-wars"
         ],
         "isRead": true,
-        "id": 241
+        "id": 241,
+        "genre": "sci-fi"
     },
     {
         "author": "Timothy Zahn",
         "title": "A birodalom örökösei",
         "tags": [
-            "sci-fi",
-            "star-wars"
+            "star-wars",
+            "thrawn"
         ],
         "isRead": true,
-        "id": 242
+        "id": 242,
+        "genre": "sci-fi"
     },
     {
         "author": "Timothy Zahn",
         "title": "Sötét erők ébredése",
         "tags": [
-            "sci-fi",
-            "star-wars"
+            "star-wars",
+            "thrawn"
         ],
         "isRead": true,
-        "id": 243
+        "id": 243,
+        "genre": "sci-fi"
     },
     {
         "author": "Timothy Zahn",
         "title": "Az utolsó parancs",
         "tags": [
-            "sci-fi",
-            "star-wars"
+            "star-wars",
+            "thrawn"
         ],
         "isRead": true,
-        "id": 244
+        "id": 244,
+        "genre": "sci-fi"
     },
     {
         "author": "Timothy Zahn",
         "title": "Thrawn",
         "tags": [
-            "sci-fi",
-            "star-wars"
+            "star-wars",
+            "thrawn"
         ],
         "isRead": true,
-        "id": 245
+        "id": 245,
+        "genre": "sci-fi"
     },
     {
         "author": "Timothy Zahn",
         "title": "Thrawn - Szövetségések",
         "tags": [
-            "sci-fi",
-            "star-wars"
+            "star-wars",
+            "thrawn"
         ],
         "isRead": true,
-        "id": 246
+        "id": 246,
+        "genre": "sci-fi"
     },
     {
         "author": "Timothy Zahn",
         "title": "Thrawn - Árulás",
         "tags": [
-            "sci-fi",
-            "star-wars"
+            "star-wars",
+            "thrawn"
         ],
         "isRead": true,
-        "id": 247
+        "id": 247,
+        "genre": "sci-fi"
     },
     {
         "author": "Timothy Zahn",
         "title": "Chiss Birodalom: A káosz ébredése",
         "tags": [
-            "sci-fi",
-            "star-wars"
+            "star-wars",
+            "thrawn"
         ],
         "isRead": false,
-        "id": 248
+        "id": 248,
+        "genre": "sci-fi"
     },
     {
         "author": "Timothy Zahn",
         "title": "Chiss Birodalom: Államérdek",
         "tags": [
-            "sci-fi",
-            "star-wars"
+            "star-wars",
+            "thrawn"
         ],
         "isRead": false,
-        "id": 249
+        "id": 249,
+        "genre": "sci-fi"
     },
     {
         "author": "Walter G. Scott",
         "title": "Különleges repülőgépek",
         "tags": [
-            "történelem",
             "2. világháború"
         ],
         "isRead": false,
-        "id": 250
+        "id": 250,
+        "genre": "történelem"
     },
     {
         "author": "William R. Forstchen",
         "title": "Egy másodperccel később",
         "tags": [
             "kaland",
-            "sci-fi"
+            "disztópia"
         ],
         "isRead": true,
-        "id": 251
+        "id": 251,
+        "genre": "sci-fi"
     },
     {
         "author": "William R. Forstchen",
         "title": "Egy évvel később",
         "tags": [
             "kaland",
-            "sci-fi"
+            "disztópia"
         ],
         "isRead": false,
-        "id": 252
+        "id": 252,
+        "genre": "sci-fi"
     },
     {
         "author": "William R. Forstchen, Newt Gingrich",
         "title": "A gyalázat napjai",
         "tags": [
             "kaland",
-            "sci-fi"
+            "alternatív valóság"
         ],
         "isRead": false,
-        "id": 253
+        "id": 253,
+        "genre": "sci-fi"
     },
     {
         "author": "William R. Forstchen, Newt Gingrich",
-        "title": "Peral Harbour",
+        "title": "Pearl Harbour",
         "tags": [
             "kaland",
-            "sci-fi"
+            "alternatív valóság"
         ],
         "isRead": false,
-        "id": 254
+        "id": 254,
+        "genre": "sci-fi"
     },
     {
         "author": "Wolfram Kawlath",
         "title": "Makettépítés",
-        "tags": [],
+        "tags": [
+            "makettezés"
+        ],
         "isRead": false,
         "id": 255
     },
@@ -2923,10 +2962,10 @@
         "author": "Yrsa Sigurðardóttir",
         "title": "Gének",
         "tags": [
-            "krimi",
             "skandináv"
         ],
         "isRead": false,
-        "id": 256
+        "id": 256,
+        "genre": "krimi"
     }
 ]
