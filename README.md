@@ -82,7 +82,7 @@ bookById response
 query bookByAuthor
 ```js
 query {
-  bookById(author: $author){
+  bookByAuthor(author: $author){
     author
     title
     tags
@@ -91,7 +91,7 @@ query {
 } 
 ```
 
-bookById response
+bookByAuthor response
 ```js
 {
     "data": {...}
@@ -109,7 +109,7 @@ using Input Type
 
 ```
 
-bookById response
+bookByTitle response
 ```js
 {
     "data": {...}
