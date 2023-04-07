@@ -14,6 +14,7 @@ const typeDefs = gql`
     author: String!
     tags: [String],
     isRead: Boolean!
+    genre: String
   }
 
   # The "Query" type is special: it lists all of the available queries that
