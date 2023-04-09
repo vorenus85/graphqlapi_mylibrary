@@ -4,8 +4,8 @@ module.exports = {
         return dataSources.booksAPI.getBooks(args);
       },
       bookById: (parent, {id}, {dataSources}, info ) => {
-        // todo id not found
-        return dataSources.booksAPI.getBookById(id);
+        const result = dataSources.booksAPI.getBookById(id);
+        return result;
       },
       booksByGenre: (parent, {genre}, {dataSources}, info) => {
         // todo minimum char length 3
@@ -26,8 +26,12 @@ module.exports = {
         // todo not found
         return dataSources.booksAPI.getBooksByTitle(title)
       },
-      // booksByTags: () => books,
-      // booksByIsRead: () => books,
+      booksByTag: (parent, {tag}, {dataSources}, info) => {
+        return dataSources.booksAPI.getBooksByTag(tag);
+      },
+      booksByIsRead: (parent, args, {dataSources}, info) => {
+        return dataSources.booksAPI.getBooksByIsRead(args);
+      },
     },
     Genre: {
       SCI_FI: "sci-fi",
@@ -35,5 +39,5 @@ module.exports = {
       CRIME: "krimi",
       HISTORICAL_ADVENTURE: "történelmi regény",
       HISTORY: "történelem"
-    }
+    },
   };

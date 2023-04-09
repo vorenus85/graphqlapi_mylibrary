@@ -9,6 +9,8 @@ type Book {
   genre: Genre
 }
 
+# create author type && json!
+
 # the convention for enum is use all capital letters!
 enum Genre {
   SCI_FI
@@ -25,7 +27,7 @@ type Query {
   booksByAuthor(author: String): [Book]
   booksByTitle(title: String): [Book]
   booksWithoutGenre: [Book]
+  booksByIsRead: [Book]
+  booksByTag(tag: String): [Book]
 }
 `;
- 
-// TODO use enum to genre!

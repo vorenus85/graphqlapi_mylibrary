@@ -40,6 +40,20 @@ class BooksAPI extends DataSource {
     })
   }
 
+  getBooksByIsRead(args){
+    const result = _.filter(books, function(item){
+      return item.isRead === true
+    })
+    return result;
+  }
+
+  getBooksByTag(tag){
+    const result = _.filter(books, function(item){
+      return item.tags.includes(tag)
+    })
+    return result;
+  }
+
 }
 
 module.exports = BooksAPI
