@@ -235,12 +235,12 @@
         "author": "Bán Mór",
         "title": "A hajnajcsillag fénye",
         "tags": [
-            "törnénelmi regény",
             "magyar",
             "hunyadi"
         ],
         "isRead": false,
-        "id": 20
+        "id": 20,
+        "genre": "történelmi regény"
     },
     {
         "author": "Ben Macintyre",
@@ -258,56 +258,55 @@
         "author": "Bernard Cornwell",
         "title": "Azincourt",
         "tags": [
-            "törnénelmi regény",
             "100 éves háború",
             "angol",
             "középkor"
         ],
         "isRead": true,
-        "id": 22
+        "id": 22,
+        "genre": "történelmi regény"
     },
     {
         "author": "Bernard Cornwell",
         "title": "Az erőd",
         "tags": [
-            "törnénelmi regény",
             "100 éves háború",
             "angol"
         ],
         "isRead": true,
-        "id": 23
+        "id": 23,
+        "genre": "történelmi regény"
     },
     {
         "author": "Bernard Cornwell",
         "title": "A tél királya",
         "tags": [
-            "törnénelmi regény",
             "népvándolrás",
             "angol",
             "britt",
             "arthur"
         ],
         "isRead": false,
-        "id": 24
+        "id": 24,
+        "genre": "történelmi regény"
     },
     {
         "author": "Bernard Cornwell",
         "title": "Isten ellensége",
         "tags": [
-            "törnénelmi regény",
             "népvándolrás",
             "angol",
             "britt",
             "arthur"
         ],
         "isRead": false,
-        "id": 25
+        "id": 25,
+        "genre": "történelmi regény"
     },
     {
         "author": "Bernard Cornwell",
         "title": "Sharpe kardja",
         "tags": [
-            "törnénelmi regény",
             "kaland",
             "vöröskabátos",
             "napóleon",
@@ -315,13 +314,13 @@
             "britt"
         ],
         "isRead": true,
-        "id": 26
+        "id": 26,
+        "genre": "történelmi regény"
     },
     {
         "author": "Bernard Cornwell",
         "title": "Sharpe ördöge",
         "tags": [
-            "törnénelmi regény",
             "kaland",
             "vöröskabátos",
             "napóleon",
@@ -329,13 +328,13 @@
             "britt"
         ],
         "isRead": true,
-        "id": 27
+        "id": 27,
+        "genre": "történelmi regény"
     },
     {
         "author": "Bernard Cornwell",
         "title": "Sharpe Becsülete",
         "tags": [
-            "törnénelmi regény",
             "kaland",
             "vöröskabátos",
             "napóleon",
@@ -343,13 +342,13 @@
             "britt"
         ],
         "isRead": false,
-        "id": 28
+        "id": 28,
+        "genre": "történelmi regény"
     },
     {
         "author": "Bernard Cornwell",
         "title": "Sharpe Waterlooja",
         "tags": [
-            "törnénelmi regény",
             "kaland",
             "vöröskabátos",
             "napóleon",
@@ -357,13 +356,13 @@
             "britt"
         ],
         "isRead": true,
-        "id": 29
+        "id": 29,
+        "genre": "történelmi regény"
     },
     {
         "author": "Bernard Cornwell",
         "title": "Sharpe Bosszúja",
         "tags": [
-            "törnénelmi regény",
             "kaland",
             "vöröskabátos",
             "napóleon",
@@ -371,13 +370,13 @@
             "britt"
         ],
         "isRead": false,
-        "id": 30
+        "id": 30,
+        "genre": "történelmi regény"
     },
     {
         "author": "Bernard Cornwell",
         "title": "Sharpe Ellensége",
         "tags": [
-            "törnénelmi regény",
             "kaland",
             "vöröskabátos",
             "napóleon",
@@ -385,13 +384,13 @@
             "britt"
         ],
         "isRead": true,
-        "id": 31
+        "id": 31,
+        "genre": "történelmi regény"
     },
     {
         "author": "Bernard Cornwell",
         "title": "Sharpe Trafalgarja",
         "tags": [
-            "törnénelmi regény",
             "kaland",
             "vöröskabátos",
             "napóleon",
@@ -399,13 +398,13 @@
             "britt"
         ],
         "isRead": true,
-        "id": 32
+        "id": 32,
+        "genre": "történelmi regény"
     },
     {
         "author": "Bernard Cornwell",
         "title": "Sharpe Csatája",
         "tags": [
-            "törnénelmi regény",
             "kaland",
             "vöröskabátos",
             "napóleon",
@@ -413,13 +412,13 @@
             "britt"
         ],
         "isRead": true,
-        "id": 33
+        "id": 33,
+        "genre": "történelmi regény"
     },
     {
         "author": "Bernard Cornwell",
         "title": "Sharpe Diadala",
         "tags": [
-            "törnénelmi regény",
             "kaland",
             "vöröskabátos",
             "napóleon",
@@ -427,13 +426,13 @@
             "britt"
         ],
         "isRead": false,
-        "id": 34
+        "id": 34,
+        "genre": "történelmi regény"
     },
     {
         "author": "Bernard Cornwell",
         "title": "Sharpe százada",
         "tags": [
-            "törnénelmi regény",
             "kaland",
             "vöröskabátos",
             "napóleon",
@@ -441,13 +440,13 @@
             "britt"
         ],
         "isRead": true,
-        "id": 35
+        "id": 35,
+        "genre": "történelmi regény"
     },
     {
         "author": "Bernard Cornwell",
         "title": "Sharpe zsákmánya",
         "tags": [
-            "törnénelmi regény",
             "kaland",
             "vöröskabátos",
             "napóleon",
@@ -455,13 +454,13 @@
             "britt"
         ],
         "isRead": false,
-        "id": 36
+        "id": 36,
+        "genre": "történelmi regény"
     },
     {
         "author": "Bernard Cornwell",
         "title": "Sharpe erődje",
         "tags": [
-            "törnénelmi regény",
             "kaland",
             "vöröskabátos",
             "napóleon",
@@ -469,13 +468,13 @@
             "britt"
         ],
         "isRead": true,
-        "id": 37
+        "id": 37,
+        "genre": "történelmi regény"
     },
     {
         "author": "Bernard Cornwell",
         "title": "Sharpe tigrise",
         "tags": [
-            "törnénelmi regény",
             "kaland",
             "vöröskabátos",
             "napóleon",
@@ -483,13 +482,13 @@
             "britt"
         ],
         "isRead": true,
-        "id": 38
+        "id": 38,
+        "genre": "történelmi regény"
     },
     {
         "author": "Bernard Cornwell",
         "title": "Sharpe menekülése",
         "tags": [
-            "törnénelmi regény",
             "kaland",
             "vöröskabátos",
             "napóleon",
@@ -497,13 +496,13 @@
             "britt"
         ],
         "isRead": true,
-        "id": 39
+        "id": 39,
+        "genre": "történelmi regény"
     },
     {
         "author": "Bernard Cornwell",
         "title": "Sharpe ezrede",
         "tags": [
-            "törnénelmi regény",
             "kaland",
             "vöröskabátos",
             "napóleon",
@@ -511,13 +510,13 @@
             "britt"
         ],
         "isRead": false,
-        "id": 40
+        "id": 40,
+        "genre": "történelmi regény"
     },
     {
         "author": "Bernard Cornwell",
         "title": "Sharpe ostroma",
         "tags": [
-            "törnénelmi regény",
             "kaland",
             "vöröskabátos",
             "napóleon",
@@ -525,13 +524,13 @@
             "britt"
         ],
         "isRead": true,
-        "id": 41
+        "id": 41,
+        "genre": "történelmi regény"
     },
     {
         "author": "Bernard Cornwell",
         "title": "Sharpe haragja",
         "tags": [
-            "törnénelmi regény",
             "kaland",
             "vöröskabátos",
             "napóleon",
@@ -539,25 +538,25 @@
             "britt"
         ],
         "isRead": true,
-        "id": 42
+        "id": 42,
+        "genre": "történelmi regény"
     },
     {
         "author": "Bernard Cornwell",
         "title": "A vérmező",
         "tags": [
-            "törnénelmi regény",
             "kaland",
             "britt",
             "amerikai"
         ],
         "isRead": true,
-        "id": 43
+        "id": 43,
+        "genre": "történelmi regény"
     },
     {
         "author": "Bernard Cronwell",
         "title": "Sharpe pusztítása",
         "tags": [
-            "törnénelmi regény",
             "kaland",
             "vöröskabátos",
             "napóleon",
@@ -565,7 +564,8 @@
             "britt"
         ],
         "isRead": true,
-        "id": 44
+        "id": 44,
+        "genre": "történelmi regény"
     },
     {
         "author": "Brandon Hackett",
@@ -582,7 +582,9 @@
         "author": "Christopher Paolini",
         "title": "Álmok a csillagok közt 1.",
         "tags": [
-            "sci-fi; idegenek; kaland",
+            "sci-fi",
+            "idegenek",
+            "kaland",
             "űropera",
             "amerikai"
         ],
@@ -593,7 +595,9 @@
         "author": "Christopher Paolini",
         "title": "Álmok a csillagok közt 2.",
         "tags": [
-            "sci-fi; idegenek;kaland",
+            "sci-fi",
+            "idegenek",
+            "kaland",
             "űropera",
             "amerikai"
         ],
@@ -1964,7 +1968,7 @@
         "author": "Kenneth Munson",
         "title": "A hadviselő felek valamennyi repülőgépe",
         "tags": [
-            "törénelem",
+            "történelem",
             "2. világháború"
         ],
         "isRead": false,
