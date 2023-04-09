@@ -1,61 +1,72 @@
-const books = require('../data/books.json');
+
 const {DataSource} = require('apollo-datasource');
 const _ = require('lodash');
+const lodashId = require("lodash-id");
+
+const low = require("lowdb");
+const FileSync = require("lowdb/adapters/FileSync");
+
+const adapter = new FileSync("./data/books.json");
+const db = low(adapter);
+db._.mixin(lodashId);
 
 class BooksAPI extends DataSource {
   constructor(){
       super();
   }
 
-  initialize(config){}
+  initialize(config){
+    this.db = db.get("books");
+  }
 
   getBooks(args){
-    return _.filter(books,args);
+    console.log(this.db)
+    return this.db.filter(args).value();
   }
 
   getBookById(id){
-    const book = _.filter(books, {id: parseInt(id)})
+    const book = this.db.filter({id: parseInt(id)}).value()
     return book[0];
   }
 
   getBooksByGenre(genre){
-    return _.filter(books, {genre})
+    return this.db.filter({genre}).value()
   }
 
   getBooksByAuthor(author){
-    return _.filter(books, function(item){
+    return this.db.filter(function(item){
       const authors = item.authors
-      const result = _.filter(authors, function(authorItem){
+      const result = _.filter(authors,function(authorItem){
         const result = authorItem.author.indexOf(author) !== -1
         return result
       })
       return result.length
-    })
+    }).value()
   }
 
   getBooksByTitle(title){
-    return _.filter(books, function(item){
+    return this.db.filter(function(item){
       return item.title.indexOf(title) !== -1
-    })
+    }).value()
   }
 
   getBooksWithoutGenre(args){
-    return _.filter(books, function(item){
+    return this.db.filter(function(item){
       return !item?.genre
-    })
+    }).value()
   }
 
   getBooksByIsRead(args){
-    const result = _.filter(books, function(item){
+    const result = this.db.filter(function(item){
       return item.isRead === true
-    })
+    }).value()
     return result;
   }
 
   getBooksByTag(tag){
-    const result = _.filter(books, function(item){
+    const result = this.db.filter(function(item){
       return item.tags.includes(tag)
-    })
+    }).value()
     return result;
   }
 

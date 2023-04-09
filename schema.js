@@ -23,6 +23,8 @@ enum Genre {
   HISTORY
 }
 
+# todo authorById, authorByName query
+
 type Query {
   books: [Book]
   bookById(id: Int): Book

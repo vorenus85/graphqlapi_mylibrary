@@ -25,6 +25,8 @@
   "dependencies": {
     "apollo-datasource": "^3.3.2",
     "apollo-server": "^2.26.1",
-    "lodash": "4.17"
+    "lodash": "4.17",
+    "lodash-id": "^0.14.0",
+    "lowdb": "^1.0.0"
   }
 }
