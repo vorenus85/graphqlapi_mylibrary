@@ -1,0 +1,362 @@
+[
+    {
+        "id": 1,
+        "author": "A. G. Riddle"
+    },
+    {
+        "id": 2,
+        "author": "Aaron Allston"
+    },
+    {
+        "id": 3,
+        "author": "Adrian Tchaikovsky"
+    },
+    {
+        "id": 4,
+        "author": "Adrienne Major"
+    },
+    {
+        "id": 5,
+        "author": "Andrzej Sapkowski"
+    },
+    {
+        "id": 6,
+        "author": "Andy Weir"
+    },
+    {
+        "id": 7,
+        "author": "Anthony McCarten"
+    },
+    {
+        "id": 8,
+        "author": "Arthur C. Clarke"
+    },
+    {
+        "id": 9,
+        "author": "Ashlee Vance"
+    },
+    {
+        "id": 10,
+        "author": "Avi Loeb"
+    },
+    {
+        "id": 11,
+        "author": "Bán Mór"
+    },
+    {
+        "id": 12,
+        "author": "Ben Macintyre"
+    },
+    {
+        "id": 13,
+        "author": "Bernard Cornwell"
+    },
+    {
+        "id": 14,
+        "author": "Bernard Cronwell"
+    },
+    {
+        "id": 15,
+        "author": "Brandon Hackett"
+    },
+    {
+        "id": 16,
+        "author": "Christopher Paolini"
+    },
+    {
+        "id": 17,
+        "author": "Cixin Liu"
+    },
+    {
+        "id": 18,
+        "author": "Colin Renfrew"
+    },
+    {
+        "id": 19,
+        "author": "Paul Bahn"
+    },
+    {
+        "id": 20,
+        "author": "Dan Simmons"
+    },
+    {
+        "id": 21,
+        "author": "Dean Wesley Smith"
+    },
+    {
+        "id": 22,
+        "author": "E. K. Johnston"
+    },
+    {
+        "id": 23,
+        "author": "Frank Herbert"
+    },
+    {
+        "id": 24,
+        "author": "George R. R. Martin"
+    },
+    {
+        "id": 25,
+        "author": "Georges Simenon"
+    },
+    {
+        "id": 26,
+        "author": "Graham Hurley"
+    },
+    {
+        "id": 27,
+        "author": "Gregory Bassham"
+    },
+    {
+        "id": 28,
+        "author": "Gwendolyn Leick"
+    },
+    {
+        "id": 29,
+        "author": "Harold Lamb"
+    },
+    {
+        "id": 30,
+        "author": "Hilary Wilson"
+    },
+    {
+        "id": 31,
+        "author": "J. E. Kaufmann"
+    },
+    {
+        "id": 32,
+        "author": "Jack Campbell"
+    },
+    {
+        "id": 33,
+        "author": "Jack McDevitt"
+    },
+    {
+        "id": 34,
+        "author": "James Luceno"
+    },
+    {
+        "id": 35,
+        "author": "James S. A. Corey"
+    },
+    {
+        "id": 36,
+        "author": "Jared Diamond"
+    },
+    {
+        "id": 37,
+        "author": "Jeff Carlson"
+    },
+    {
+        "id": 38,
+        "author": "Joan D. Vinge"
+    },
+    {
+        "id": 39,
+        "author": "John Buchan"
+    },
+    {
+        "id": 40,
+        "author": "John Jackson Miller"
+    },
+    {
+        "id": 41,
+        "author": "John Keegan"
+    },
+    {
+        "id": 42,
+        "author": "John Le Carré"
+    },
+    {
+        "id": 43,
+        "author": "John Scalzi"
+    },
+    {
+        "id": 44,
+        "author": "Jussi Adler-Olsen"
+    },
+    {
+        "id": 45,
+        "author": "Karl May"
+    },
+    {
+        "id": 46,
+        "author": "Kathy Reichs"
+    },
+    {
+        "id": 47,
+        "author": "Ken Follett"
+    },
+    {
+        "id": 48,
+        "author": "Kenneth Munson"
+    },
+    {
+        "id": 49,
+        "author": "Kertész István"
+    },
+    {
+        "id": 50,
+        "author": "Kevin J. Anderson"
+    },
+    {
+        "id": 51,
+        "author": "Kim Stanley Robinson"
+    },
+    {
+        "id": 52,
+        "author": "Kir Bulicsov"
+    },
+    {
+        "id": 53,
+        "author": "Kristó Gyula"
+    },
+    {
+        "id": 54,
+        "author": "Kurt Rieder"
+    },
+    {
+        "id": 55,
+        "author": "Marko Kloos"
+    },
+    {
+        "id": 56,
+        "author": "Matthew Stover"
+    },
+    {
+        "id": 57,
+        "author": "Michael J. Sullivan"
+    },
+    {
+        "id": 58,
+        "author": "Michael Walden"
+    },
+    {
+        "id": 59,
+        "author": "Michio Kaku"
+    },
+    {
+        "id": 60,
+        "author": "Myke Cole"
+    },
+    {
+        "id": 61,
+        "author": "Neal Stephenson"
+    },
+    {
+        "id": 62,
+        "author": "Nemere István"
+    },
+    {
+        "id": 63,
+        "author": "Octavia E. Butler"
+    },
+    {
+        "id": 64,
+        "author": "Oliver Bowden"
+    },
+    {
+        "id": 65,
+        "author": "Örsi Ferenc"
+    },
+    {
+        "id": 66,
+        "author": "Peter F. Hamilton"
+    },
+    {
+        "id": 67,
+        "author": "Piers Paul Read"
+    },
+    {
+        "id": 68,
+        "author": "R. A. Salvatore"
+    },
+    {
+        "id": 69,
+        "author": "Rejtő Jenő"
+    },
+    {
+        "id": 70,
+        "author": "Richard Rugdley"
+    },
+    {
+        "id": 71,
+        "author": "Robert Harris"
+    },
+    {
+        "id": 72,
+        "author": "Robert J. Sawyer"
+    },
+    {
+        "id": 73,
+        "author": "Robyn Young"
+    },
+    {
+        "id": 74,
+        "author": "T. J. Andrews"
+    },
+    {
+        "id": 75,
+        "author": "Simon Scarrow"
+    },
+    {
+        "id": 76,
+        "author": "Sir Arthur Conan Doyle"
+    },
+    {
+        "id": 77,
+        "author": "Stanislaw Lem"
+    },
+    {
+        "id": 78,
+        "author": "Stephen E. Ambrose"
+    },
+    {
+        "id": 79,
+        "author": "Stephen Hawking"
+    },
+    {
+        "id": 80,
+        "author": "Steven Saylor"
+    },
+    {
+        "id": 81,
+        "author": "Terry Brooks"
+    },
+    {
+        "id": 82,
+        "author": "Tim Severin"
+    },
+    {
+        "id": 83,
+        "author": "Timothy Zahn"
+    },
+    {
+        "id": 84,
+        "author": "Walter G. Scott"
+    },
+    {
+        "id": 85,
+        "author": "William R. Forstchen"
+    },
+    {
+        "id": 87,
+        "author": "Wolfram Kawlath"
+    },
+    {
+        "id": 88,
+        "author": "Yrsa Sigurðardóttir"
+    },
+    {
+        "id": 89,
+        "author": "Newt Gingrich"
+    },
+    {
+        "id": 90,
+        "author": "Eric Bronson"
+    },
+    {
+        "id": 91,
+        "author": "H. W. Kaufmann"
+    }
+]

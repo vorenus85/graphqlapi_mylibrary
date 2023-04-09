@@ -3,13 +3,16 @@ module.exports= gql`
 type Book {
   id: Int!
   title: String!
-  author: String!
+  authors: [Author]
   tags: [String],
   isRead: Boolean!
   genre: Genre
 }
 
-# create author type && json!
+type Author {
+  id: Int!
+  author: String!
+}
 
 # the convention for enum is use all capital letters!
 enum Genre {

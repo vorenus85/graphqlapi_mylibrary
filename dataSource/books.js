@@ -24,7 +24,10 @@ class BooksAPI extends DataSource {
 
   getBooksByAuthor(author){
     return _.filter(books, function(item){
-      return item.author.indexOf(author) !== -1
+      const authors = item.authors
+      return _.filter(authors, function(authorItem){
+        return authorItem.author.indexOf(author) !== -1
+      })
     })
   }
 
