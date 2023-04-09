@@ -14,6 +14,8 @@ type Query {
   bookById(id: Int): Book
   booksByGenre(genre: String): [Book]
   booksByAuthor(author: String): [Book]
+  booksByTitle(title: String): [Book]
+  booksWithoutGenre: [Book]
 }
 `;
     

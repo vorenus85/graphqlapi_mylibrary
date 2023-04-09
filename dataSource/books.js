@@ -28,6 +28,18 @@ class BooksAPI extends DataSource {
     })
   }
 
+  getBooksByTitle(title){
+    return _.filter(books, function(item){
+      return item.title.indexOf(title) !== -1
+    })
+  }
+
+  getBooksWithoutGenre(args){
+    return _.filter(books, function(item){
+      return !item?.genre
+    })
+  }
+
 }
 
 module.exports = BooksAPI
