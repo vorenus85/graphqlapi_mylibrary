@@ -1,17 +1,21 @@
 module.exports = {
     Query: {
       books: (parent, args, { dataSources }, info) => {
-        return dataSources.booksAPI.getBooks(args)
+        return dataSources.booksAPI.getBooks(args);
       },
-      bookById: (parent, {id}, {books}, info ) => {
-        return books.filter(book => book.id === id)
+      bookById: (parent, {id}, {dataSources}, info ) => {
+        return dataSources.booksAPI.getBookById(id);
       },
-      // bookByGenre: () => books,
-      // bookByAuthor: () => books,
+      booksByGenre: (parent, {genre}, {dataSources}, info) => {
+        return dataSources.booksAPI.getBooksByGenre(genre)
+      },
+      booksByAuthor: (parent, {author}, {dataSources}, info) => {  
+        return dataSources.booksAPI.getBooksByAuthor(author)
+      },
       // largestSeries: () => books,
-      // bookWithoutGenre: () => books,
+      // booksWithoutGenre: () => books,
       // bookByTitle: () => books,
-      // bookByTags: () => books,
-      // bookByIsRead: () => books,
+      // booksByTags: () => books,
+      // booksByIsRead: () => books,
     },
   };

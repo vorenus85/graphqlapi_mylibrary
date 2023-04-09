@@ -13,6 +13,21 @@ class BooksAPI extends DataSource {
     return _.filter(books,args);
   }
 
+  getBookById(id){
+    const book = _.filter(books, {id: parseInt(id)})
+    return book[0];
+  }
+
+  getBooksByGenre(genre){
+    return _.filter(books, {genre})
+  }
+
+  getBooksByAuthor(author){
+    return _.filter(books, function(item){
+      return item.author.indexOf(author) !== -1
+    })
+  }
+
 }
 
 module.exports = BooksAPI
