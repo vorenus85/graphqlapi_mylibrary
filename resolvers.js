@@ -29,4 +29,11 @@ module.exports = {
       // booksByTags: () => books,
       // booksByIsRead: () => books,
     },
+    Genre: {
+      SCI_FI: "sci-fi",
+      FANTASY: "fantasy",
+      CRIME: "krimi",
+      HISTORICAL_ADVENTURE: "történelmi regény",
+      HISTORY: "történelem"
+    }
   };

@@ -6,7 +6,16 @@ type Book {
   author: String!
   tags: [String],
   isRead: Boolean!
-  genre: String
+  genre: Genre
+}
+
+# the convention for enum is use all capital letters!
+enum Genre {
+  SCI_FI
+  FANTASY
+  CRIME
+  HISTORICAL_ADVENTURE
+  HISTORY
 }
 
 type Query {
@@ -18,4 +27,5 @@ type Query {
   booksWithoutGenre: [Book]
 }
 `;
-    
+ 
+// TODO use enum to genre!
