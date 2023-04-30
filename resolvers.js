@@ -1,37 +1,23 @@
+const { books } = require('../queries/books');
+const { bookById } = require('../queries/bookById');
+const { booksByGenre } = require('../queries/booksByGenre');
+const { booksByAuthor } = require('../queries/booksByAuthor');
+const { booksWithoutGenre } = require('../queries/booksWithoutGenre');
+const { booksByTitle } = require('../queries/booksByTitle');
+const { booksByTag } = require('../queries/booksByTag');
+const { booksByIsRead } = require('../queries/booksByIsRead');
+
 module.exports = {
     Query: {
-      books: (parent, args, { dataSources }, info) => {
-        return dataSources.booksAPI.getBooks(args);
-      },
-      bookById: (parent, {id}, {dataSources}, info ) => {
-        const result = dataSources.booksAPI.getBookById(id);
-        return result;
-      },
-      booksByGenre: (parent, {genre}, {dataSources}, info) => {
-        // todo minimum char length 3
-        // todo not found
-        return dataSources.booksAPI.getBooksByGenre(genre)
-      },
-      booksByAuthor: (parent, {author}, {dataSources}, info) => {  
-        // todo minimum char length 3
-        // todo not found
-        return dataSources.booksAPI.getBooksByAuthor(author)
-      },
-      // largestSeries: () => books,
-      booksWithoutGenre: (parent, args, {dataSources}, info) => {
-        return dataSources.booksAPI.getBooksWithoutGenre(args);
-      },
-      booksByTitle: (parent, {title}, {dataSources}, info) => {  
-        // todo minimum char length 3
-        // todo not found
-        return dataSources.booksAPI.getBooksByTitle(title)
-      },
-      booksByTag: (parent, {tag}, {dataSources}, info) => {
-        return dataSources.booksAPI.getBooksByTag(tag);
-      },
-      booksByIsRead: (parent, args, {dataSources}, info) => {
-        return dataSources.booksAPI.getBooksByIsRead(args);
-      },
+      books,
+      bookById,
+      booksByGenre,
+      booksByAuthor,
+      // largestSeries: () => books, // TODO
+      booksWithoutGenre,
+      booksByTitle,
+      booksByTag,
+      booksByIsRead,
     },
     Genre: {
       SCI_FI: "sci-fi",
