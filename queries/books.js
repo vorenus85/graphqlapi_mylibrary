@@ -1,5 +1,5 @@
 const books = async (parent, args, { dataSources }, info) => {
-    return await dataSources.booksAPI.getBooks(args);
+  return await dataSources.booksAPI.getBooks(args);
 };
 
-module.exports = {books}
+module.exports = {books};
