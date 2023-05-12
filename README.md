@@ -39,6 +39,55 @@ Go to http://localhost:4000/ to test queries
 
 ## Executing queries
 
+### Fetching authors
+
+authors
+
+```
+query {
+  authors {
+    ... on Author {
+      id
+      author
+    }
+    ... on Response {
+      success
+      message
+    }
+  }
+}
+```
+
+Response
+```js
+{
+    "data": {...}
+}
+```
+
+authorById
+
+```
+query {
+  authorById(id: "2") {
+    ... on Author {
+      id
+      author
+    }
+    ... on Response {
+      success
+      message
+    }
+  }
+}
+```
+
+Response
+```js
+{
+    "data": {...}
+}
+
 ### Fetching books
 
 query books
@@ -145,11 +194,6 @@ bookWithoutGenre response
 ```
 
 query bookByTitle // searching/ filtering by part ot title
-
-https://www.apollographql.com/blog/graphql/filtering/how-to-search-and-filter-results-with-graphql/
-https://www.apollographql.com/blog/apollo-client/how-to-filter-and-search-using-variables-in-apollo-client/
-
-using Input Type
 
 ```js
 

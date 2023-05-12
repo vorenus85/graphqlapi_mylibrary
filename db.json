@@ -1,4 +1,381 @@
 {
+  "authors": [
+    {
+      "id": "1",
+      "author": {
+        "id": "1",
+        "author": "kurvaanyád!"
+      }
+    },
+    {
+      "id": "2",
+      "author": "Aaron Allston"
+    },
+    {
+      "id": "3",
+      "author": "Adrian Tchaikovsky"
+    },
+    {
+      "id": "4",
+      "author": "Adrienne Major"
+    },
+    {
+      "id": "5",
+      "author": "Andrzej Sapkowski"
+    },
+    {
+      "id": "6",
+      "author": "Andy Weir"
+    },
+    {
+      "id": "7",
+      "author": "Anthony McCarten"
+    },
+    {
+      "id": "8",
+      "author": "Arthur C. Clarke"
+    },
+    {
+      "id": "9",
+      "author": "Ashlee Vance"
+    },
+    {
+      "id": "10",
+      "author": "Avi Loeb"
+    },
+    {
+      "id": "11",
+      "author": "Bán Mór"
+    },
+    {
+      "id": "12",
+      "author": "Ben Macintyre"
+    },
+    {
+      "id": "13",
+      "author": "Bernard Cornwell"
+    },
+    {
+      "id": "14",
+      "author": "Bernard Cronwell"
+    },
+    {
+      "id": "15",
+      "author": "Brandon Hackett"
+    },
+    {
+      "id": "16",
+      "author": "Christopher Paolini"
+    },
+    {
+      "id": "17",
+      "author": "Cixin Liu"
+    },
+    {
+      "id": "18",
+      "author": "Colin Renfrew"
+    },
+    {
+      "id": "19",
+      "author": "Paul Bahn"
+    },
+    {
+      "id": "20",
+      "author": "Dan Simmons"
+    },
+    {
+      "id": "21",
+      "author": "Dean Wesley Smith"
+    },
+    {
+      "id": "22",
+      "author": "E. K. Johnston"
+    },
+    {
+      "id": "23",
+      "author": "Frank Herbert"
+    },
+    {
+      "id": "24",
+      "author": "George R. R. Martin"
+    },
+    {
+      "id": "25",
+      "author": "Georges Simenon"
+    },
+    {
+      "id": "26",
+      "author": "Graham Hurley"
+    },
+    {
+      "id": "27",
+      "author": "Gregory Bassham"
+    },
+    {
+      "id": "28",
+      "author": "Gwendolyn Leick"
+    },
+    {
+      "id": "29",
+      "author": "Harold Lamb"
+    },
+    {
+      "id": "30",
+      "author": "Hilary Wilson"
+    },
+    {
+      "id": "31",
+      "author": "J. E. Kaufmann"
+    },
+    {
+      "id": "32",
+      "author": "Jack Campbell"
+    },
+    {
+      "id": "33",
+      "author": "Jack McDevitt"
+    },
+    {
+      "id": "34",
+      "author": "James Luceno"
+    },
+    {
+      "id": "35",
+      "author": "James S. A. Corey"
+    },
+    {
+      "id": "36",
+      "author": "Jared Diamond"
+    },
+    {
+      "id": "37",
+      "author": "Jeff Carlson"
+    },
+    {
+      "id": "38",
+      "author": "Joan D. Vinge"
+    },
+    {
+      "id": "39",
+      "author": "John Buchan"
+    },
+    {
+      "id": "40",
+      "author": "John Jackson Miller"
+    },
+    {
+      "id": "41",
+      "author": "John Keegan"
+    },
+    {
+      "id": "42",
+      "author": "John Le Carré"
+    },
+    {
+      "id": "43",
+      "author": "John Scalzi"
+    },
+    {
+      "id": "44",
+      "author": "Jussi Adler-Olsen"
+    },
+    {
+      "id": "45",
+      "author": "Karl May"
+    },
+    {
+      "id": "46",
+      "author": "Kathy Reichs"
+    },
+    {
+      "id": "47",
+      "author": "Ken Follett"
+    },
+    {
+      "id": "48",
+      "author": "Kenneth Munson"
+    },
+    {
+      "id": "49",
+      "author": "Kertész István"
+    },
+    {
+      "id": "50",
+      "author": "Kevin J. Anderson"
+    },
+    {
+      "id": "51",
+      "author": "Kim Stanley Robinson"
+    },
+    {
+      "id": "52",
+      "author": "Kir Bulicsov"
+    },
+    {
+      "id": "53",
+      "author": "Kristó Gyula"
+    },
+    {
+      "id": "54",
+      "author": "Kurt Rieder"
+    },
+    {
+      "id": "55",
+      "author": "Marko Kloos"
+    },
+    {
+      "id": "56",
+      "author": "Matthew Stover"
+    },
+    {
+      "id": "57",
+      "author": "Michael J. Sullivan"
+    },
+    {
+      "id": "58",
+      "author": "Michael Walden"
+    },
+    {
+      "id": "59",
+      "author": "Michio Kaku"
+    },
+    {
+      "id": "60",
+      "author": "Myke Cole"
+    },
+    {
+      "id": "61",
+      "author": "Neal Stephenson"
+    },
+    {
+      "id": "62",
+      "author": "Nemere István"
+    },
+    {
+      "id": "63",
+      "author": "Octavia E. Butler"
+    },
+    {
+      "id": "64",
+      "author": "Oliver Bowden"
+    },
+    {
+      "id": "65",
+      "author": "Örsi Ferenc"
+    },
+    {
+      "id": "66",
+      "author": "Peter F. Hamilton"
+    },
+    {
+      "id": "67",
+      "author": "Piers Paul Read"
+    },
+    {
+      "id": "68",
+      "author": "R. A. Salvatore"
+    },
+    {
+      "id": "69",
+      "author": "Rejtő Jenő"
+    },
+    {
+      "id": "70",
+      "author": "Richard Rugdley"
+    },
+    {
+      "id": "71",
+      "author": "Robert Harris"
+    },
+    {
+      "id": "72",
+      "author": "Robert J. Sawyer"
+    },
+    {
+      "id": "73",
+      "author": "Robyn Young"
+    },
+    {
+      "id": "74",
+      "author": "T. J. Andrews"
+    },
+    {
+      "id": "75",
+      "author": "Simon Scarrow"
+    },
+    {
+      "id": "76",
+      "author": "Sir Arthur Conan Doyle"
+    },
+    {
+      "id": "77",
+      "author": "Stanislaw Lem"
+    },
+    {
+      "id": "78",
+      "author": "Stephen E. Ambrose"
+    },
+    {
+      "id": "79",
+      "author": "Stephen Hawking"
+    },
+    {
+      "id": "80",
+      "author": "Steven Saylor"
+    },
+    {
+      "id": "81",
+      "author": "Terry Brooks"
+    },
+    {
+      "id": "82",
+      "author": "Tim Severin"
+    },
+    {
+      "id": "83",
+      "author": "Timothy Zahn"
+    },
+    {
+      "id": "84",
+      "author": "Walter G. Scott"
+    },
+    {
+      "id": "85",
+      "author": "William R. Forstchen"
+    },
+    {
+      "id": "87",
+      "author": "Wolfram Kawlath"
+    },
+    {
+      "id": "88",
+      "author": "Yrsa Sigurðardóttir"
+    },
+    {
+      "id": "89",
+      "author": "Newt Gingrich"
+    },
+    {
+      "id": "90",
+      "author": "Eric Bronson"
+    },
+    {
+      "id": "91",
+      "author": "H. W. Kaufmann"
+    },
+    {
+      "id": "92",
+      "author": "H. W. Kaufmann"
+    },
+    {
+      "author": "Tinki Winki",
+      "id": "ba8db203-6986-4739-85a0-eb663bb0171d"
+    },
+    {
+      "author": "Tinki Winki",
+      "id": "e823c51b-f86f-461e-9a35-54115345960f"
+    }
+  ],
   "books": [
     {
       "title": "Az Atlantisz gén",
@@ -7,11 +384,11 @@
         "amerikai"
       ],
       "isRead": false,
-      "id": 1,
+      "id": "1",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 1,
+          "id": "1",
           "author": "A. G. Riddle"
         }
       ]
@@ -24,11 +401,11 @@
         "amerikai"
       ],
       "isRead": true,
-      "id": 2,
+      "id": "2",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 2,
+          "id": "2",
           "author": "Aaron Allston"
         }
       ]
@@ -41,11 +418,11 @@
         "britt"
       ],
       "isRead": false,
-      "id": 3,
+      "id": "3",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 3,
+          "id": "3",
           "author": "Adrian Tchaikovsky"
         }
       ]
@@ -57,11 +434,11 @@
         "régész"
       ],
       "isRead": false,
-      "id": 4,
+      "id": "4",
       "genre": "történelem",
       "authors": [
         {
-          "id": 4,
+          "id": "4",
           "author": "Adrienne Major"
         }
       ]
@@ -75,11 +452,11 @@
         "középkor"
       ],
       "isRead": true,
-      "id": 5,
+      "id": "5",
       "genre": "fantasy",
       "authors": [
         {
-          "id": 5,
+          "id": "5",
           "author": "Andrzej Sapkowski"
         }
       ]
@@ -93,11 +470,11 @@
         "középkor"
       ],
       "isRead": true,
-      "id": 6,
+      "id": "6",
       "genre": "fantasy",
       "authors": [
         {
-          "id": 5,
+          "id": "5",
           "author": "Andrzej Sapkowski"
         }
       ]
@@ -111,11 +488,11 @@
         "középkor"
       ],
       "isRead": true,
-      "id": 7,
+      "id": "7",
       "genre": "fantasy",
       "authors": [
         {
-          "id": 5,
+          "id": "5",
           "author": "Andrzej Sapkowski"
         }
       ]
@@ -129,11 +506,11 @@
         "középkor"
       ],
       "isRead": true,
-      "id": 8,
+      "id": "8",
       "genre": "fantasy",
       "authors": [
         {
-          "id": 5,
+          "id": "5",
           "author": "Andrzej Sapkowski"
         }
       ]
@@ -147,11 +524,11 @@
         "középkor"
       ],
       "isRead": true,
-      "id": 9,
+      "id": "9",
       "genre": "fantasy",
       "authors": [
         {
-          "id": 5,
+          "id": "5",
           "author": "Andrzej Sapkowski"
         }
       ]
@@ -165,11 +542,11 @@
         "középkor"
       ],
       "isRead": true,
-      "id": 10,
+      "id": "10",
       "genre": "fantasy",
       "authors": [
         {
-          "id": 5,
+          "id": "5",
           "author": "Andrzej Sapkowski"
         }
       ]
@@ -183,11 +560,11 @@
         "középkor"
       ],
       "isRead": true,
-      "id": 11,
+      "id": "11",
       "genre": "fantasy",
       "authors": [
         {
-          "id": 5,
+          "id": "5",
           "author": "Andrzej Sapkowski"
         }
       ]
@@ -201,11 +578,11 @@
         "középkor"
       ],
       "isRead": true,
-      "id": 12,
+      "id": "12",
       "genre": "fantasy",
       "authors": [
         {
-          "id": 5,
+          "id": "5",
           "author": "Andrzej Sapkowski"
         }
       ]
@@ -218,11 +595,11 @@
         "amerikai"
       ],
       "isRead": true,
-      "id": 13,
+      "id": "13",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 6,
+          "id": "6",
           "author": "Andy Weir"
         }
       ]
@@ -235,11 +612,11 @@
         "amerikai"
       ],
       "isRead": false,
-      "id": 14,
+      "id": "14",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 6,
+          "id": "6",
           "author": "Andy Weir"
         }
       ]
@@ -253,11 +630,11 @@
         "idegenek"
       ],
       "isRead": true,
-      "id": 15,
+      "id": "15",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 6,
+          "id": "6",
           "author": "Andy Weir"
         }
       ]
@@ -270,11 +647,11 @@
         "churchill"
       ],
       "isRead": false,
-      "id": 16,
+      "id": "16",
       "genre": "történelem",
       "authors": [
         {
-          "id": 7,
+          "id": "7",
           "author": "Anthony McCarten"
         }
       ]
@@ -287,11 +664,11 @@
         "amerikai"
       ],
       "isRead": false,
-      "id": 17,
+      "id": "17",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 8,
+          "id": "8",
           "author": "Arthur C. Clarke"
         }
       ]
@@ -304,10 +681,10 @@
         "mars"
       ],
       "isRead": false,
-      "id": 18,
+      "id": "18",
       "authors": [
         {
-          "id": 9,
+          "id": "9",
           "author": "Ashlee Vance"
         }
       ]
@@ -319,10 +696,10 @@
         "idegenek"
       ],
       "isRead": false,
-      "id": 19,
+      "id": "19",
       "authors": [
         {
-          "id": 10,
+          "id": "10",
           "author": "Avi Loeb"
         }
       ]
@@ -334,11 +711,11 @@
         "hunyadi"
       ],
       "isRead": false,
-      "id": 20,
+      "id": "20",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 11,
+          "id": "11",
           "author": "Bán Mór"
         }
       ]
@@ -351,11 +728,11 @@
         "kaland"
       ],
       "isRead": false,
-      "id": 21,
+      "id": "21",
       "genre": "történelem",
       "authors": [
         {
-          "id": 12,
+          "id": "12",
           "author": "Ben Macintyre"
         }
       ]
@@ -368,11 +745,11 @@
         "középkor"
       ],
       "isRead": true,
-      "id": 22,
+      "id": "22",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 13,
+          "id": "13",
           "author": "Bernard Cornwell"
         }
       ]
@@ -384,11 +761,11 @@
         "angol"
       ],
       "isRead": true,
-      "id": 23,
+      "id": "23",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 13,
+          "id": "13",
           "author": "Bernard Cornwell"
         }
       ]
@@ -402,11 +779,11 @@
         "arthur"
       ],
       "isRead": false,
-      "id": 24,
+      "id": "24",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 13,
+          "id": "13",
           "author": "Bernard Cornwell"
         }
       ]
@@ -420,11 +797,11 @@
         "arthur"
       ],
       "isRead": false,
-      "id": 25,
+      "id": "25",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 13,
+          "id": "13",
           "author": "Bernard Cornwell"
         }
       ]
@@ -439,11 +816,11 @@
         "britt"
       ],
       "isRead": true,
-      "id": 26,
+      "id": "26",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 13,
+          "id": "13",
           "author": "Bernard Cornwell"
         }
       ]
@@ -458,11 +835,11 @@
         "britt"
       ],
       "isRead": true,
-      "id": 27,
+      "id": "27",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 13,
+          "id": "13",
           "author": "Bernard Cornwell"
         }
       ]
@@ -477,11 +854,11 @@
         "britt"
       ],
       "isRead": false,
-      "id": 28,
+      "id": "28",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 13,
+          "id": "13",
           "author": "Bernard Cornwell"
         }
       ]
@@ -496,11 +873,11 @@
         "britt"
       ],
       "isRead": true,
-      "id": 29,
+      "id": "29",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 13,
+          "id": "13",
           "author": "Bernard Cornwell"
         }
       ]
@@ -515,11 +892,11 @@
         "britt"
       ],
       "isRead": false,
-      "id": 30,
+      "id": "30",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 13,
+          "id": "13",
           "author": "Bernard Cornwell"
         }
       ]
@@ -534,11 +911,11 @@
         "britt"
       ],
       "isRead": true,
-      "id": 31,
+      "id": "31",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 13,
+          "id": "13",
           "author": "Bernard Cornwell"
         }
       ]
@@ -553,11 +930,11 @@
         "britt"
       ],
       "isRead": true,
-      "id": 32,
+      "id": "32",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 13,
+          "id": "13",
           "author": "Bernard Cornwell"
         }
       ]
@@ -572,11 +949,11 @@
         "britt"
       ],
       "isRead": true,
-      "id": 33,
+      "id": "33",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 13,
+          "id": "13",
           "author": "Bernard Cornwell"
         }
       ]
@@ -591,11 +968,11 @@
         "britt"
       ],
       "isRead": false,
-      "id": 34,
+      "id": "34",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 13,
+          "id": "13",
           "author": "Bernard Cornwell"
         }
       ]
@@ -610,11 +987,11 @@
         "britt"
       ],
       "isRead": true,
-      "id": 35,
+      "id": "35",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 13,
+          "id": "13",
           "author": "Bernard Cornwell"
         }
       ]
@@ -629,11 +1006,11 @@
         "britt"
       ],
       "isRead": false,
-      "id": 36,
+      "id": "36",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 13,
+          "id": "13",
           "author": "Bernard Cornwell"
         }
       ]
@@ -648,11 +1025,11 @@
         "britt"
       ],
       "isRead": true,
-      "id": 37,
+      "id": "37",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 13,
+          "id": "13",
           "author": "Bernard Cornwell"
         }
       ]
@@ -667,11 +1044,11 @@
         "britt"
       ],
       "isRead": true,
-      "id": 38,
+      "id": "38",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 13,
+          "id": "13",
           "author": "Bernard Cornwell"
         }
       ]
@@ -686,11 +1063,11 @@
         "britt"
       ],
       "isRead": true,
-      "id": 39,
+      "id": "39",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 13,
+          "id": "13",
           "author": "Bernard Cornwell"
         }
       ]
@@ -705,11 +1082,11 @@
         "britt"
       ],
       "isRead": false,
-      "id": 40,
+      "id": "40",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 13,
+          "id": "13",
           "author": "Bernard Cornwell"
         }
       ]
@@ -724,11 +1101,11 @@
         "britt"
       ],
       "isRead": true,
-      "id": 41,
+      "id": "41",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 13,
+          "id": "13",
           "author": "Bernard Cornwell"
         }
       ]
@@ -743,11 +1120,11 @@
         "britt"
       ],
       "isRead": true,
-      "id": 42,
+      "id": "42",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 13,
+          "id": "13",
           "author": "Bernard Cornwell"
         }
       ]
@@ -760,11 +1137,11 @@
         "amerikai"
       ],
       "isRead": true,
-      "id": 43,
+      "id": "43",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 13,
+          "id": "13",
           "author": "Bernard Cornwell"
         }
       ]
@@ -779,11 +1156,11 @@
         "britt"
       ],
       "isRead": true,
-      "id": 44,
+      "id": "44",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 14,
+          "id": "14",
           "author": "Bernard Cronwell"
         }
       ]
@@ -795,11 +1172,11 @@
         "magyar"
       ],
       "isRead": false,
-      "id": 45,
+      "id": "45",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 15,
+          "id": "15",
           "author": "Brandon Hackett"
         }
       ]
@@ -814,10 +1191,10 @@
         "amerikai"
       ],
       "isRead": true,
-      "id": 46,
+      "id": "46",
       "authors": [
         {
-          "id": 16,
+          "id": "16",
           "author": "Christopher Paolini"
         }
       ]
@@ -832,10 +1209,10 @@
         "amerikai"
       ],
       "isRead": false,
-      "id": 47,
+      "id": "47",
       "authors": [
         {
-          "id": 16,
+          "id": "16",
           "author": "Christopher Paolini"
         }
       ]
@@ -849,11 +1226,11 @@
         "kínai"
       ],
       "isRead": true,
-      "id": 48,
+      "id": "48",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 17,
+          "id": "17",
           "author": "Cixin Liu"
         }
       ]
@@ -867,11 +1244,11 @@
         "kínai"
       ],
       "isRead": false,
-      "id": 49,
+      "id": "49",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 17,
+          "id": "17",
           "author": "Cixin Liu"
         }
       ]
@@ -885,11 +1262,11 @@
         "kínai"
       ],
       "isRead": false,
-      "id": 50,
+      "id": "50",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 17,
+          "id": "17",
           "author": "Cixin Liu"
         }
       ]
@@ -902,11 +1279,11 @@
         "régész"
       ],
       "isRead": true,
-      "id": 51,
+      "id": "51",
       "genre": "történelem",
       "authors": [
         {
-          "id": 18,
+          "id": "18",
           "author": "Colin Renfrew"
         }
       ]
@@ -919,15 +1296,15 @@
         "régész"
       ],
       "isRead": true,
-      "id": 52,
+      "id": "52",
       "genre": "történelem",
       "authors": [
         {
-          "id": 18,
+          "id": "18",
           "author": "Colin Renfrew"
         },
         {
-          "id": 19,
+          "id": "19",
           "author": "Paul Bahn"
         }
       ]
@@ -941,11 +1318,11 @@
         "amerikai"
       ],
       "isRead": false,
-      "id": 53,
+      "id": "53",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 20,
+          "id": "20",
           "author": "Dan Simmons"
         }
       ]
@@ -959,11 +1336,11 @@
         "amerikai"
       ],
       "isRead": false,
-      "id": 54,
+      "id": "54",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 20,
+          "id": "20",
           "author": "Dan Simmons"
         }
       ]
@@ -977,11 +1354,11 @@
         "amerikai"
       ],
       "isRead": false,
-      "id": 55,
+      "id": "55",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 20,
+          "id": "20",
           "author": "Dan Simmons"
         }
       ]
@@ -992,11 +1369,11 @@
         "amerikai"
       ],
       "isRead": true,
-      "id": 56,
+      "id": "56",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 21,
+          "id": "21",
           "author": "Dean Wesley Smith"
         }
       ]
@@ -1009,11 +1386,11 @@
         "amerikai"
       ],
       "isRead": false,
-      "id": 57,
+      "id": "57",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 22,
+          "id": "22",
           "author": "E. K. Johnston"
         }
       ]
@@ -1027,11 +1404,11 @@
         "dűne"
       ],
       "isRead": true,
-      "id": 58,
+      "id": "58",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 23,
+          "id": "23",
           "author": "Frank Herbert"
         }
       ]
@@ -1043,11 +1420,11 @@
         "középkor"
       ],
       "isRead": true,
-      "id": 59,
+      "id": "59",
       "genre": "fantasy",
       "authors": [
         {
-          "id": 24,
+          "id": "24",
           "author": "George R. R. Martin"
         }
       ]
@@ -1059,11 +1436,11 @@
         "középkor"
       ],
       "isRead": true,
-      "id": 60,
+      "id": "60",
       "genre": "fantasy",
       "authors": [
         {
-          "id": 24,
+          "id": "24",
           "author": "George R. R. Martin"
         }
       ]
@@ -1075,11 +1452,11 @@
         "középkor"
       ],
       "isRead": true,
-      "id": 61,
+      "id": "61",
       "genre": "fantasy",
       "authors": [
         {
-          "id": 24,
+          "id": "24",
           "author": "George R. R. Martin"
         }
       ]
@@ -1091,11 +1468,11 @@
         "középkor"
       ],
       "isRead": true,
-      "id": 62,
+      "id": "62",
       "genre": "fantasy",
       "authors": [
         {
-          "id": 24,
+          "id": "24",
           "author": "George R. R. Martin"
         }
       ]
@@ -1107,11 +1484,11 @@
         "középkor"
       ],
       "isRead": true,
-      "id": 63,
+      "id": "63",
       "genre": "fantasy",
       "authors": [
         {
-          "id": 24,
+          "id": "24",
           "author": "George R. R. Martin"
         }
       ]
@@ -1124,11 +1501,11 @@
         "maigret"
       ],
       "isRead": true,
-      "id": 64,
+      "id": "64",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1141,11 +1518,11 @@
         "maigret"
       ],
       "isRead": false,
-      "id": 65,
+      "id": "65",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1158,11 +1535,11 @@
         "maigret"
       ],
       "isRead": false,
-      "id": 66,
+      "id": "66",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1175,11 +1552,11 @@
         "maigret"
       ],
       "isRead": false,
-      "id": 67,
+      "id": "67",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1192,11 +1569,11 @@
         "maigret"
       ],
       "isRead": true,
-      "id": 68,
+      "id": "68",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1209,11 +1586,11 @@
         "maigret"
       ],
       "isRead": true,
-      "id": 69,
+      "id": "69",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1226,11 +1603,11 @@
         "maigret"
       ],
       "isRead": true,
-      "id": 70,
+      "id": "70",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1243,11 +1620,11 @@
         "maigret"
       ],
       "isRead": false,
-      "id": 71,
+      "id": "71",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1260,11 +1637,11 @@
         "maigret"
       ],
       "isRead": false,
-      "id": 72,
+      "id": "72",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1277,11 +1654,11 @@
         "maigret"
       ],
       "isRead": true,
-      "id": 73,
+      "id": "73",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1294,11 +1671,11 @@
         "maigret"
       ],
       "isRead": false,
-      "id": 74,
+      "id": "74",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1311,11 +1688,11 @@
         "maigret"
       ],
       "isRead": false,
-      "id": 75,
+      "id": "75",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1328,11 +1705,11 @@
         "maigret"
       ],
       "isRead": false,
-      "id": 76,
+      "id": "76",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1345,11 +1722,11 @@
         "maigret"
       ],
       "isRead": false,
-      "id": 77,
+      "id": "77",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1362,11 +1739,11 @@
         "maigret"
       ],
       "isRead": true,
-      "id": 78,
+      "id": "78",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1379,11 +1756,11 @@
         "maigret"
       ],
       "isRead": true,
-      "id": 79,
+      "id": "79",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1396,11 +1773,11 @@
         "maigret"
       ],
       "isRead": false,
-      "id": 80,
+      "id": "80",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1413,11 +1790,11 @@
         "maigret"
       ],
       "isRead": false,
-      "id": 81,
+      "id": "81",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1430,11 +1807,11 @@
         "maigret"
       ],
       "isRead": false,
-      "id": 82,
+      "id": "82",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1447,11 +1824,11 @@
         "maigret"
       ],
       "isRead": false,
-      "id": 83,
+      "id": "83",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1464,11 +1841,11 @@
         "maigret"
       ],
       "isRead": true,
-      "id": 84,
+      "id": "84",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1481,11 +1858,11 @@
         "maigret"
       ],
       "isRead": true,
-      "id": 85,
+      "id": "85",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1498,11 +1875,11 @@
         "maigret"
       ],
       "isRead": true,
-      "id": 86,
+      "id": "86",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1515,11 +1892,11 @@
         "maigret"
       ],
       "isRead": true,
-      "id": 87,
+      "id": "87",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1532,11 +1909,11 @@
         "maigret"
       ],
       "isRead": false,
-      "id": 88,
+      "id": "88",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1549,11 +1926,11 @@
         "maigret"
       ],
       "isRead": false,
-      "id": 89,
+      "id": "89",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1566,11 +1943,11 @@
         "maigret"
       ],
       "isRead": false,
-      "id": 90,
+      "id": "90",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1583,11 +1960,11 @@
         "maigret"
       ],
       "isRead": false,
-      "id": 91,
+      "id": "91",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1600,11 +1977,11 @@
         "maigret"
       ],
       "isRead": true,
-      "id": 92,
+      "id": "92",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1617,11 +1994,11 @@
         "maigret"
       ],
       "isRead": true,
-      "id": 93,
+      "id": "93",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1634,11 +2011,11 @@
         "maigret"
       ],
       "isRead": false,
-      "id": 94,
+      "id": "94",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1651,11 +2028,11 @@
         "maigret"
       ],
       "isRead": false,
-      "id": 95,
+      "id": "95",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1668,11 +2045,11 @@
         "maigret"
       ],
       "isRead": true,
-      "id": 96,
+      "id": "96",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1685,11 +2062,11 @@
         "maigret"
       ],
       "isRead": true,
-      "id": 97,
+      "id": "97",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1702,11 +2079,11 @@
         "maigret"
       ],
       "isRead": false,
-      "id": 98,
+      "id": "98",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1719,11 +2096,11 @@
         "maigret"
       ],
       "isRead": false,
-      "id": 99,
+      "id": "99",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1736,11 +2113,11 @@
         "maigret"
       ],
       "isRead": false,
-      "id": 100,
+      "id": "100",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1753,11 +2130,11 @@
         "maigret"
       ],
       "isRead": false,
-      "id": 101,
+      "id": "101",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1770,11 +2147,11 @@
         "maigret"
       ],
       "isRead": false,
-      "id": 102,
+      "id": "102",
       "genre": "krimi",
       "authors": [
         {
-          "id": 25,
+          "id": "25",
           "author": "Georges Simenon"
         }
       ]
@@ -1786,11 +2163,11 @@
         "kém"
       ],
       "isRead": true,
-      "id": 103,
+      "id": "103",
       "genre": "krimi",
       "authors": [
         {
-          "id": 26,
+          "id": "26",
           "author": "Graham Hurley"
         }
       ]
@@ -1801,14 +2178,14 @@
         "gyűrűk ura"
       ],
       "isRead": false,
-      "id": 104,
+      "id": "104",
       "authors": [
         {
-          "id": 27,
+          "id": "27",
           "author": "Gregory Bassham"
         },
         {
-          "id": 90,
+          "id": "90",
           "author": "Eric Bronson"
         }
       ]
@@ -1821,11 +2198,11 @@
         "mezopotámia"
       ],
       "isRead": true,
-      "id": 105,
+      "id": "105",
       "genre": "történelem",
       "authors": [
         {
-          "id": 28,
+          "id": "28",
           "author": "Gwendolyn Leick"
         }
       ]
@@ -1837,11 +2214,11 @@
         "nagy sándor"
       ],
       "isRead": true,
-      "id": 106,
+      "id": "106",
       "genre": "történelem",
       "authors": [
         {
-          "id": 29,
+          "id": "29",
           "author": "Harold Lamb"
         }
       ]
@@ -1854,11 +2231,11 @@
         "egyiptom"
       ],
       "isRead": true,
-      "id": 107,
+      "id": "107",
       "genre": "történelem",
       "authors": [
         {
-          "id": 30,
+          "id": "30",
           "author": "Hilary Wilson"
         }
       ]
@@ -1870,15 +2247,15 @@
         "várak"
       ],
       "isRead": true,
-      "id": 108,
+      "id": "108",
       "genre": "történelem",
       "authors": [
         {
-          "id": 31,
+          "id": "31",
           "author": "J. E. Kaufmann"
         },
         {
-          "id": 91,
+          "id": "91",
           "author": "H. W. Kaufmann"
         }
       ]
@@ -1892,11 +2269,11 @@
         "katonai"
       ],
       "isRead": true,
-      "id": 109,
+      "id": "109",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 32,
+          "id": "32",
           "author": "Jack Campbell"
         }
       ]
@@ -1910,11 +2287,11 @@
         "katonai"
       ],
       "isRead": true,
-      "id": 110,
+      "id": "110",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 32,
+          "id": "32",
           "author": "Jack Campbell"
         }
       ]
@@ -1928,11 +2305,11 @@
         "katonai"
       ],
       "isRead": true,
-      "id": 111,
+      "id": "111",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 32,
+          "id": "32",
           "author": "Jack Campbell"
         }
       ]
@@ -1947,11 +2324,11 @@
         "régészet"
       ],
       "isRead": false,
-      "id": 112,
+      "id": "112",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 33,
+          "id": "33",
           "author": "Jack McDevitt"
         }
       ]
@@ -1966,11 +2343,11 @@
         "régészet"
       ],
       "isRead": false,
-      "id": 113,
+      "id": "113",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 33,
+          "id": "33",
           "author": "Jack McDevitt"
         }
       ]
@@ -1986,11 +2363,11 @@
         "alex benedict"
       ],
       "isRead": true,
-      "id": 114,
+      "id": "114",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 33,
+          "id": "33",
           "author": "Jack McDevitt"
         }
       ]
@@ -2006,11 +2383,11 @@
         "alex benedict"
       ],
       "isRead": true,
-      "id": 115,
+      "id": "115",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 33,
+          "id": "33",
           "author": "Jack McDevitt"
         }
       ]
@@ -2026,11 +2403,11 @@
         "alex benedict"
       ],
       "isRead": true,
-      "id": 116,
+      "id": "116",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 33,
+          "id": "33",
           "author": "Jack McDevitt"
         }
       ]
@@ -2046,11 +2423,11 @@
         "alex benedict"
       ],
       "isRead": true,
-      "id": 117,
+      "id": "117",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 33,
+          "id": "33",
           "author": "Jack McDevitt"
         }
       ]
@@ -2066,11 +2443,11 @@
         "alex benedict"
       ],
       "isRead": true,
-      "id": 118,
+      "id": "118",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 33,
+          "id": "33",
           "author": "Jack McDevitt"
         }
       ]
@@ -2086,11 +2463,11 @@
         "alex benedict"
       ],
       "isRead": true,
-      "id": 119,
+      "id": "119",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 33,
+          "id": "33",
           "author": "Jack McDevitt"
         }
       ]
@@ -2106,11 +2483,11 @@
         "alex benedict"
       ],
       "isRead": true,
-      "id": 120,
+      "id": "120",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 33,
+          "id": "33",
           "author": "Jack McDevitt"
         }
       ]
@@ -2123,11 +2500,11 @@
         "amerikai"
       ],
       "isRead": false,
-      "id": 121,
+      "id": "121",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 34,
+          "id": "34",
           "author": "James Luceno"
         }
       ]
@@ -2140,11 +2517,11 @@
         "amerikai"
       ],
       "isRead": true,
-      "id": 122,
+      "id": "122",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 34,
+          "id": "34",
           "author": "James Luceno"
         }
       ]
@@ -2157,11 +2534,11 @@
         "amerikai"
       ],
       "isRead": false,
-      "id": 123,
+      "id": "123",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 34,
+          "id": "34",
           "author": "James Luceno"
         }
       ]
@@ -2174,11 +2551,11 @@
         "amerikai"
       ],
       "isRead": false,
-      "id": 124,
+      "id": "124",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 34,
+          "id": "34",
           "author": "James Luceno"
         }
       ]
@@ -2191,11 +2568,11 @@
         "amerikai"
       ],
       "isRead": false,
-      "id": 125,
+      "id": "125",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 34,
+          "id": "34",
           "author": "James Luceno"
         }
       ]
@@ -2209,11 +2586,11 @@
         "idegenek"
       ],
       "isRead": true,
-      "id": 126,
+      "id": "126",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 35,
+          "id": "35",
           "author": "James S. A. Corey"
         }
       ]
@@ -2227,11 +2604,11 @@
         "idegenek"
       ],
       "isRead": true,
-      "id": 127,
+      "id": "127",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 35,
+          "id": "35",
           "author": "James S. A. Corey"
         }
       ]
@@ -2245,11 +2622,11 @@
         "idegenek"
       ],
       "isRead": true,
-      "id": 128,
+      "id": "128",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 35,
+          "id": "35",
           "author": "James S. A. Corey"
         }
       ]
@@ -2263,11 +2640,11 @@
         "idegenek"
       ],
       "isRead": true,
-      "id": 129,
+      "id": "129",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 35,
+          "id": "35",
           "author": "James S. A. Corey"
         }
       ]
@@ -2281,11 +2658,11 @@
         "idegenek"
       ],
       "isRead": true,
-      "id": 130,
+      "id": "130",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 35,
+          "id": "35",
           "author": "James S. A. Corey"
         }
       ]
@@ -2299,11 +2676,11 @@
         "idegenek"
       ],
       "isRead": false,
-      "id": 131,
+      "id": "131",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 35,
+          "id": "35",
           "author": "James S. A. Corey"
         }
       ]
@@ -2317,11 +2694,11 @@
         "idegenek"
       ],
       "isRead": false,
-      "id": 132,
+      "id": "132",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 35,
+          "id": "35",
           "author": "James S. A. Corey"
         }
       ]
@@ -2335,11 +2712,11 @@
         "idegenek"
       ],
       "isRead": false,
-      "id": 133,
+      "id": "133",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 35,
+          "id": "35",
           "author": "James S. A. Corey"
         }
       ]
@@ -2351,11 +2728,11 @@
         "ókor"
       ],
       "isRead": false,
-      "id": 134,
+      "id": "134",
       "genre": "történelem",
       "authors": [
         {
-          "id": 36,
+          "id": "36",
           "author": "Jared Diamond"
         }
       ]
@@ -2367,11 +2744,11 @@
         "idegenek"
       ],
       "isRead": false,
-      "id": 135,
+      "id": "135",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 37,
+          "id": "37",
           "author": "Jeff Carlson"
         }
       ]
@@ -2382,11 +2759,11 @@
         "japán"
       ],
       "isRead": false,
-      "id": 136,
+      "id": "136",
       "genre": "fantasy",
       "authors": [
         {
-          "id": 38,
+          "id": "38",
           "author": "Joan D. Vinge"
         }
       ]
@@ -2395,11 +2772,11 @@
       "title": "39 lépcsőfok",
       "tags": [],
       "isRead": false,
-      "id": 137,
+      "id": "137",
       "genre": "krimi",
       "authors": [
         {
-          "id": 39,
+          "id": "39",
           "author": "John Buchan"
         }
       ]
@@ -2410,11 +2787,11 @@
         "star-wars"
       ],
       "isRead": false,
-      "id": 138,
+      "id": "138",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 40,
+          "id": "40",
           "author": "John Jackson Miller"
         }
       ]
@@ -2427,11 +2804,11 @@
         "középkor"
       ],
       "isRead": false,
-      "id": 139,
+      "id": "139",
       "genre": "történelem",
       "authors": [
         {
-          "id": 41,
+          "id": "41",
           "author": "John Keegan"
         }
       ]
@@ -2444,11 +2821,11 @@
         "középkor"
       ],
       "isRead": false,
-      "id": 140,
+      "id": "140",
       "genre": "történelem",
       "authors": [
         {
-          "id": 41,
+          "id": "41",
           "author": "John Keegan"
         }
       ]
@@ -2459,11 +2836,11 @@
         "kém"
       ],
       "isRead": false,
-      "id": 141,
+      "id": "141",
       "genre": "krimi",
       "authors": [
         {
-          "id": 42,
+          "id": "42",
           "author": "John Le Carré"
         }
       ]
@@ -2474,11 +2851,11 @@
         "kém"
       ],
       "isRead": false,
-      "id": 142,
+      "id": "142",
       "genre": "krimi",
       "authors": [
         {
-          "id": 42,
+          "id": "42",
           "author": "John Le Carré"
         }
       ]
@@ -2493,11 +2870,11 @@
         "katonai"
       ],
       "isRead": true,
-      "id": 143,
+      "id": "143",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 43,
+          "id": "43",
           "author": "John Scalzi"
         }
       ]
@@ -2512,11 +2889,11 @@
         "katonai"
       ],
       "isRead": true,
-      "id": 144,
+      "id": "144",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 43,
+          "id": "43",
           "author": "John Scalzi"
         }
       ]
@@ -2530,11 +2907,11 @@
         "idegenek"
       ],
       "isRead": true,
-      "id": 145,
+      "id": "145",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 43,
+          "id": "43",
           "author": "John Scalzi"
         }
       ]
@@ -2548,11 +2925,11 @@
         "idegenek"
       ],
       "isRead": true,
-      "id": 146,
+      "id": "146",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 43,
+          "id": "43",
           "author": "John Scalzi"
         }
       ]
@@ -2566,11 +2943,11 @@
         "idegenek"
       ],
       "isRead": true,
-      "id": 147,
+      "id": "147",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 43,
+          "id": "43",
           "author": "John Scalzi"
         }
       ]
@@ -2584,11 +2961,11 @@
         "idegenek"
       ],
       "isRead": true,
-      "id": 148,
+      "id": "148",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 43,
+          "id": "43",
           "author": "John Scalzi"
         }
       ]
@@ -2602,11 +2979,11 @@
         "idegenek"
       ],
       "isRead": false,
-      "id": 149,
+      "id": "149",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 43,
+          "id": "43",
           "author": "John Scalzi"
         }
       ]
@@ -2617,11 +2994,11 @@
         "skandináv"
       ],
       "isRead": false,
-      "id": 150,
+      "id": "150",
       "genre": "krimi",
       "authors": [
         {
-          "id": 44,
+          "id": "44",
           "author": "Jussi Adler-Olsen"
         }
       ]
@@ -2633,11 +3010,11 @@
         "q-ügyosztály"
       ],
       "isRead": true,
-      "id": 151,
+      "id": "151",
       "genre": "krimi",
       "authors": [
         {
-          "id": 44,
+          "id": "44",
           "author": "Jussi Adler-Olsen"
         }
       ]
@@ -2649,11 +3026,11 @@
         "q-ügyosztály"
       ],
       "isRead": true,
-      "id": 152,
+      "id": "152",
       "genre": "krimi",
       "authors": [
         {
-          "id": 44,
+          "id": "44",
           "author": "Jussi Adler-Olsen"
         }
       ]
@@ -2665,11 +3042,11 @@
         "q-ügyosztály"
       ],
       "isRead": true,
-      "id": 153,
+      "id": "153",
       "genre": "krimi",
       "authors": [
         {
-          "id": 44,
+          "id": "44",
           "author": "Jussi Adler-Olsen"
         }
       ]
@@ -2681,11 +3058,11 @@
         "q-ügyosztály"
       ],
       "isRead": false,
-      "id": 154,
+      "id": "154",
       "genre": "krimi",
       "authors": [
         {
-          "id": 44,
+          "id": "44",
           "author": "Jussi Adler-Olsen"
         }
       ]
@@ -2696,10 +3073,10 @@
         "kaland"
       ],
       "isRead": true,
-      "id": 155,
+      "id": "155",
       "authors": [
         {
-          "id": 45,
+          "id": "45",
           "author": "Karl May"
         }
       ]
@@ -2710,11 +3087,11 @@
         "dr-csont"
       ],
       "isRead": false,
-      "id": 156,
+      "id": "156",
       "genre": "krimi",
       "authors": [
         {
-          "id": 46,
+          "id": "46",
           "author": "Kathy Reichs"
         }
       ]
@@ -2725,11 +3102,11 @@
         "dr-csont"
       ],
       "isRead": false,
-      "id": 157,
+      "id": "157",
       "genre": "krimi",
       "authors": [
         {
-          "id": 46,
+          "id": "46",
           "author": "Kathy Reichs"
         }
       ]
@@ -2740,11 +3117,11 @@
         "dr-csont"
       ],
       "isRead": false,
-      "id": 158,
+      "id": "158",
       "genre": "krimi",
       "authors": [
         {
-          "id": 46,
+          "id": "46",
           "author": "Kathy Reichs"
         }
       ]
@@ -2755,11 +3132,11 @@
         "dr-csont"
       ],
       "isRead": false,
-      "id": 159,
+      "id": "159",
       "genre": "krimi",
       "authors": [
         {
-          "id": 46,
+          "id": "46",
           "author": "Kathy Reichs"
         }
       ]
@@ -2768,11 +3145,11 @@
       "title": "A megfagyott világ",
       "tags": [],
       "isRead": false,
-      "id": 160,
+      "id": "160",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 47,
+          "id": "47",
           "author": "Ken Follett"
         }
       ]
@@ -2784,10 +3161,10 @@
         "2. világháború"
       ],
       "isRead": false,
-      "id": 161,
+      "id": "161",
       "authors": [
         {
-          "id": 48,
+          "id": "48",
           "author": "Kenneth Munson"
         }
       ]
@@ -2798,11 +3175,11 @@
         "ókor"
       ],
       "isRead": true,
-      "id": 162,
+      "id": "162",
       "genre": "történelem",
       "authors": [
         {
-          "id": 49,
+          "id": "49",
           "author": "Kertész István"
         }
       ]
@@ -2813,11 +3190,11 @@
         "star-wars"
       ],
       "isRead": true,
-      "id": 163,
+      "id": "163",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 50,
+          "id": "50",
           "author": "Kevin J. Anderson"
         }
       ]
@@ -2828,11 +3205,11 @@
         "star-wars"
       ],
       "isRead": true,
-      "id": 164,
+      "id": "164",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 50,
+          "id": "50",
           "author": "Kevin J. Anderson"
         }
       ]
@@ -2843,11 +3220,11 @@
         "mars"
       ],
       "isRead": true,
-      "id": 165,
+      "id": "165",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 51,
+          "id": "51",
           "author": "Kim Stanley Robinson"
         }
       ]
@@ -2858,11 +3235,11 @@
         "mars"
       ],
       "isRead": false,
-      "id": 166,
+      "id": "166",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 51,
+          "id": "51",
           "author": "Kim Stanley Robinson"
         }
       ]
@@ -2871,11 +3248,11 @@
       "title": "Aurora",
       "tags": [],
       "isRead": false,
-      "id": 167,
+      "id": "167",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 51,
+          "id": "51",
           "author": "Kim Stanley Robinson"
         }
       ]
@@ -2884,11 +3261,11 @@
       "title": "Az utolsó háború",
       "tags": [],
       "isRead": false,
-      "id": 168,
+      "id": "168",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 52,
+          "id": "52",
           "author": "Kir Bulicsov"
         }
       ]
@@ -2897,11 +3274,11 @@
       "title": "Háború és hadviselés az Árpádok korában",
       "tags": [],
       "isRead": true,
-      "id": 169,
+      "id": "169",
       "genre": "történelem",
       "authors": [
         {
-          "id": 53,
+          "id": "53",
           "author": "Kristó Gyula"
         }
       ]
@@ -2912,11 +3289,11 @@
         "2. világháború"
       ],
       "isRead": false,
-      "id": 170,
+      "id": "170",
       "genre": "történelem",
       "authors": [
         {
-          "id": 54,
+          "id": "54",
           "author": "Kurt Rieder"
         }
       ]
@@ -2930,11 +3307,11 @@
         "katonai"
       ],
       "isRead": true,
-      "id": 171,
+      "id": "171",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 55,
+          "id": "55",
           "author": "Marko Kloos"
         }
       ]
@@ -2948,11 +3325,11 @@
         "katonai"
       ],
       "isRead": false,
-      "id": 172,
+      "id": "172",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 55,
+          "id": "55",
           "author": "Marko Kloos"
         }
       ]
@@ -2963,11 +3340,11 @@
         "star-wars"
       ],
       "isRead": true,
-      "id": 173,
+      "id": "173",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 56,
+          "id": "56",
           "author": "Matthew Stover"
         }
       ]
@@ -2978,11 +3355,11 @@
         "riyria"
       ],
       "isRead": true,
-      "id": 174,
+      "id": "174",
       "genre": "fantasy",
       "authors": [
         {
-          "id": 57,
+          "id": "57",
           "author": "Michael J. Sullivan"
         }
       ]
@@ -2993,11 +3370,11 @@
         "riyria"
       ],
       "isRead": true,
-      "id": 175,
+      "id": "175",
       "genre": "fantasy",
       "authors": [
         {
-          "id": 57,
+          "id": "57",
           "author": "Michael J. Sullivan"
         }
       ]
@@ -3008,11 +3385,11 @@
         "riyria"
       ],
       "isRead": false,
-      "id": 176,
+      "id": "176",
       "genre": "fantasy",
       "authors": [
         {
-          "id": 57,
+          "id": "57",
           "author": "Michael J. Sullivan"
         }
       ]
@@ -3023,11 +3400,11 @@
         "riyria"
       ],
       "isRead": false,
-      "id": 177,
+      "id": "177",
       "genre": "fantasy",
       "authors": [
         {
-          "id": 57,
+          "id": "57",
           "author": "Michael J. Sullivan"
         }
       ]
@@ -3038,11 +3415,11 @@
         "riyria"
       ],
       "isRead": true,
-      "id": 178,
+      "id": "178",
       "genre": "fantasy",
       "authors": [
         {
-          "id": 57,
+          "id": "57",
           "author": "Michael J. Sullivan"
         }
       ]
@@ -3053,11 +3430,11 @@
         "riyria"
       ],
       "isRead": true,
-      "id": 179,
+      "id": "179",
       "genre": "fantasy",
       "authors": [
         {
-          "id": 57,
+          "id": "57",
           "author": "Michael J. Sullivan"
         }
       ]
@@ -3066,11 +3443,11 @@
       "title": "Egy maroknyi sötétség (Cosmos Redshift Seven 2.)",
       "tags": [],
       "isRead": false,
-      "id": 180,
+      "id": "180",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 58,
+          "id": "58",
           "author": "Michael Walden"
         }
       ]
@@ -3081,10 +3458,10 @@
         "fizika"
       ],
       "isRead": true,
-      "id": 181,
+      "id": "181",
       "authors": [
         {
-          "id": 59,
+          "id": "59",
           "author": "Michio Kaku"
         }
       ]
@@ -3095,10 +3472,10 @@
         "fizika"
       ],
       "isRead": true,
-      "id": 182,
+      "id": "182",
       "authors": [
         {
-          "id": 59,
+          "id": "59",
           "author": "Michio Kaku"
         }
       ]
@@ -3109,11 +3486,11 @@
         "ókor"
       ],
       "isRead": false,
-      "id": 183,
+      "id": "183",
       "genre": "történelem",
       "authors": [
         {
-          "id": 60,
+          "id": "60",
           "author": "Myke Cole"
         }
       ]
@@ -3124,11 +3501,11 @@
         "hold"
       ],
       "isRead": false,
-      "id": 184,
+      "id": "184",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 61,
+          "id": "61",
           "author": "Neal Stephenson"
         }
       ]
@@ -3137,11 +3514,11 @@
       "title": "Piramisok titkai",
       "tags": [],
       "isRead": true,
-      "id": 185,
+      "id": "185",
       "genre": "történelem",
       "authors": [
         {
-          "id": 62,
+          "id": "62",
           "author": "Nemere István"
         }
       ]
@@ -3152,11 +3529,11 @@
         "idegenek"
       ],
       "isRead": false,
-      "id": 186,
+      "id": "186",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 63,
+          "id": "63",
           "author": "Octavia E. Butler"
         }
       ]
@@ -3167,11 +3544,11 @@
         "vöröskabátos"
       ],
       "isRead": false,
-      "id": 187,
+      "id": "187",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 64,
+          "id": "64",
           "author": "Oliver Bowden"
         }
       ]
@@ -3180,11 +3557,11 @@
       "title": "A tenkes kapitánya",
       "tags": [],
       "isRead": false,
-      "id": 188,
+      "id": "188",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 65,
+          "id": "65",
           "author": "Örsi Ferenc"
         }
       ]
@@ -3198,11 +3575,11 @@
         "idegenek"
       ],
       "isRead": false,
-      "id": 189,
+      "id": "189",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 66,
+          "id": "66",
           "author": "Peter F. Hamilton"
         }
       ]
@@ -3216,11 +3593,11 @@
         "idegenek"
       ],
       "isRead": false,
-      "id": 190,
+      "id": "190",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 66,
+          "id": "66",
           "author": "Peter F. Hamilton"
         }
       ]
@@ -3234,11 +3611,11 @@
         "idegenek"
       ],
       "isRead": true,
-      "id": 191,
+      "id": "191",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 66,
+          "id": "66",
           "author": "Peter F. Hamilton"
         }
       ]
@@ -3252,11 +3629,11 @@
         "idegenek"
       ],
       "isRead": false,
-      "id": 192,
+      "id": "192",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 66,
+          "id": "66",
           "author": "Peter F. Hamilton"
         }
       ]
@@ -3265,11 +3642,11 @@
       "title": "A templomosok",
       "tags": [],
       "isRead": false,
-      "id": 193,
+      "id": "193",
       "genre": "történelem",
       "authors": [
         {
-          "id": 67,
+          "id": "67",
           "author": "Piers Paul Read"
         }
       ]
@@ -3280,11 +3657,11 @@
         "star-wars"
       ],
       "isRead": true,
-      "id": 194,
+      "id": "194",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 68,
+          "id": "68",
           "author": "R. A. Salvatore"
         }
       ]
@@ -3293,11 +3670,11 @@
       "title": "A megkerült cirkáló",
       "tags": [],
       "isRead": true,
-      "id": 195,
+      "id": "195",
       "genre": "krimi",
       "authors": [
         {
-          "id": 69,
+          "id": "69",
           "author": "Rejtő Jenő"
         }
       ]
@@ -3308,11 +3685,11 @@
         "ókor"
       ],
       "isRead": true,
-      "id": 196,
+      "id": "196",
       "genre": "történelem",
       "authors": [
         {
-          "id": 70,
+          "id": "70",
           "author": "Richard Rugdley"
         }
       ]
@@ -3324,11 +3701,11 @@
         "középkor"
       ],
       "isRead": true,
-      "id": 197,
+      "id": "197",
       "genre": "történelem",
       "authors": [
         {
-          "id": 70,
+          "id": "70",
           "author": "Richard Rugdley"
         }
       ]
@@ -3340,11 +3717,11 @@
         "2. világháború"
       ],
       "isRead": true,
-      "id": 198,
+      "id": "198",
       "genre": "történelem",
       "authors": [
         {
-          "id": 71,
+          "id": "71",
           "author": "Robert Harris"
         }
       ]
@@ -3357,11 +3734,11 @@
         "idegenek"
       ],
       "isRead": true,
-      "id": 199,
+      "id": "199",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 72,
+          "id": "72",
           "author": "Robert J. Sawyer"
         }
       ]
@@ -3370,11 +3747,11 @@
       "title": "Lélekhullám",
       "tags": [],
       "isRead": false,
-      "id": 200,
+      "id": "200",
       "genre": "krimi",
       "authors": [
         {
-          "id": 72,
+          "id": "72",
           "author": "Robert J. Sawyer"
         }
       ]
@@ -3383,11 +3760,11 @@
       "title": "Felkelés",
       "tags": [],
       "isRead": false,
-      "id": 201,
+      "id": "201",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 73,
+          "id": "73",
           "author": "Robyn Young"
         }
       ]
@@ -3398,15 +3775,15 @@
         "római"
       ],
       "isRead": true,
-      "id": 202,
+      "id": "202",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 74,
+          "id": "74",
           "author": "T. J. Andrews"
         },
         {
-          "id": 75,
+          "id": "75",
           "author": "Simon Scarrow"
         }
       ]
@@ -3417,11 +3794,11 @@
         "napóleon"
       ],
       "isRead": true,
-      "id": 203,
+      "id": "203",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 75,
+          "id": "75",
           "author": "Simon Scarrow"
         }
       ]
@@ -3432,11 +3809,11 @@
         "napóleon"
       ],
       "isRead": false,
-      "id": 204,
+      "id": "204",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 75,
+          "id": "75",
           "author": "Simon Scarrow"
         }
       ]
@@ -3447,11 +3824,11 @@
         "napóleon"
       ],
       "isRead": false,
-      "id": 205,
+      "id": "205",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 75,
+          "id": "75",
           "author": "Simon Scarrow"
         }
       ]
@@ -3462,11 +3839,11 @@
         "napóleon"
       ],
       "isRead": false,
-      "id": 206,
+      "id": "206",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 75,
+          "id": "75",
           "author": "Simon Scarrow"
         }
       ]
@@ -3475,11 +3852,11 @@
       "title": "Kard és handzsár",
       "tags": [],
       "isRead": false,
-      "id": 207,
+      "id": "207",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 75,
+          "id": "75",
           "author": "Simon Scarrow"
         }
       ]
@@ -3490,11 +3867,11 @@
         "római"
       ],
       "isRead": false,
-      "id": 208,
+      "id": "208",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 75,
+          "id": "75",
           "author": "Simon Scarrow"
         }
       ]
@@ -3507,11 +3884,11 @@
         "macro"
       ],
       "isRead": false,
-      "id": 209,
+      "id": "209",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 75,
+          "id": "75",
           "author": "Simon Scarrow"
         }
       ]
@@ -3524,11 +3901,11 @@
         "macro"
       ],
       "isRead": true,
-      "id": 210,
+      "id": "210",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 75,
+          "id": "75",
           "author": "Simon Scarrow"
         }
       ]
@@ -3541,11 +3918,11 @@
         "macro"
       ],
       "isRead": true,
-      "id": 211,
+      "id": "211",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 75,
+          "id": "75",
           "author": "Simon Scarrow"
         }
       ]
@@ -3558,11 +3935,11 @@
         "macro"
       ],
       "isRead": true,
-      "id": 212,
+      "id": "212",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 75,
+          "id": "75",
           "author": "Simon Scarrow"
         }
       ]
@@ -3575,11 +3952,11 @@
         "macro"
       ],
       "isRead": true,
-      "id": 213,
+      "id": "213",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 75,
+          "id": "75",
           "author": "Simon Scarrow"
         }
       ]
@@ -3592,11 +3969,11 @@
         "macro"
       ],
       "isRead": true,
-      "id": 214,
+      "id": "214",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 75,
+          "id": "75",
           "author": "Simon Scarrow"
         }
       ]
@@ -3609,11 +3986,11 @@
         "macro"
       ],
       "isRead": true,
-      "id": 215,
+      "id": "215",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 75,
+          "id": "75",
           "author": "Simon Scarrow"
         }
       ]
@@ -3626,11 +4003,11 @@
         "macro"
       ],
       "isRead": true,
-      "id": 216,
+      "id": "216",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 75,
+          "id": "75",
           "author": "Simon Scarrow"
         }
       ]
@@ -3643,11 +4020,11 @@
         "macro"
       ],
       "isRead": true,
-      "id": 217,
+      "id": "217",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 75,
+          "id": "75",
           "author": "Simon Scarrow"
         }
       ]
@@ -3660,11 +4037,11 @@
         "macro"
       ],
       "isRead": true,
-      "id": 218,
+      "id": "218",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 75,
+          "id": "75",
           "author": "Simon Scarrow"
         }
       ]
@@ -3677,11 +4054,11 @@
         "macro"
       ],
       "isRead": false,
-      "id": 219,
+      "id": "219",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 75,
+          "id": "75",
           "author": "Simon Scarrow"
         }
       ]
@@ -3694,11 +4071,11 @@
         "macro"
       ],
       "isRead": true,
-      "id": 220,
+      "id": "220",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 75,
+          "id": "75",
           "author": "Simon Scarrow"
         }
       ]
@@ -3711,11 +4088,11 @@
         "macro"
       ],
       "isRead": true,
-      "id": 221,
+      "id": "221",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 75,
+          "id": "75",
           "author": "Simon Scarrow"
         }
       ]
@@ -3728,11 +4105,11 @@
         "macro"
       ],
       "isRead": true,
-      "id": 222,
+      "id": "222",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 75,
+          "id": "75",
           "author": "Simon Scarrow"
         }
       ]
@@ -3745,11 +4122,11 @@
         "macro"
       ],
       "isRead": true,
-      "id": 223,
+      "id": "223",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 75,
+          "id": "75",
           "author": "Simon Scarrow"
         }
       ]
@@ -3762,11 +4139,11 @@
         "macro"
       ],
       "isRead": true,
-      "id": 224,
+      "id": "224",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 75,
+          "id": "75",
           "author": "Simon Scarrow"
         }
       ]
@@ -3779,11 +4156,11 @@
         "macro"
       ],
       "isRead": true,
-      "id": 225,
+      "id": "225",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 75,
+          "id": "75",
           "author": "Simon Scarrow"
         }
       ]
@@ -3796,11 +4173,11 @@
         "macro"
       ],
       "isRead": true,
-      "id": 226,
+      "id": "226",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 75,
+          "id": "75",
           "author": "Simon Scarrow"
         }
       ]
@@ -3813,11 +4190,11 @@
         "macro"
       ],
       "isRead": true,
-      "id": 227,
+      "id": "227",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 75,
+          "id": "75",
           "author": "Simon Scarrow"
         }
       ]
@@ -3828,11 +4205,11 @@
         "sherlock holmes"
       ],
       "isRead": false,
-      "id": 228,
+      "id": "228",
       "genre": "krimi",
       "authors": [
         {
-          "id": 76,
+          "id": "76",
           "author": "Sir Arthur Conan Doyle"
         }
       ]
@@ -3843,11 +4220,11 @@
         "sherlock holmes"
       ],
       "isRead": false,
-      "id": 229,
+      "id": "229",
       "genre": "krimi",
       "authors": [
         {
-          "id": 76,
+          "id": "76",
           "author": "Sir Arthur Conan Doyle"
         }
       ]
@@ -3858,11 +4235,11 @@
         "idegenek"
       ],
       "isRead": false,
-      "id": 230,
+      "id": "230",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 77,
+          "id": "77",
           "author": "Stanislaw Lem"
         }
       ]
@@ -3873,11 +4250,11 @@
         "2. világháború"
       ],
       "isRead": false,
-      "id": 231,
+      "id": "231",
       "genre": "történelem",
       "authors": [
         {
-          "id": 78,
+          "id": "78",
           "author": "Stephen E. Ambrose"
         }
       ]
@@ -3888,11 +4265,11 @@
         "2. világháború"
       ],
       "isRead": true,
-      "id": 232,
+      "id": "232",
       "genre": "történelem",
       "authors": [
         {
-          "id": 78,
+          "id": "78",
           "author": "Stephen E. Ambrose"
         }
       ]
@@ -3903,10 +4280,10 @@
         "fizika"
       ],
       "isRead": true,
-      "id": 233,
+      "id": "233",
       "authors": [
         {
-          "id": 79,
+          "id": "79",
           "author": "Stephen Hawking"
         }
       ]
@@ -3917,10 +4294,10 @@
         "fizika"
       ],
       "isRead": true,
-      "id": 234,
+      "id": "234",
       "authors": [
         {
-          "id": 79,
+          "id": "79",
           "author": "Stephen Hawking"
         }
       ]
@@ -3931,11 +4308,11 @@
         "római"
       ],
       "isRead": false,
-      "id": 235,
+      "id": "235",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 80,
+          "id": "80",
           "author": "Steven Saylor"
         }
       ]
@@ -3946,11 +4323,11 @@
         "star-wars"
       ],
       "isRead": true,
-      "id": 236,
+      "id": "236",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 81,
+          "id": "81",
           "author": "Terry Brooks"
         }
       ]
@@ -3962,11 +4339,11 @@
         "kalóz"
       ],
       "isRead": false,
-      "id": 237,
+      "id": "237",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 82,
+          "id": "82",
           "author": "Tim Severin"
         }
       ]
@@ -3978,11 +4355,11 @@
         "kalóz"
       ],
       "isRead": false,
-      "id": 238,
+      "id": "238",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 82,
+          "id": "82",
           "author": "Tim Severin"
         }
       ]
@@ -3994,11 +4371,11 @@
         "kalóz"
       ],
       "isRead": false,
-      "id": 239,
+      "id": "239",
       "genre": "történelmi regény",
       "authors": [
         {
-          "id": 82,
+          "id": "82",
           "author": "Tim Severin"
         }
       ]
@@ -4009,11 +4386,11 @@
         "star-wars"
       ],
       "isRead": true,
-      "id": 240,
+      "id": "240",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 83,
+          "id": "83",
           "author": "Timothy Zahn"
         }
       ]
@@ -4024,11 +4401,11 @@
         "star-wars"
       ],
       "isRead": true,
-      "id": 241,
+      "id": "241",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 83,
+          "id": "83",
           "author": "Timothy Zahn"
         }
       ]
@@ -4040,11 +4417,11 @@
         "thrawn"
       ],
       "isRead": true,
-      "id": 242,
+      "id": "242",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 83,
+          "id": "83",
           "author": "Timothy Zahn"
         }
       ]
@@ -4056,11 +4433,11 @@
         "thrawn"
       ],
       "isRead": true,
-      "id": 243,
+      "id": "243",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 83,
+          "id": "83",
           "author": "Timothy Zahn"
         }
       ]
@@ -4072,11 +4449,11 @@
         "thrawn"
       ],
       "isRead": true,
-      "id": 244,
+      "id": "244",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 83,
+          "id": "83",
           "author": "Timothy Zahn"
         }
       ]
@@ -4088,11 +4465,11 @@
         "thrawn"
       ],
       "isRead": true,
-      "id": 245,
+      "id": "245",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 83,
+          "id": "83",
           "author": "Timothy Zahn"
         }
       ]
@@ -4104,11 +4481,11 @@
         "thrawn"
       ],
       "isRead": true,
-      "id": 246,
+      "id": "246",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 83,
+          "id": "83",
           "author": "Timothy Zahn"
         }
       ]
@@ -4120,11 +4497,11 @@
         "thrawn"
       ],
       "isRead": true,
-      "id": 247,
+      "id": "247",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 83,
+          "id": "83",
           "author": "Timothy Zahn"
         }
       ]
@@ -4136,11 +4513,11 @@
         "thrawn"
       ],
       "isRead": false,
-      "id": 248,
+      "id": "248",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 83,
+          "id": "83",
           "author": "Timothy Zahn"
         }
       ]
@@ -4152,11 +4529,11 @@
         "thrawn"
       ],
       "isRead": false,
-      "id": 249,
+      "id": "249",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 83,
+          "id": "83",
           "author": "Timothy Zahn"
         }
       ]
@@ -4167,11 +4544,11 @@
         "2. világháború"
       ],
       "isRead": false,
-      "id": 250,
+      "id": "250",
       "genre": "történelem",
       "authors": [
         {
-          "id": 84,
+          "id": "84",
           "author": "Walter G. Scott"
         }
       ]
@@ -4183,11 +4560,11 @@
         "disztópia"
       ],
       "isRead": true,
-      "id": 251,
+      "id": "251",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 85,
+          "id": "85",
           "author": "William R. Forstchen"
         }
       ]
@@ -4199,11 +4576,11 @@
         "disztópia"
       ],
       "isRead": false,
-      "id": 252,
+      "id": "252",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 85,
+          "id": "85",
           "author": "William R. Forstchen"
         }
       ]
@@ -4215,15 +4592,15 @@
         "alternatív valóság"
       ],
       "isRead": false,
-      "id": 253,
+      "id": "253",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 85,
+          "id": "85",
           "author": "William R. Forstchen"
         },
         {
-          "id": 89,
+          "id": "89",
           "author": "Newt Gingrich"
         }
       ]
@@ -4235,15 +4612,15 @@
         "alternatív valóság"
       ],
       "isRead": false,
-      "id": 254,
+      "id": "254",
       "genre": "sci-fi",
       "authors": [
         {
-          "id": 86,
+          "id": "86",
           "author": "William R. Forstchen"
         },
         {
-          "id": 89,
+          "id": "89",
           "author": "Newt Gingrich"
         }
       ]
@@ -4254,10 +4631,10 @@
         "makettezés"
       ],
       "isRead": false,
-      "id": 255,
+      "id": "255",
       "authors": [
         {
-          "id": 87,
+          "id": "87",
           "author": "Wolfram Kawlath"
         }
       ]
@@ -4268,11 +4645,11 @@
         "skandináv"
       ],
       "isRead": false,
-      "id": 256,
+      "id": "256",
       "genre": "krimi",
       "authors": [
         {
-          "id": 88,
+          "id": "88",
           "author": "Yrsa Sigurðardóttir"
         }
       ]
@@ -4280,7 +4657,8 @@
     {
       "authors": [
         {
-          "author": "Fran Francozis"
+          "author": "Fran Francozis",
+          "id": null
         }
       ],
       "title": "test",
@@ -4295,10 +4673,11 @@
     {
       "authors": [
         {
-          "author": "Fran von Francozis"
+          "author": "Fran von Francozis",
+          "id": null
         }
       ],
-      "title": "Test updated updated updatedddddddd",
+      "title": "asdasd",
       "tags": [
         "sci-fi",
         "idegenek"

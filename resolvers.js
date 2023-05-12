@@ -40,4 +40,22 @@ module.exports = {
     HISTORICAL_ADVENTURE: 'történelmi regény',
     HISTORY: 'történelem'
   },
+  BookResponse: {
+    __resolveType(obj) {
+      // eslint-disable-next-line no-prototype-builtins
+      if(obj.hasOwnProperty('success')){
+        return 'Response';
+      }
+      return 'Book';
+    }
+  },
+  AuthorResponse: {
+    __resolveType(obj) {
+      // eslint-disable-next-line no-prototype-builtins
+      if(obj.hasOwnProperty('success')){
+        return 'Response';
+      }
+      return 'Author';
+    }
+  }
 };

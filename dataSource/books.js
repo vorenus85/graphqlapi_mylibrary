@@ -6,7 +6,7 @@ const lodashId = require('lodash-id');
 const low = require('lowdb');
 const FileSync = require('lowdb/adapters/FileSync');
 
-const adapter = new FileSync('./data/books.json');
+const adapter = new FileSync('./db.json');
 const db = low(adapter);
 db._.mixin(lodashId);
 
@@ -25,13 +25,22 @@ class BooksAPI extends DataSource {
 
   getBookById(id){
     // todo try,catch if not find
-    const book = this.db.filter({id: parseInt(id)}).value();
-    return book[0];
+    let result = this.db.find({id: id}).value();
+
+    if(result){
+      return result;
+    }else {
+      return {success: false, message: 'BOOK_NOT_FOUND'};
+    }
   }
 
   updateBook(book){
     // todo try,catch if not find
-    return this.db.find({id: book.id}).assign(book).write();
+    const newBook = this.db.find({id: book.id});
+    console.log(newBook.value());
+
+    this.db.find({id: book.id}).assign(book).value();
+    return this.db.write();
   }
 
   insertBook(book){

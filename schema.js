@@ -5,7 +5,7 @@ type Book {
   title: String!
   authors: [Author]
   tags: [String],
-  isRead: Boolean!
+  isRead: Boolean
   genre: Genre
 }
 
@@ -19,17 +19,21 @@ type Response {
   message: String!
 }
 
+union AuthorResponse = Author | Response
+
+union BookResponse = Book | Response
+
 input AuthorInput {
   id: String
-  author: String!
+  author: String
 }
 
 input BookInput {
   id: String
   authors: [AuthorInput]
-  title: String!
+  title: String
   tags: [String],
-  isRead: Boolean!
+  isRead: Boolean
   genre: Genre
 }
 
@@ -45,8 +49,8 @@ enum Genre {
 # todo authorById, authorByName query
 
 type Query {
-  authors: [Author]
-  authorById(id: String): Author
+  authors: [AuthorResponse]
+  authorById(id: String): AuthorResponse
   books: [Book]
   bookById(id: String): Book
   booksByGenre(genre: String): [Book]
