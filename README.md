@@ -282,16 +282,25 @@ bookByTitle response
 
 query bookByTags
 ```js
-query {
-  bookByTags(tags: $tags){
-    author
-    title
-    tags
-    isRead
-    id
-    genre
+query BooksByTag {
+  booksByTag(tag:"mars") {
+    ... on Book {
+      id
+      title
+      authors {
+        id
+        author
+      }
+      tags
+      isRead
+      genre
+    }
+    ... on Response {
+      success
+      message
+    }
   }
-} 
+}
 ```
 
 bookByTags response
@@ -303,16 +312,25 @@ bookByTags response
 
 query bookByIsRead
 ```js
-query {
-  bookByIsRead(isRead: $isRead){
-    author
-    title
-    tags
-    isRead
-    id
-    genre
+query BooksByIsRead {
+  booksByIsRead {
+    ... on Book {
+      id
+      title
+      authors {
+        id
+        author
+      }
+      tags
+      isRead
+      genre
+    }
+    ... on Response {
+      success
+      message
+    }
   }
-} 
+}
 ```
 
 bookByIsRead response

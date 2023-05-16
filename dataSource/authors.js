@@ -23,7 +23,7 @@ class AuthorsAPI extends DataSource {
     try{
       return this.db.filter(args).value();
     } catch(e){
-      console.log(e);
+      console.error(e);
       return {success: false, message: 'ERROR_IN_GET_AUTHORS'};
     }
     

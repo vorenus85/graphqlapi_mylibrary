@@ -23,7 +23,7 @@ class BooksAPI extends DataSource {
     try {
       return this.db.filter(args).value();
     } catch(e){
-      console.log(e);
+      console.error(e);
       return [{success: false, message: 'ERROR_IN_GET_BOOKS'}];
     }
   }
@@ -75,7 +75,7 @@ class BooksAPI extends DataSource {
         return [{success: false, message: 'BOOKS_WITH_GENRE_NOT_FOUND'}];
       }
     } catch(e){
-      console.log(e);
+      console.error(e);
       return [{success: false, message: 'BOOKS_BY_GENRE_FAILED'}];
     }
     
@@ -98,37 +98,64 @@ class BooksAPI extends DataSource {
         return [{success: false, message: 'BOOKS_BY_AUTHOR_NOT_FOUND'}];
       }
     } catch(e) {
-      console.log(e);
+      console.error(e);
       return [{success: false, message: 'ERROR_IN_BOOKS_BY_AUTHOR'}];
     }
     
   }
 
   getBooksByTitle(title){
-    // todo try,catch if not find
-    return this.db.filter(function(item){
-      return item.title.indexOf(title) !== -1;
-    }).value();
+    try {
+      let result = this.db.filter(function(item){
+        return item.title.indexOf(title) !== -1;
+      }).value();
+      return result.length ? result : [{success: false, message: 'BOOKS_BY_TITLE_NOT_FOUND'}];
+    } catch(e) {
+      console.error(e);
+      return [{success: false, message: 'ERROR_IN_BOOKS_BY_TITLE'}];
+    }
+    
   }
 
   getBooksWithoutGenre(args){
-    return this.db.filter(function(item){
-      return !item?.genre;
-    }).value();
+    try {
+      let result = this.db.filter(function(item){
+        return !item?.genre;
+      }).value();
+
+      return result.length ? result : [{success: false, message: 'BOOKS_WITHOUT_GENRE_NOT_FOUND'}];
+
+    } catch (e) {
+      console.error(e);
+      return [{success: false, message: 'ERROR_IN_BOOKS_WITHOUT_GENRE'}];
+    }
+    
   }
 
   getBooksByIsRead(args){
-    const result = this.db.filter(function(item){
-      return item.isRead === true;
-    }).value();
-    return result;
+    try {
+      const result = this.db.filter(function(item){
+        return item.isRead === true;
+      }).value();
+      return result.length ? result : [{success: false, message: 'BOOKS_BY_IS_READ_NOT_FOUND'}];
+    } catch (e) {
+      console.error(e);
+      return [{success: false, message: 'ERROR_IN_BOOKS_BY_IS_READ'}];
+    }
+    
   }
 
   getBooksByTag(tag){
-    const result = this.db.filter(function(item){
-      return item.tags.includes(tag);
-    }).value();
-    return result;
+    try {
+      const result = this.db.filter(function(item){
+        return item.tags.includes(tag);
+      }).value();
+      return result.length ? result : [{success: false, message: 'BOOKS_BY_IS_TAG_NOT_FOUND'}];
+    } catch (e) {
+      console.error(e);
+      return [{success: false, message: 'ERROR_IN_BOOKS_BY_TAG'}];
+    }
+    
   }
 
 }
