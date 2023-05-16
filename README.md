@@ -93,15 +93,24 @@ Response
 query books
 ```js
 query {
-  books{
-    author
-    title
-    tags
-    isRead
-    id
-    genre
+  books {
+    ... on Book {
+      id
+      title
+      authors {
+        id
+        author
+      }
+      tags
+      isRead
+      genre
+    }
+    ... on Response {
+      success
+      message
+    }
   }
-} 
+}
 ```
 
 Books response
@@ -114,15 +123,24 @@ Books response
 query bookById
 ```js
 query {
-  bookById(id: $id){
-    author
-    title
-    tags
-    isRead
-    id
-    genre
+  bookById(id: "8") {
+    ... on Book {
+      id
+      title
+      authors {
+        id
+        author
+      }
+      tags
+      isRead
+      genre
+    }
+    ... on Response {
+      success
+      message
+    }
   }
-} 
+}
 ```
 
 bookById response
@@ -135,16 +153,24 @@ bookById response
 query bookByGenre
 ```js
 query {
-  bookByGenre(id: $id){
-    author
-    title
-    tags
-    isRead
-    id
-    genre
-    id
+  booksByGenre(genre:"sci-fi") {
+    ... on Book {
+      id
+      title
+      authors {
+        id
+        author
+      }
+      tags
+      isRead
+      genre
+    }
+    ... on Response {
+      success
+      message
+    }
   }
-} 
+}
 ```
 
 bookByGenre response
@@ -157,15 +183,24 @@ bookByGenre response
 query bookByAuthor
 ```js
 query {
-  bookByAuthor(author: $author){
-    author
-    title
-    tags
-    isRead
-    id
-    genre
+  booksByAuthor(author:"Scarrow") {
+    ... on Book {
+      id
+      title
+      authors {
+        id
+        author
+      }
+      tags
+      isRead
+      genre
+    }
+    ... on Response {
+      success
+      message
+    }
   }
-} 
+}
 ```
 
 bookByAuthor response

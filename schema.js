@@ -51,14 +51,14 @@ enum Genre {
 type Query {
   authors: [AuthorResponse]
   authorById(id: String): AuthorResponse
-  books: [Book]
-  bookById(id: String): Book
-  booksByGenre(genre: String): [Book]
-  booksByAuthor(author: String): [Book]
-  booksByTitle(title: String): [Book]
-  booksWithoutGenre: [Book]
-  booksByIsRead: [Book]
-  booksByTag(tag: String): [Book]
+  books: [BookResponse]
+  bookById(id: String): BookResponse
+  booksByGenre(genre: String): [BookResponse]
+  booksByAuthor(author: String): [BookResponse]
+  booksByTitle(title: String): [BookResponse]
+  booksWithoutGenre: [BookResponse]
+  booksByIsRead: [BookResponse]
+  booksByTag(tag: String): [BookResponse]
 }
 
 type Mutation {

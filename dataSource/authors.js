@@ -23,6 +23,7 @@ class AuthorsAPI extends DataSource {
     try{
       return this.db.filter(args).value();
     } catch(e){
+      console.log(e);
       return {success: false, message: 'ERROR_IN_GET_AUTHORS'};
     }
     
@@ -43,7 +44,6 @@ class AuthorsAPI extends DataSource {
   updateAuthor(author){
     let result;
     const editedAuthor = this.db.find({id: author.id}).value();
-    console.log(editedAuthor);
     if(typeof editedAuthor !== 'undefined'){
       this.db.find({id: author.id}).assign(author).value();
       this.db.write();

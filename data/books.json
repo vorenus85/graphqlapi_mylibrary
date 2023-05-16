@@ -4276,38 +4276,6 @@
           "author": "Yrsa Sigurðardóttir"
         }
       ]
-    },
-    {
-      "authors": [
-        {
-          "author": "Fran Francozis",
-          "id": null
-        }
-      ],
-      "title": "test",
-      "tags": [
-        "sci-fi",
-        "idegenek"
-      ],
-      "isRead": false,
-      "genre": "sci-fi",
-      "id": "6a282091-749f-468f-8d5b-43d098836180"
-    },
-    {
-      "authors": [
-        {
-          "author": "Fran von Francozis",
-          "id": null
-        }
-      ],
-      "title": "aaaaaaaa",
-      "tags": [
-        "sci-fi",
-        "idegenek"
-      ],
-      "isRead": false,
-      "genre": "sci-fi",
-      "id": "c23846c3-47c3-4782-a1d6-30b70b934927"
     }
   ]
 }

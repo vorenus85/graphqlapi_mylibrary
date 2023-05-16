@@ -49,6 +49,15 @@ module.exports = {
       return 'Book';
     }
   },
+  BooksResponse: {
+    __resolveType(obj) {
+      // eslint-disable-next-line no-prototype-builtins
+      if(obj.hasOwnProperty('success')){
+        return 'Response';
+      }
+      return 'Books';
+    }
+  },
   AuthorResponse: {
     __resolveType(obj) {
       // eslint-disable-next-line no-prototype-builtins

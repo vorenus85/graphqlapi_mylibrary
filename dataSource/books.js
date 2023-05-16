@@ -20,48 +20,88 @@ class BooksAPI extends DataSource {
   }
 
   getBooks(args){
-    return this.db.filter(args).value();
-  }
-
-  getBookById(id){
-    // todo try,catch if not find
-    let result = this.db.find({id: id}).value();
-
-    if(result){
-      return result;
-    }else {
-      return {success: false, message: 'BOOK_NOT_FOUND'};
+    try {
+      return this.db.filter(args).value();
+    } catch(e){
+      console.log(e);
+      return [{success: false, message: 'ERROR_IN_GET_BOOKS'}];
     }
   }
 
-  updateBook(book){
-    // todo try,catch if not find
-    const newBook = this.db.find({id: book.id});
-    console.log(newBook.value());
+  getBookById(id){
+    let result;
+    const book = this.db.filter({id: id}).value();
 
-    this.db.find({id: book.id}).assign(book).value();
-    return this.db.write();
+    if(book.length){
+      result = book[0];
+    }else {
+      return {success: false, message: 'BOOK_NOT_FOUND'};
+    }
+    return result;
+  }
+
+  updateBook(book){
+    let result;
+    const editedBook = this.db.find({id: book.id}).value();
+
+    if(typeof editedBook !== 'undefined'){
+      this.db.find({id: book.id}).assign(book).value();
+      this.db.write();
+      result = {success: true, message: 'BOOK_SUCCESSFULLY_UPDATED'};
+    } else {
+      result = {success: false, message: 'BOOK_UPDATE_FAILED'};
+    }
+
+    return result;
+    
   }
 
   insertBook(book){
-    return this.db.insert(book).write();
+    try {
+      this.db.insert(book).write();
+      return {success: true, message: 'BOOK_SUCCESSFULLY_INSERTED'};
+    } catch(e){
+      console.error(e);
+      return {success: false, message: 'BOOK_INSERT_FAILED'};
+    }
   }
 
   getBooksByGenre(genre){
-    // todo try,catch if not find
-    return this.db.filter({genre}).value();
+    try {
+      const result = this.db.filter({genre}).value();
+      if(result.length){
+        return result;
+      } else {
+        return [{success: false, message: 'BOOKS_WITH_GENRE_NOT_FOUND'}];
+      }
+    } catch(e){
+      console.log(e);
+      return [{success: false, message: 'BOOKS_BY_GENRE_FAILED'}];
+    }
+    
   }
 
   getBooksByAuthor(author){
-    // todo try,catch if not find
-    return this.db.filter(function(item){
-      const authors = item.authors;
-      const result = _.filter(authors,function(authorItem){
-        const result = authorItem.author.indexOf(author) !== -1;
+    try {
+      const result = this.db.filter(function(item){
+        const authors = item.authors;
+        const result = _.filter(authors,function(authorItem){
+          const result = authorItem.author.indexOf(author) !== -1;
+          return result;
+        });
+        return result.length;
+      }).value();
+  
+      if(result.length){
         return result;
-      });
-      return result.length;
-    }).value();
+      } else {
+        return [{success: false, message: 'BOOKS_BY_AUTHOR_NOT_FOUND'}];
+      }
+    } catch(e) {
+      console.log(e);
+      return [{success: false, message: 'ERROR_IN_BOOKS_BY_AUTHOR'}];
+    }
+    
   }
 
   getBooksByTitle(title){
