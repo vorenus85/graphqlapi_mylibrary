@@ -220,6 +220,27 @@ largestSeries response
 ```
 
 query bookWithoutGenre
+```js
+query {
+  booksWithoutGenre {
+    ... on Book {
+      id
+      title
+      authors {
+        id
+        author
+      }
+      tags
+      isRead
+      genre
+    }
+    ... on Response {
+      success
+      message
+    }
+  }
+}
+```
 
 bookWithoutGenre response
 ```js
@@ -231,7 +252,25 @@ bookWithoutGenre response
 query bookByTitle // searching/ filtering by part ot title
 
 ```js
-
+query {
+  booksByTitle(title: "Maigret") {
+    ... on Book {
+      id
+      title
+      authors {
+        id
+        author
+      }
+      tags
+      isRead
+      genre
+    }
+    ... on Response {
+      success
+      message
+    }
+  }
+}
 ```
 
 bookByTitle response
