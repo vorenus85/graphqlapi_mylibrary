@@ -1,14 +1,6 @@
 
 const {DataSource} = require('apollo-datasource');
 const _ = require('lodash');
-const lodashId = require('lodash-id');
-
-const low = require('lowdb');
-const FileSync = require('lowdb/adapters/FileSync');
-
-const adapter = new FileSync('./data/authors.json');
-const db = low(adapter);
-db._.mixin(lodashId);
 
 class AuthorsAPI extends DataSource {
   constructor(){
@@ -16,6 +8,7 @@ class AuthorsAPI extends DataSource {
   }
 
   initialize(config){
+    const db = require('../adapters/authors');
     this.db = db.get('authors');
   }
 
