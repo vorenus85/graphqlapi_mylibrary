@@ -3,7 +3,6 @@ const upsertAuthor = async (parent, {author}, {dataSources}, info) => {
 
   if(id){
     return await dataSources.authorsAPI.updateAuthor(author);
-
   } else {
     return await dataSources.authorsAPI.insertAuthor(author);
   }

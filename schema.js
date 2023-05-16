@@ -23,6 +23,8 @@ union AuthorResponse = Author | Response
 
 union BookResponse = Book | Response
 
+# TODO create a union type with handle a list and and response type
+
 input AuthorInput {
   id: String
   author: String
