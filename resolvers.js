@@ -1,19 +1,19 @@
-const { books } = require('./queries/books');
-const { bookById } = require('./queries/bookById');
-const { booksByGenre } = require('./queries/booksByGenre');
-const { booksByAuthor } = require('./queries/booksByAuthor');
-const { booksWithoutGenre } = require('./queries/booksWithoutGenre');
-const { booksByTitle } = require('./queries/booksByTitle');
-const { booksByTag } = require('./queries/booksByTag');
-const { booksByIsRead } = require('./queries/booksByIsRead');
-const { authors } = require('./queries/authors');
-const { authorById } = require('./queries/authorById');
-const { upsertAuthor } = require('./mutations/upsertAuthor');
-const { upsertBook } = require('./mutations/upsertBook');
-const { deleteBook } = require('./mutations/deleteBook');
-const { deleteAuthor } = require('./mutations/deleteAuthor');
+import { books } from'./queries/books.js';
+import { bookById } from'./queries/bookById.js';
+import { booksByGenre } from'./queries/booksByGenre.js';
+import { booksByAuthor } from'./queries/booksByAuthor.js';
+import { booksWithoutGenre } from'./queries/booksWithoutGenre.js';
+import { booksByTitle } from'./queries/booksByTitle.js';
+import { booksByTag } from'./queries/booksByTag.js';
+import { booksByIsRead } from'./queries/booksByIsRead.js';
+import { authors } from'./queries/authors.js';
+import { authorById } from'./queries/authorById.js';
+import { upsertAuthor } from'./mutations/upsertAuthor.js';
+import { upsertBook } from'./mutations/upsertBook.js';
+import { deleteBook } from'./mutations/deleteBook.js';
+import { deleteAuthor } from'./mutations/deleteAuthor.js';
 
-module.exports = {
+export default {
   Query: {
     books,
     bookById,
@@ -53,7 +53,7 @@ module.exports = {
     __resolveType(obj) {
       // eslint-disable-next-line no-prototype-builtins
       if(obj.hasOwnProperty('success')){
-        return 'Response';
+        return 'Response.js';
       }
       return 'Author';
     }

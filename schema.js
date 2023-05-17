@@ -1,5 +1,6 @@
-const { gql } = require('apollo-server');
-module.exports= gql`
+import { gql }from 'apollo-server';
+
+export default gql`
 type Book {
   id: String!
   title: String!
