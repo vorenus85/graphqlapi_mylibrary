@@ -22,4 +22,4 @@ const upsertBook = async (parent, {book}, {dataSources}, info) => {
   
 };
 
-module.exports = {upsertBook};
+export {upsertBook};

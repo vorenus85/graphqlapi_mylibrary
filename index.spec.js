@@ -1,7 +1,7 @@
-const { ApolloServer, gql, ApolloError} = require('apollo-server');
-// const dataSources = require('./services.js');
-const typeDefs = require('./schema.js');
-const resolvers = require('./resolvers.js');
+import { ApolloServer} from 'apollo-server';
+// import dataSources from './services.js';
+import typeDefs from './schema';
+import resolvers from './resolvers';
 
 const dataSources = () => ({
   authorsAPI: {

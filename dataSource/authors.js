@@ -1,6 +1,7 @@
 
-const {DataSource} = require('apollo-datasource');
-const _ = require('lodash');
+import {DataSource} from 'apollo-datasource';
+import _ from 'lodash';
+import db from '../adapters/authors.js';
 
 class AuthorsAPI extends DataSource {
   constructor(){
@@ -8,7 +9,7 @@ class AuthorsAPI extends DataSource {
   }
 
   initialize(config){
-    const db = require('../adapters/authors');
+    
     this.db = db.get('authors');
   }
 
@@ -61,4 +62,4 @@ class AuthorsAPI extends DataSource {
 
 }
 
-module.exports = AuthorsAPI;
+export default AuthorsAPI;

@@ -1,9 +1,9 @@
-const BooksAPI = require('./dataSource/books');
-const AuthorsAPI = require('./dataSource/authors');
+import BooksAPI from './dataSource/books.js';
+import AuthorsAPI from './dataSource/authors.js';
 
 const dataSources = () =>({
   booksAPI: new BooksAPI(),
   authorsAPI: new AuthorsAPI(),
 });
 
-module.exports = dataSources; 
+export default dataSources; 

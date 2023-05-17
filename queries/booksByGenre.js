@@ -3,4 +3,4 @@ const booksByGenre = async (parent, {genre}, {dataSources}, info ) => {
   return result;
 };
 
-module.exports = { booksByGenre };
+export { booksByGenre };

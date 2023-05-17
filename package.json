@@ -17,17 +17,21 @@
     "api"
   ],
   "author": "Janos Perge",
+  "type": "module",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/vorenus85/graphqlapi_mylibrary/issues"
   },
   "homepage": "https://github.com/vorenus85/graphqlapi_mylibrary#readme",
   "dependencies": {
+    "@babel/preset-env": "^7.21.5",
     "apollo-datasource": "^3.3.2",
     "apollo-server": "^3.12.0",
+    "babel-jest": "^29.5.0",
     "lodash": "4.17",
     "lodash-id": "^0.14.0",
-    "lowdb": "^1.0.0"
+    "lowdb": "^1.0.0",
+    "ts-jest": "^29.1.0"
   },
   "devDependencies": {
     "eslint": "^8.39.0",

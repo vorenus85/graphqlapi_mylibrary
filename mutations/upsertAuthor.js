@@ -8,4 +8,4 @@ const upsertAuthor = async (parent, {author}, {dataSources}, info) => {
   }
 };
 
-module.exports = {upsertAuthor};
+export {upsertAuthor};
