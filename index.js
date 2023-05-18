@@ -3,7 +3,6 @@ import dataSources from './services.js';
 import typeDefs from './schema.js';
 import resolvers from './resolvers.js';
 
-
 const server = new ApolloServer({ typeDefs, resolvers, dataSources });
 
 // The `listen` method launches a web server.

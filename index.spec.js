@@ -1,8 +1,8 @@
 import { ApolloServer} from 'apollo-server';
-// import dataSources from './services.js';
+import dataSources from './services.js';
 import typeDefs from './schema';
 import resolvers from './resolvers';
-
+/*
 const dataSources = () => ({
   authorsAPI: {
     getAuthors: () => {
@@ -13,6 +13,7 @@ const dataSources = () => ({
     }
   }
 });
+*/
 
 describe('Test author queries', ()=>{
   const testServer = new ApolloServer({ typeDefs, resolvers, dataSources });

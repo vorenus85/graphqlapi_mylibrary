@@ -1,25 +1,19 @@
-const upsertBook = async (parent, {book}, {dataSources}, info) => {
-  const {id, ...restOf } = book;
+const upsertBook = async (parent, { book }, { dataSources }, info) => {
+  const { id, ...restOf } = book;
 
-  if(id){
-    try {
+  try {
+    if (id) {
       await dataSources.booksAPI.updateBook(book);
-      return await {success: true, message: 'BOOK_SUCCESSFULLY_UPDATED'};
-    }catch(e){
-      console.log(e);
-      return {success: false, message: 'BOOK_UPDATE_FAILED'};
-    }
-  } else {
-    try{
+      return { success: true, message: 'BOOK_SUCCESSFULLY_UPDATED' };
+    } else {
       await dataSources.booksAPI.insertBook(book);
-      return await {success: true, message: 'BOOK_SUCCESSFULLY_INSERTED'};
-    } catch(e){
-      console.log(e);
-      return {success: false, message: 'BOOK_INSERT_FAILED'};
+      return { success: true, message: 'BOOK_SUCCESSFULLY_INSERTED' };
     }
+  } catch (e) {
+    console.log(e);
+    const errorMessage = id ? 'BOOK_UPDATE_FAILED' : 'BOOK_INSERT_FAILED';
+    return { success: false, message: errorMessage };
   }
-
-  
 };
 
-export {upsertBook};
+export { upsertBook };

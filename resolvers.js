@@ -53,7 +53,7 @@ export default {
     __resolveType(obj) {
       // eslint-disable-next-line no-prototype-builtins
       if(obj.hasOwnProperty('success')){
-        return 'Response.js';
+        return 'Response';
       }
       return 'Author';
     }
