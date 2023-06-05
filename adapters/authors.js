@@ -8,7 +8,7 @@ const adapter = process.env.NODE_ENV === 'test' ? new MemoryAdapter() : new File
 const db = low(adapter);
 
 if (process.env.NODE_ENV === 'test') {
-  db.defaults({ authors: [] }).write();
+  db.defaults({ authors: [{id: '1', author: 'Example Author'}] }).write();
 }
 
 db._.mixin(lodashId);
