@@ -4,7 +4,7 @@
   "description": "A graphql learning project, creating api for books",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --watchAll",
     "start": "node index.js"
   },
   "repository": {

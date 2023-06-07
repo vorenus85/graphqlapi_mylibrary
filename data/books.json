@@ -4276,6 +4276,22 @@
           "author": "Yrsa Sigurðardóttir"
         }
       ]
+    },
+    {
+      "authors": [
+        {
+          "id": "1",
+          "author": "Example Author"
+        }
+      ],
+      "title": "Example Book",
+      "tags": [
+        "sci-fi",
+        "aliens"
+      ],
+      "isRead": false,
+      "genre": "sci-fi",
+      "id": "0452a858-b4bc-4ceb-b6a5-4e9b8ea4c7f9"
     }
   ]
 }

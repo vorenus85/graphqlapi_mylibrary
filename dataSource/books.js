@@ -9,7 +9,6 @@ class BooksAPI extends DataSource {
   }
 
   handleError(message) {
-    console.error(message);
     return { success: false, message };
   }
 
@@ -32,6 +31,7 @@ class BooksAPI extends DataSource {
 
   updateBook(book) {
     const editedBook = this.db.find({ id: book.id }).value();
+    // console.log(editedBook);
     if (typeof editedBook !== 'undefined') {
       this.db.find({ id: book.id }).assign(book).value();
       this.db.write();
