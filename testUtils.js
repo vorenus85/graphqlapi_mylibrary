@@ -179,6 +179,41 @@ const BOOKS_WITHOUT_GENRE = `query BooksWithoutGenre {
     }
   }`;
 
+  const UPSERT_AUTHOR_MUTATION = `mutation UpsertAuthor($author: AuthorInput) {
+    upsertAuthor(author: $author) {
+      success
+      message
+    }
+  }`
+
+  const AUTHORS_QUERY = `query Authors {
+    authors {
+      ... on Authors {
+        authorsResult {
+          id
+          author
+        }
+      }
+      ... on Response {
+        success
+        message
+      }
+    }
+  }`
+
+  const AUTHOR_BY_ID = `query AuthorById($authorByIdId: String) {
+    authorById(id: $authorByIdId) {
+      ... on Author {
+        id
+        author
+      }
+      ... on Response {
+        success
+        message
+      }
+    }
+  }`
+
   module.exports = {
     BOOKS_QUERY, 
     UPSERT_BOOK, 
@@ -188,5 +223,8 @@ const BOOKS_WITHOUT_GENRE = `query BooksWithoutGenre {
     BOOKS_BY_TITLE, 
     BOOKS_WITHOUT_GENRE,
     BOOKS_BY_IS_READ,
-    BOOKS_BY_TAG
+    BOOKS_BY_TAG,
+    UPSERT_AUTHOR_MUTATION,
+    AUTHORS_QUERY,
+    AUTHOR_BY_ID,
 }

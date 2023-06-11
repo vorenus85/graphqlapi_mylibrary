@@ -2,13 +2,11 @@ import { ApolloServer} from 'apollo-server';
 import dataSources from '../services.js';
 import typeDefs from '../schema';
 import resolvers from '../resolvers';
-
-const UPSERT_AUTHOR_MUTATION = `mutation UpsertAuthor($author: AuthorInput) {
-  upsertAuthor(author: $author) {
-    success
-    message
-  }
-}`
+import { 
+  UPSERT_AUTHOR_MUTATION,
+  AUTHORS_QUERY,
+  AUTHOR_BY_ID
+} from '../testUtils'
 
 
 describe('Test author queries', (db)=>{
@@ -61,20 +59,7 @@ describe('Test author queries', (db)=>{
 
   it('authors query should return with proper authors array', async ()=>{
       const result = await testServer.executeOperation({
-        query: `query Authors {
-                  authors {
-                    ... on Authors {
-                      authorsResult {
-                        id
-                        author
-                      }
-                    }
-                    ... on Response {
-                      success
-                      message
-                    }
-                  }
-                }`,
+        query: AUTHORS_QUERY,
         });
   
       expect(result.errors).toBeUndefined()
@@ -86,18 +71,7 @@ describe('Test author queries', (db)=>{
 
   it('AuthorById query should return with proper authors array', async ()=>{
     const result = await testServer.executeOperation({
-      query: `query AuthorById($authorByIdId: String) {
-                authorById(id: $authorByIdId) {
-                  ... on Author {
-                    id
-                    author
-                  }
-                  ... on Response {
-                    success
-                    message
-                  }
-                }
-              }`,
+      query: AUTHOR_BY_ID,
       variables: { "authorByIdId": "1"},
     });
 
