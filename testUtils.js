@@ -1,6 +1,7 @@
 const BOOKS_QUERY = `query Books {
-    books {
-      ... on Book {
+  books {
+    ... on Books {
+      booksResult {
         id
         title
         authors {
@@ -11,12 +12,13 @@ const BOOKS_QUERY = `query Books {
         isRead
         genre
       }
-      ... on Response {
-        success
-        message
-      }
     }
-  }`
+    ... on Response {
+      success
+      message
+    }
+  }
+}`
 
 const UPSERT_BOOK = `mutation UpsertBook($book: BookInput) {
     upsertBook(book: $book) {
@@ -46,8 +48,9 @@ const BOOK_BY_ID = `query BookById($bookByIdId: String) {
   }`;
 
 const BOOKS_BY_GENRE = `query BooksByGenre($genre: String) {
-    booksByGenre(genre: $genre) {
-      ... on Book {
+  booksByGenre(genre: $genre) {
+    ... on Books {
+      booksResult {
         id
         title
         authors {
@@ -58,16 +61,18 @@ const BOOKS_BY_GENRE = `query BooksByGenre($genre: String) {
         isRead
         genre
       }
-      ... on Response {
-        success
-        message
-      }
     }
-  }`;
+    ... on Response {
+      success
+      message
+    }
+  }
+}`;
 
 const BOOKS_BY_AUTHOR = `query BooksByAuthor($author: String) {
-    booksByAuthor(author: $author) {
-      ... on Book {
+  booksByAuthor(author: $author) {
+    ... on Books {
+      booksResult {
         id
         title
         authors {
@@ -78,16 +83,18 @@ const BOOKS_BY_AUTHOR = `query BooksByAuthor($author: String) {
         isRead
         genre
       }
-      ... on Response {
-        success
-        message
-      }
     }
-  }`;
+    ... on Response {
+      success
+      message
+    }
+  }
+}`;
 
 const BOOKS_BY_TITLE = `query BooksByTitle($title: String) {
-    booksByTitle(title: $title) {
-      ... on Book {
+  booksByTitle(title: $title) {
+    ... on Books {
+      booksResult {
         id
         title
         authors {
@@ -98,16 +105,18 @@ const BOOKS_BY_TITLE = `query BooksByTitle($title: String) {
         isRead
         genre
       }
-      ... on Response {
-        success
-        message
-      }
     }
-  }`;
+    ... on Response {
+      success
+      message
+    }
+  }
+}`;
 
 const BOOKS_WITHOUT_GENRE = `query BooksWithoutGenre {
-    booksWithoutGenre {
-      ... on Book {
+  booksWithoutGenre {
+    ... on Books {
+      booksResult {
         id
         title
         authors {
@@ -118,25 +127,28 @@ const BOOKS_WITHOUT_GENRE = `query BooksWithoutGenre {
         isRead
         genre
       }
-      ... on Response {
-        success
-        message
-      }
     }
-  }`;
+    ... on Response {
+      success
+      message
+    }
+  }
+}`;
 
   const BOOKS_BY_IS_READ = `query BooksByIsRead {
     booksByIsRead {
-      ... on Book {
-        id
-        title
-        authors {
+      ... on Books {
+        booksResult {
           id
-          author
+          title
+          authors {
+            id
+            author
+          }
+          tags
+          isRead
+          genre
         }
-        tags
-        isRead
-        genre
       }
       ... on Response {
         success
@@ -147,16 +159,18 @@ const BOOKS_WITHOUT_GENRE = `query BooksWithoutGenre {
 
   const BOOKS_BY_TAG = `query BooksByTag($tag: String) {
     booksByTag(tag: $tag) {
-      ... on Book {
-        id
-        title
-        authors {
+      ... on Books {
+        booksResult {
           id
-          author
+          title
+          authors {
+            id
+            author
+          }
+          tags
+          isRead
+          genre
         }
-        tags
-        isRead
-        genre
       }
       ... on Response {
         success

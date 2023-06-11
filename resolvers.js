@@ -40,7 +40,7 @@ export default {
     HISTORICAL_ADVENTURE: 'történelmi regény',
     HISTORY: 'történelem'
   },
-  BookResponse: {
+  SingleBookResponse: {
     __resolveType(obj) {
       // eslint-disable-next-line no-prototype-builtins
       if(obj.hasOwnProperty('success')){
@@ -49,13 +49,31 @@ export default {
       return 'Book';
     }
   },
-  AuthorResponse: {
+  SingleAuthorResponse: {
     __resolveType(obj) {
       // eslint-disable-next-line no-prototype-builtins
       if(obj.hasOwnProperty('success')){
         return 'Response';
       }
       return 'Author';
+    }
+  },
+  BooksResponse: {
+    __resolveType(obj) {
+      // eslint-disable-next-line no-prototype-builtins
+      if(obj.hasOwnProperty('success')){
+        return 'Response';
+      }
+      return 'Books';
+    }
+  },
+  AuthorsResponse: {
+    __resolveType(obj) {
+      // eslint-disable-next-line no-prototype-builtins
+      if(obj.hasOwnProperty('success')){
+        return 'Response';
+      }
+      return 'Authors';
     }
   }
 };

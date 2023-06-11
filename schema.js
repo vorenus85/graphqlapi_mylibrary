@@ -20,11 +20,21 @@ type Response {
   message: String!
 }
 
-union AuthorResponse = Author | Response
+type Authors {
+  authorsResult: [Author]
+}
 
-union BookResponse = Book | Response
+type Books {
+  booksResult: [Book]
+}
 
-# TODO create a union type with handle a list and and response type
+union SingleAuthorResponse = Author | Response
+
+union SingleBookResponse = Book | Response
+
+union AuthorsResponse = Authors | Response
+
+union BooksResponse = Books | Response
 
 input AuthorInput {
   id: String
@@ -49,19 +59,19 @@ enum Genre {
   HISTORY
 }
 
-# todo authorById, authorByName query
+# todo authorByName query
 
 type Query {
-  authors: [AuthorResponse]
-  authorById(id: String): AuthorResponse
-  books: [BookResponse]
-  bookById(id: String): BookResponse
-  booksByGenre(genre: String): [BookResponse]
-  booksByAuthor(author: String): [BookResponse]
-  booksByTitle(title: String): [BookResponse]
-  booksWithoutGenre: [BookResponse]
-  booksByIsRead: [BookResponse]
-  booksByTag(tag: String): [BookResponse]
+  authors: AuthorsResponse
+  authorById(id: String): SingleAuthorResponse
+  books: BooksResponse
+  bookById(id: String): SingleBookResponse
+  booksByGenre(genre: String): BooksResponse
+  booksByAuthor(author: String): BooksResponse
+  booksByTitle(title: String): BooksResponse
+  booksWithoutGenre: BooksResponse
+  booksByIsRead: BooksResponse
+  booksByTag(tag: String): BooksResponse
 }
 
 type Mutation {

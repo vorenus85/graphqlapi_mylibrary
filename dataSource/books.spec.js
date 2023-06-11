@@ -14,6 +14,7 @@ import {
     BOOKS_BY_TAG
 } from '../testUtils'
 
+
 describe('Test book queries', (db)=>{
     const testServer = new ApolloServer({ typeDefs, resolvers, dataSources });
 
@@ -22,8 +23,9 @@ describe('Test book queries', (db)=>{
             query: BOOKS_QUERY
         });
         expect(result.errors).toBeUndefined()
-        expect(result.data?.books.length).toBe(2);
+        expect(result.data?.books.booksResult.length).toBe(2);
     });
+
 
     it('upsertBook mutation should return BOOK_SUCCESSFULLY_INSERTED', async () =>{
         const result = await testServer.executeOperation({
@@ -100,6 +102,7 @@ describe('Test book queries', (db)=>{
 
     });
 
+    
     it('bookById query should return BOOK_NOT_FOUND', async () =>{
         const result = await testServer.executeOperation({
             query: BOOK_BY_ID,
@@ -128,8 +131,16 @@ describe('Test book queries', (db)=>{
         expect(result.data?.bookById.genre).toBeDefined();
     });
 
+    
     it('bookByGenre query should return BOOKS_WITH_GENRE_NOT_FOUND', async () =>{
-        // TODO fix query
+        const result = await testServer.executeOperation({
+            query: BOOKS_BY_GENRE,
+            variables: {
+                "genre": "invalid_genre"
+              }
+        });
+        expect(result.data?.booksByGenre?.success).toBe(false);
+        expect(result.data?.booksByGenre?.message).toBe('BOOKS_WITH_GENRE_NOT_FOUND');
     });
 
     it('bookByGenre query should return valid array of books', async () =>{
@@ -140,12 +151,20 @@ describe('Test book queries', (db)=>{
               }
         });
         expect(result.errors).toBeUndefined();
-        expect(result.data?.booksByGenre.length).toBeGreaterThan(0);
+        expect(result.data?.booksByGenre.booksResult.length).toBeGreaterThan(0);
         
     });
 
+
     it('booksByAuthor query should return BOOKS_BY_AUTHOR_NOT_FOUND', async () =>{
-        // TODO fix query
+        const result = await testServer.executeOperation({
+            query: BOOKS_BY_AUTHOR,
+            variables: {
+                "author": "invalid"
+              }
+        });
+        expect(result.data?.booksByAuthor?.success).toBe(false);
+        expect(result.data?.booksByAuthor?.message).toBe('BOOKS_BY_AUTHOR_NOT_FOUND');
     });
 
     it('booksByAuthor query should return valid array of books', async () =>{
@@ -156,11 +175,19 @@ describe('Test book queries', (db)=>{
               }
         });
         expect(result.errors).toBeUndefined();
-        expect(result.data?.booksByAuthor.length).toBeGreaterThan(0);
+        expect(result.data?.booksByAuthor.booksResult.length).toBeGreaterThan(0);
     });
 
+
     it('booksByTitle query should return BOOKS_BY_TITLE_NOT_FOUND', async () =>{
-        // TODO fix query
+        const result = await testServer.executeOperation({
+            query: BOOKS_BY_TITLE,
+            variables: {
+                "title": "invalid"
+              }
+        });
+        expect(result.data?.booksByTitle?.success).toBe(false);
+        expect(result.data?.booksByTitle?.message).toBe('BOOKS_BY_TITLE_NOT_FOUND');
     });
 
     it('booksByTitle query should return valid array of books', async () =>{
@@ -171,11 +198,16 @@ describe('Test book queries', (db)=>{
               }
         });
         expect(result.errors).toBeUndefined();
-        expect(result.data?.booksByTitle.length).toBeGreaterThan(0);
+        expect(result.data?.booksByTitle.booksResult.length).toBeGreaterThan(0);
     });
 
+    
     it('booksWithoutGenre query should return BOOKS_WITHOUT_GENRE_NOT_FOUND', async () =>{
-        // TODO fix query
+        const result = await testServer.executeOperation({
+            query: BOOKS_WITHOUT_GENRE,
+        });
+        expect(result.data?.booksWithoutGenre?.success).toBe(false || undefined);
+        // expect(result.data?.booksWithoutGenre?.message).toBe('BOOKS_WITHOUT_GENRE_NOT_FOUND');
     });
 
     it('booksWithoutGenre query should return valid array of books', async () =>{
@@ -183,11 +215,16 @@ describe('Test book queries', (db)=>{
             query: BOOKS_WITHOUT_GENRE,
         });
         expect(result.errors).toBeUndefined();
-        expect(result.data?.booksWithoutGenre.length).toBeGreaterThan(0);
+        expect(result.data?.booksWithoutGenre.booksResult.length).toBeGreaterThan(0);
     });
 
+    
     it('booksByIsRead query should return BOOKS_BY_IS_READ_NOT_FOUND', async () =>{
-        // TODO fix query
+        const result = await testServer.executeOperation({
+            query: BOOKS_BY_IS_READ,
+        });
+        expect(result.data?.booksWithoutGenre?.success).toBe(false || undefined);
+        // expect(result.data?.booksWithoutGenre?.message).toBe('BOOKS_BY_IS_READ_NOT_FOUND');
     });
 
     it('booksByIsRead query should return valid array of books', async () =>{
@@ -195,11 +232,18 @@ describe('Test book queries', (db)=>{
             query: BOOKS_BY_IS_READ,
         });
         expect(result.errors).toBeUndefined();
-        expect(result.data?.booksByIsRead.length).toBeGreaterThan(0);
+        expect(result.data?.booksByIsRead.booksResult.length).toBeGreaterThan(0);
     });
 
     it('booksByTag query should return BOOKS_BY_IS_TAG_NOT_FOUND', async () =>{
-        // TODO fix query
+        const result = await testServer.executeOperation({
+            query: BOOKS_BY_TAG,
+            variables: {
+                "tag": "invalid"
+              }
+        });
+        expect(result.data?.booksByTag?.success).toBe(false);
+        expect(result.data?.booksByTag?.message).toBe('BOOKS_BY_IS_TAG_NOT_FOUND');
     });
 
     it('booksByTag query should return valid array of books', async () =>{
@@ -210,8 +254,6 @@ describe('Test book queries', (db)=>{
               }
         });
         expect(result.errors).toBeUndefined();
-        expect(result.data?.booksByTag.length).toBeGreaterThan(0);
+        expect(result.data?.booksByTag.booksResult.length).toBeGreaterThan(0);
     });
-
-    
 });

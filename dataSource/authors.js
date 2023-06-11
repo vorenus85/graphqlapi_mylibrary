@@ -15,7 +15,7 @@ class AuthorsAPI extends DataSource {
 
   getAuthors(args){
     try{
-      return this.db.filter(args).value();
+      return { authorsResult: this.db.filter(args).value() };
     } catch(e){
       console.error(e);
       return {success: false, message: 'ERROR_IN_GET_AUTHORS'};

@@ -61,43 +61,43 @@ describe('Test author queries', (db)=>{
 
   it('authors query should return with proper authors array', async ()=>{
       const result = await testServer.executeOperation({
-        query: `query {
-                    authors {
-                        ... on Author {
-                            id 
-                            author
-                        }
-                        ... on Response {
-                          success
-                          message
-                        }
+        query: `query Authors {
+                  authors {
+                    ... on Authors {
+                      authorsResult {
+                        id
+                        author
+                      }
                     }
+                    ... on Response {
+                      success
+                      message
+                    }
+                  }
                 }`,
-          variables: { "author": "1"},
         });
   
       expect(result.errors).toBeUndefined()
-      expect(result.data?.authors.length).toBe(2);
+      expect(result.data?.authors.authorsResult.length).toBe(2);
       // check response fields!
-      expect(result.data?.authors[0].id).toBeDefined();
-      expect(result.data?.authors[0].author).toBeDefined();
+      expect(result.data?.authors.authorsResult[0].id).toBeDefined();
+      expect(result.data?.authors.authorsResult[0].author).toBeDefined();
   });
 
   it('AuthorById query should return with proper authors array', async ()=>{
     const result = await testServer.executeOperation({
-      query: `query 
-              AuthorById($authorByIdId: String) {
+      query: `query AuthorById($authorByIdId: String) {
                 authorById(id: $authorByIdId) {
                   ... on Author {
-                    id 
+                    id
                     author
+                  }
+                  ... on Response {
+                    success
+                    message
+                  }
                 }
-                ... on Response {
-                  success
-                  message
-                }
-              }
-            }`,
+              }`,
       variables: { "authorByIdId": "1"},
     });
 

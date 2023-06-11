@@ -14,7 +14,7 @@ class BooksAPI extends DataSource {
 
   getBooks(args) {
     try {
-      return this.db.filter(args).value();
+      return { booksResult: this.db.filter(args).value()};
     } catch (e) {
       return this.handleError('ERROR_IN_GET_BOOKS');
     }
@@ -54,7 +54,7 @@ class BooksAPI extends DataSource {
     try {
       const result = this.db.filter({ genre }).value();
       if (result.length) {
-        return result;
+        return {booksResult: result};
       } else {
         return this.handleError('BOOKS_WITH_GENRE_NOT_FOUND');
       }
@@ -74,7 +74,7 @@ class BooksAPI extends DataSource {
       }).value();
 
       if (result.length) {
-        return result;
+        return { booksResult: result};
       } else {
         return this.handleError('BOOKS_BY_AUTHOR_NOT_FOUND');
       }
@@ -88,7 +88,7 @@ class BooksAPI extends DataSource {
       const result = this.db.filter(item => {
         return item.title.includes(title);
       }).value();
-      return result.length ? result : this.handleError('BOOKS_BY_TITLE_NOT_FOUND');
+      return result.length ? {booksResult: result} : this.handleError('BOOKS_BY_TITLE_NOT_FOUND');
     } catch (e) {
       return this.handleError('ERROR_IN_BOOKS_BY_TITLE');
     }
@@ -97,7 +97,7 @@ class BooksAPI extends DataSource {
   getBooksWithoutGenre() {
     try {
       const result = this.db.filter(item => !item?.genre).value();
-      return result.length ? result : this.handleError('BOOKS_WITHOUT_GENRE_NOT_FOUND');
+      return result.length ? { booksResult: result} : this.handleError('BOOKS_WITHOUT_GENRE_NOT_FOUND');
     } catch (e) {
       return this.handleError('ERROR_IN_BOOKS_WITHOUT_GENRE');
     }
@@ -106,7 +106,7 @@ class BooksAPI extends DataSource {
   getBooksByIsRead() {
     try {
       const result = this.db.filter(item => item.isRead === true).value();
-      return result.length ? result : this.handleError('BOOKS_BY_IS_READ_NOT_FOUND');
+      return result.length ? { booksResult: result} : this.handleError('BOOKS_BY_IS_READ_NOT_FOUND');
     } catch (e) {
       return this.handleError('ERROR_IN_BOOKS_BY_IS_READ');
     }
@@ -115,7 +115,7 @@ class BooksAPI extends DataSource {
   getBooksByTag(tag) {
     try {
       const result = this.db.filter(item => item.tags.includes(tag)).value();
-      return result.length ? result : this.handleError('BOOKS_BY_IS_TAG_NOT_FOUND');
+      return result.length ? { booksResult: result} : this.handleError('BOOKS_BY_IS_TAG_NOT_FOUND');
     } catch (e) {
       return this.handleError('ERROR_IN_BOOKS_BY_TAG');
     }
